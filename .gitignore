@@ -1,0 +1,113 @@
+# KiCAD Stuff:
+**/*-backups
+**/#auto_saved_files#
+*autosave*
+*-bak
+*bck
+fp-info-cache
+*.kicad_prl
+*.000
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# 3D Model Files
+*.FCStd
+*.FCStd1
+/Docs/Models/**
+
+#   Raw Gerber Files
+# Copper Layers
+*_Cu.g[bt]l
+*_Cu.g2
+*_Cu.g3
+*_Cu.g4
+*_Cu.g5
+*_Cu.g6
+*_Cu.g7
+*_Cu.g8
+*_Cu.g9
+*_Cu.g10
+*_Cu.g11
+*_Cu.g12
+*_Mask.g[bt]s
+*_Paste.g[bt]p
+*Edge_Cuts.gm1
+*_Silkscreen.g[bt]o
+
+*.drl
+*drl_map.gbr
+
+# Libre Office Temp file
+*~lock**#
+
+#Cube IDE Stuff:
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# cscope with Vim
+cscope.*
+
+#ctags with Vim
+tags
+types_c.taghl
+
+#CtrlP
+ctrlp.root
+
+#html
+*.html

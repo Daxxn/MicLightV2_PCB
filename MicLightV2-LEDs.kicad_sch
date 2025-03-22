@@ -1,0 +1,9218 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "0c123f0f-f138-4b67-906a-c0996947834e")
+	(paper "User" 220 147)
+	(title_block
+		(title "MicLight Version 2 - LEDs")
+		(rev "REV1")
+		(company "Daxxn Industries")
+	)
+	(lib_symbols
+		(symbol "DX_Capacitor_Ceramic:CL05A105KO5NNNC"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.794 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1u"
+				(at 2.794 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+				(at 1.016 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${DATASHEETS}/CL05A105KO5NNNC.pdf"
+				(at 1.016 9.906 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 1UF 16V X5R 0402"
+				(at 0 11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PartNumber" "0201-0100-00050"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CL05A105KO5NNNC_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CL05A105KO5NNNC_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "DX_Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.254 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+				(at 0 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized Capacitor"
+				(at 0 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap daxxn"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "DX_Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.016 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R"
+				(at 1.016 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+				(at 0 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor daxxn"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "DX_Device_Power:VCC-USB"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC-USB"
+				(at 0 3.429 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "USB VBUS Power Supply"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC-USB_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC-USB_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "VCC-USB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "DX_IC_PMIC_LEDRegulator:NCR321UX"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 7.62 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "NCR321UX"
+				(at 7.62 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Daxxn_Packages:TSOT-23-6"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${DATASHEETS}/NCR320U.pdf"
+				(at 0 10.668 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "LED Driver IC 1 Output Linear Constant Current PWM Dimming 250mA TSOP-6"
+				(at 0 9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "PartNumber" "0811-0300-00005"
+				(at 7.62 1.016 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+			)
+			(property "ki_keywords" "led driver reg linear enable single"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NCR321UX_0_0"
+				(pin input line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 6.35 2.54 270)
+					(length 2.54)
+					(name "IOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 6.35 2.54 270)
+					(length 2.54) hide
+					(name "IOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 16.51 -10.16 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 6.35 2.54 270)
+					(length 2.54) hide
+					(name "IOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 16.51 -2.54 180)
+					(length 2.54)
+					(name "REXT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NCR321UX_0_1"
+				(rectangle
+					(start 0 0)
+					(end 13.97 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "DX_LED:JK3030AWT-P-H40EA0000-N0000001"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "JK3030AWT-P-H40EA0000-N0000001"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Daxxn_LEDs:JK3030AWT"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${DATASHEETS}/JSeries-3030.pdf"
+				(at 0 9.906 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "LED J NEUTRAL WHT 4000K SMD"
+				(at 0 8.382 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PartNumber" "0900-0000-00021"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Color" "WHITE"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "JK3030AWT-P-H40EA0000-N0000001_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "JK3030AWT-P-H40EA0000-N0000001_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "DX_Resistor:RC0402JR-0710KL"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.016 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10K"
+				(at 1.016 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+				(at 0 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES 10K OHM 5% 1/16W 0402"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PartNumber" "0204-0000-00016"
+				(at 0 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor daxxn"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RC0402JR-0710KL_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 138.43 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01aea918-873c-48b7-b9b5-1fa47ea0a577")
+	)
+	(junction
+		(at 102.87 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1262756b-2870-4aee-9b8a-1f4bcd433f42")
+	)
+	(junction
+		(at 90.17 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "186724f0-aaf0-4d38-aa26-7ac8969acf3a")
+	)
+	(junction
+		(at 138.43 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18a7bc9e-79f5-4c93-913e-d068e6008dd5")
+	)
+	(junction
+		(at 41.91 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2612b45d-ec02-45ae-b6aa-89ebaae9c8d4")
+	)
+	(junction
+		(at 29.21 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a59a331-f284-4b87-8bc4-b9347086cf6e")
+	)
+	(junction
+		(at 29.21 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d3acb78-2461-4045-937b-10742e6b3983")
+	)
+	(junction
+		(at 200.66 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6025e111-6507-4e95-96e0-c16e3b765899")
+	)
+	(junction
+		(at 41.91 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61ed4380-23a4-4cd6-8280-0e2599d0460e")
+	)
+	(junction
+		(at 54.61 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79e5b269-a9d8-4d89-a0b0-9603c22111e5")
+	)
+	(junction
+		(at 102.87 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d639948-1489-4b7e-a844-8b2dd82ff5fb")
+	)
+	(junction
+		(at 187.96 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98f936fa-f863-4258-b997-0d1d9a6f8d9e")
+	)
+	(junction
+		(at 187.96 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a1553c0-e1b3-477b-bc2b-beb68d445e51")
+	)
+	(junction
+		(at 90.17 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e5515d9-b9d2-4649-be2e-79f65f98d10b")
+	)
+	(junction
+		(at 200.66 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0d12661-abd7-4de6-bcbc-81c7eed75503")
+	)
+	(junction
+		(at 125.73 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3669ba0-a980-44f7-9baf-4a0a626f6f2b")
+	)
+	(junction
+		(at 175.26 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6d36248-3251-42e1-8c89-3531e88224fc")
+	)
+	(junction
+		(at 151.13 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd4f01a9-5585-48be-9f3f-4e145525201f")
+	)
+	(junction
+		(at 125.73 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c270586e-2c15-4a37-a282-d7028032fb61")
+	)
+	(junction
+		(at 175.26 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4f2566f-af36-4653-8479-90a1226d6ca9")
+	)
+	(junction
+		(at 151.13 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9cec8ef-710b-456b-831f-3890e998d0f9")
+	)
+	(junction
+		(at 77.47 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d16bcc75-58c9-44eb-9bad-7407f67d9e5d")
+	)
+	(junction
+		(at 77.47 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4a4db62-1f78-403c-865a-eec7a90c251b")
+	)
+	(junction
+		(at 54.61 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7b0657f-8399-4c73-b71d-4112b2d2062f")
+	)
+	(wire
+		(pts
+			(xy 138.43 25.4) (xy 138.43 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "004a1a57-c50e-435d-a2a2-7129d5424d5f")
+	)
+	(wire
+		(pts
+			(xy 200.66 40.64) (xy 200.66 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0175ef7e-0bad-491e-acb1-c5b74c4bab2a")
+	)
+	(wire
+		(pts
+			(xy 52.07 48.26) (xy 54.61 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04b54660-41ff-4288-9317-ac826f1de82d")
+	)
+	(wire
+		(pts
+			(xy 198.12 85.09) (xy 200.66 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "077954a8-e188-4e0e-8eb8-5680c9c7a746")
+	)
+	(wire
+		(pts
+			(xy 90.17 19.05) (xy 93.98 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "081c630e-b18c-4aa1-ae8d-fa83d58b2f66")
+	)
+	(wire
+		(pts
+			(xy 41.91 63.5) (xy 45.72 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a81f19d-ff7f-43fa-ba40-fdc0f8466b6d")
+	)
+	(wire
+		(pts
+			(xy 41.91 25.4) (xy 41.91 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c36bb2f-c223-4485-bd17-091b1ba168da")
+	)
+	(wire
+		(pts
+			(xy 77.47 40.64) (xy 81.28 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c96bfdd-bad3-45cc-8a09-b91887300a6b")
+	)
+	(wire
+		(pts
+			(xy 52.07 92.71) (xy 54.61 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d2ce180-ecfc-45ec-a7ef-122659338af7")
+	)
+	(wire
+		(pts
+			(xy 54.61 48.26) (xy 54.61 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "103a7d16-fe69-47e5-bfdf-c5a77516a7e7")
+	)
+	(wire
+		(pts
+			(xy 100.33 40.64) (xy 102.87 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14ef229d-e8ec-48ac-9126-b83958d4ca0b")
+	)
+	(wire
+		(pts
+			(xy 151.13 40.64) (xy 151.13 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "159c3417-683c-4a8f-aac9-727eeced722c")
+	)
+	(wire
+		(pts
+			(xy 29.21 85.09) (xy 33.02 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1607d729-a199-470a-bc94-054004722786")
+	)
+	(wire
+		(pts
+			(xy 187.96 19.05) (xy 191.77 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16bd4415-3d40-4562-8ae1-3828e3238df7")
+	)
+	(polyline
+		(pts
+			(xy 207.01 12.7) (xy 207.01 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a0c488d-5ab6-4511-b288-41f9b7928f95")
+	)
+	(wire
+		(pts
+			(xy 125.73 40.64) (xy 125.73 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c972f3b-33a8-48a8-9e40-87653d1881cf")
+	)
+	(wire
+		(pts
+			(xy 138.43 19.05) (xy 142.24 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "210d19e1-c147-4e44-ba0d-2d9f20908e77")
+	)
+	(wire
+		(pts
+			(xy 138.43 76.2) (xy 138.43 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "229dac75-b600-488c-be2d-07c409473d18")
+	)
+	(polyline
+		(pts
+			(xy 109.22 12.7) (xy 109.22 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2317c4f0-b51e-46c5-9345-46944fefe3dd")
+	)
+	(wire
+		(pts
+			(xy 68.58 40.64) (xy 71.12 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26982497-819a-4c0e-b23a-c708a577426e")
+	)
+	(wire
+		(pts
+			(xy 148.59 92.71) (xy 151.13 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26f874a8-61f0-42fe-bfa4-d2cf8b2ff192")
+	)
+	(wire
+		(pts
+			(xy 187.96 63.5) (xy 191.77 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "284edeca-4a9c-4100-999e-cf2f07e4c812")
+	)
+	(wire
+		(pts
+			(xy 20.32 85.09) (xy 22.86 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cf65959-ede3-47c7-a4bd-d082739a6247")
+	)
+	(polyline
+		(pts
+			(xy 12.7 12.7) (xy 207.01 12.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fe8b781-a0a9-4b32-9fcd-d1871546c5ee")
+	)
+	(polyline
+		(pts
+			(xy 12.7 12.7) (xy 12.7 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "319abefa-ee76-4316-83af-739361fdc5a9")
+	)
+	(wire
+		(pts
+			(xy 27.94 85.09) (xy 29.21 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34d5d471-e68c-4a9d-9cfc-8773463c2bd0")
+	)
+	(wire
+		(pts
+			(xy 200.66 92.71) (xy 200.66 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3606d561-52f2-4215-aac0-af688c40d294")
+	)
+	(wire
+		(pts
+			(xy 90.17 19.05) (xy 90.17 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36ba00e2-1d38-4f31-8cf1-2770717771da")
+	)
+	(wire
+		(pts
+			(xy 187.96 69.85) (xy 187.96 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36e4fcd1-67c0-4258-88b6-8739caed4766")
+	)
+	(wire
+		(pts
+			(xy 175.26 40.64) (xy 175.26 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3740444e-7ef5-4a2f-8c14-b560d4fcbb79")
+	)
+	(wire
+		(pts
+			(xy 77.47 40.64) (xy 77.47 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37f327d8-7db9-4e63-8b1d-9784d65439be")
+	)
+	(wire
+		(pts
+			(xy 151.13 46.99) (xy 151.13 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a96ce5d-8c0f-4a02-b15f-a24f6c8cd560")
+	)
+	(wire
+		(pts
+			(xy 116.84 85.09) (xy 119.38 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cb22e19-5867-45a2-b1ae-263d3ffa9f5d")
+	)
+	(wire
+		(pts
+			(xy 41.91 19.05) (xy 45.72 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e4d332a-63d5-406e-b8f4-d7c2f55079bd")
+	)
+	(wire
+		(pts
+			(xy 90.17 25.4) (xy 90.17 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4080137a-63e7-47ab-ba79-c420681db0fe")
+	)
+	(wire
+		(pts
+			(xy 187.96 63.5) (xy 187.96 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "429afe90-a4ea-4807-b211-c1e5a188c8c3")
+	)
+	(wire
+		(pts
+			(xy 76.2 85.09) (xy 77.47 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42d808b2-c311-436d-829a-c578f2b3b56a")
+	)
+	(wire
+		(pts
+			(xy 90.17 63.5) (xy 90.17 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44cc1b57-7bcb-4605-bf06-8852ef89d01b")
+	)
+	(wire
+		(pts
+			(xy 27.94 40.64) (xy 29.21 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44d78bb4-b7ee-4947-b0db-6288984046d7")
+	)
+	(wire
+		(pts
+			(xy 148.59 40.64) (xy 151.13 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45de9a76-901b-4477-8974-a2dab13dcc33")
+	)
+	(wire
+		(pts
+			(xy 100.33 92.71) (xy 102.87 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "471fbd15-8b45-4e58-accb-5ff7929a1b6e")
+	)
+	(wire
+		(pts
+			(xy 29.21 40.64) (xy 33.02 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47e4bca4-3533-4971-a797-704d083d2c97")
+	)
+	(wire
+		(pts
+			(xy 124.46 85.09) (xy 125.73 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "480178b5-841c-4f90-8858-c2217d35b74d")
+	)
+	(wire
+		(pts
+			(xy 175.26 85.09) (xy 179.07 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a3bd2e3-5cf0-4dbb-9057-6d27c07313ae")
+	)
+	(wire
+		(pts
+			(xy 200.66 91.44) (xy 200.66 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c99e10e-c67f-4bc5-80fe-4ec0ecaba115")
+	)
+	(wire
+		(pts
+			(xy 138.43 62.23) (xy 138.43 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4de6f2fe-57cd-415d-a390-7f5e078b5204")
+	)
+	(wire
+		(pts
+			(xy 148.59 85.09) (xy 151.13 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "519a132c-a404-48c8-9100-6c8334b83c57")
+	)
+	(wire
+		(pts
+			(xy 102.87 91.44) (xy 102.87 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51fb0061-1bd1-4cdb-8993-2de830adafae")
+	)
+	(wire
+		(pts
+			(xy 90.17 17.78) (xy 90.17 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "542cdf6b-8008-4f83-9409-a5bc23385944")
+	)
+	(wire
+		(pts
+			(xy 90.17 62.23) (xy 90.17 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61767d90-1373-4bdf-a908-767b603b8b23")
+	)
+	(wire
+		(pts
+			(xy 52.07 85.09) (xy 54.61 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "646d95ea-91ad-4f4d-b859-3e5bc7e8eafd")
+	)
+	(wire
+		(pts
+			(xy 198.12 92.71) (xy 200.66 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68099f75-f44d-48c6-9a8e-b0425a8fbaf1")
+	)
+	(wire
+		(pts
+			(xy 41.91 76.2) (xy 41.91 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6928cb30-2937-4e3c-8b0d-5d33ac4e6a87")
+	)
+	(wire
+		(pts
+			(xy 90.17 69.85) (xy 90.17 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f878064-9254-46e8-9080-7ea19cadd603")
+	)
+	(wire
+		(pts
+			(xy 41.91 19.05) (xy 41.91 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fd5f744-3363-49c4-a469-c7e25bb63a36")
+	)
+	(wire
+		(pts
+			(xy 175.26 40.64) (xy 179.07 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "700778f3-7e0e-40d9-ba81-d4e47c81db96")
+	)
+	(wire
+		(pts
+			(xy 54.61 92.71) (xy 54.61 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "739a6f80-e0e1-456d-9a19-cbdeeb7874eb")
+	)
+	(wire
+		(pts
+			(xy 175.26 85.09) (xy 175.26 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73d1323c-0973-4b10-963a-2cc53438e806")
+	)
+	(wire
+		(pts
+			(xy 173.99 40.64) (xy 175.26 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aa6dfa0-e9d0-4bcf-bd7a-098d4be8dd2d")
+	)
+	(wire
+		(pts
+			(xy 100.33 48.26) (xy 102.87 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c174b7a-9f2e-4c98-9baf-ac2c26243596")
+	)
+	(wire
+		(pts
+			(xy 68.58 85.09) (xy 71.12 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ceaac4d-909b-4a2d-b773-e6b671e42724")
+	)
+	(wire
+		(pts
+			(xy 151.13 91.44) (xy 151.13 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ddc517d-064e-47a0-8f50-06a7342d32a3")
+	)
+	(wire
+		(pts
+			(xy 102.87 40.64) (xy 102.87 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e466a1c-16ee-43e8-b4ce-2a52e9a407c7")
+	)
+	(wire
+		(pts
+			(xy 76.2 40.64) (xy 77.47 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "808591a7-557d-40c6-b512-b91b380daf57")
+	)
+	(wire
+		(pts
+			(xy 41.91 31.75) (xy 41.91 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81b67cce-13de-4139-b7b3-4235e63b5b3a")
+	)
+	(wire
+		(pts
+			(xy 166.37 40.64) (xy 168.91 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8393f384-5453-4693-8ce9-a2ebccb8c4b5")
+	)
+	(wire
+		(pts
+			(xy 200.66 85.09) (xy 200.66 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "846eef22-bd60-438e-b7f6-4a24b7b20d54")
+	)
+	(wire
+		(pts
+			(xy 90.17 31.75) (xy 90.17 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "862f6c04-49e8-4e00-badf-2a363e89bdcb")
+	)
+	(polyline
+		(pts
+			(xy 207.01 101.6) (xy 12.7 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "869fed03-e6cd-402d-bb7d-7d6d013cce6a")
+	)
+	(wire
+		(pts
+			(xy 125.73 85.09) (xy 125.73 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a22b7f1-bfa7-49a9-a95a-e50904da51ff")
+	)
+	(wire
+		(pts
+			(xy 41.91 17.78) (xy 41.91 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a62b922-5a8e-4097-93b4-397ecd40aa67")
+	)
+	(wire
+		(pts
+			(xy 20.32 40.64) (xy 22.86 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a82bf4f-29c0-44dd-adae-f35ef4d85290")
+	)
+	(wire
+		(pts
+			(xy 138.43 69.85) (xy 138.43 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ad52fd2-73db-4404-88cd-dcbd4930e2cc")
+	)
+	(wire
+		(pts
+			(xy 151.13 85.09) (xy 151.13 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92040d8a-47e6-4015-b211-7bfeb3d0b3bd")
+	)
+	(wire
+		(pts
+			(xy 54.61 46.99) (xy 54.61 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "926a7c1e-765b-49f3-83d0-dc330d6d6478")
+	)
+	(wire
+		(pts
+			(xy 148.59 48.26) (xy 151.13 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9518a07d-b813-4a26-8834-73d7567adeb0")
+	)
+	(wire
+		(pts
+			(xy 90.17 76.2) (xy 90.17 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "961ac633-cddf-4125-9873-e73131ea897f")
+	)
+	(wire
+		(pts
+			(xy 187.96 19.05) (xy 187.96 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c58c5d2-40dc-475b-9370-8fd07806c2bf")
+	)
+	(wire
+		(pts
+			(xy 100.33 85.09) (xy 102.87 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d32f2f0-a7ae-4865-b815-067f371330a0")
+	)
+	(wire
+		(pts
+			(xy 187.96 25.4) (xy 187.96 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f7547b2-0a3a-4911-be52-2662ab898ad7")
+	)
+	(wire
+		(pts
+			(xy 41.91 69.85) (xy 41.91 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0ef98e2-0dec-4aac-b7d3-11c1398cfc39")
+	)
+	(wire
+		(pts
+			(xy 54.61 85.09) (xy 54.61 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1ae3d32-89a5-4c65-b624-e09628f90927")
+	)
+	(wire
+		(pts
+			(xy 41.91 63.5) (xy 41.91 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3e918a2-6aa6-4f75-a8ec-64b5087723af")
+	)
+	(wire
+		(pts
+			(xy 52.07 40.64) (xy 54.61 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4972fad-4c9b-4524-bf16-5ae51c57f341")
+	)
+	(wire
+		(pts
+			(xy 187.96 76.2) (xy 187.96 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a82ae4ec-c2b0-4e87-b891-d2e384890ccb")
+	)
+	(wire
+		(pts
+			(xy 138.43 63.5) (xy 142.24 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa44669a-d0d3-435f-9ebe-27bd2f5bf1da")
+	)
+	(wire
+		(pts
+			(xy 198.12 48.26) (xy 200.66 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac4fb98d-7f49-436c-9459-7fd20ccc8cf7")
+	)
+	(wire
+		(pts
+			(xy 200.66 48.26) (xy 200.66 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad5bf7ea-2c35-4ff3-80e0-15ca8a1371a8")
+	)
+	(wire
+		(pts
+			(xy 102.87 85.09) (xy 102.87 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae707db3-129f-4bb2-b08a-9ef780e547e0")
+	)
+	(wire
+		(pts
+			(xy 187.96 62.23) (xy 187.96 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af01a57b-ad7d-4054-be94-74d0b7a82d99")
+	)
+	(wire
+		(pts
+			(xy 200.66 46.99) (xy 200.66 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b31894d0-bc1e-415e-8e64-e4055985a382")
+	)
+	(polyline
+		(pts
+			(xy 12.7 57.15) (xy 207.01 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6a673e4-6722-4019-94e8-5bd693c4dfa3")
+	)
+	(wire
+		(pts
+			(xy 124.46 40.64) (xy 125.73 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b731eaae-1ff8-4f60-803b-c4c0283592e2")
+	)
+	(wire
+		(pts
+			(xy 125.73 40.64) (xy 129.54 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b902c826-3e3c-47fb-86a1-dbeaf770b2d7")
+	)
+	(wire
+		(pts
+			(xy 187.96 31.75) (xy 187.96 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb08ba87-c416-4216-982a-d75b5b8cef28")
+	)
+	(wire
+		(pts
+			(xy 138.43 63.5) (xy 138.43 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb62ff3a-e9e0-40c5-824b-8d2adc7e57b5")
+	)
+	(wire
+		(pts
+			(xy 138.43 19.05) (xy 138.43 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcabd8cb-62e2-4b99-b4b7-0ae13af00333")
+	)
+	(wire
+		(pts
+			(xy 54.61 40.64) (xy 54.61 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c06091c9-0c54-44b1-a16f-d8cddf80e3fb")
+	)
+	(polyline
+		(pts
+			(xy 158.75 12.7) (xy 158.75 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1f6645e-b5f7-43dd-b7b4-d086213cdc9e")
+	)
+	(wire
+		(pts
+			(xy 151.13 48.26) (xy 151.13 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5dd3bf8-1bb1-47a6-aeff-ee6ddcdf76e6")
+	)
+	(wire
+		(pts
+			(xy 151.13 92.71) (xy 151.13 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc6ad3e8-9fd1-4859-aad6-158c0bc758db")
+	)
+	(wire
+		(pts
+			(xy 29.21 40.64) (xy 29.21 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cec813d1-c13b-4305-b307-2787011b47bc")
+	)
+	(wire
+		(pts
+			(xy 29.21 85.09) (xy 29.21 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2dc9747-dc48-4e01-90ad-9e4c0a5931a0")
+	)
+	(wire
+		(pts
+			(xy 173.99 85.09) (xy 175.26 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3600bef-745a-4b44-b832-4d627195d7be")
+	)
+	(wire
+		(pts
+			(xy 116.84 40.64) (xy 119.38 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d55f702e-7d56-4a9e-a03b-1ab0c8facd7c")
+	)
+	(wire
+		(pts
+			(xy 102.87 48.26) (xy 102.87 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5628c62-ad5f-4d86-b53c-aab9323f7f4e")
+	)
+	(wire
+		(pts
+			(xy 102.87 92.71) (xy 102.87 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7b14fb3-83a3-41ef-801d-44b63a587839")
+	)
+	(wire
+		(pts
+			(xy 90.17 63.5) (xy 93.98 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db85ea83-a4c5-4c98-9fc1-f42178b363d1")
+	)
+	(wire
+		(pts
+			(xy 166.37 85.09) (xy 168.91 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc459b74-0eff-4da7-888b-965bdd93fc90")
+	)
+	(wire
+		(pts
+			(xy 54.61 91.44) (xy 54.61 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6485db8-e11f-49fc-9635-68835a3b6bb4")
+	)
+	(polyline
+		(pts
+			(xy 60.96 12.7) (xy 60.96 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee00d477-1632-4282-aba1-141d4853a63b")
+	)
+	(wire
+		(pts
+			(xy 41.91 62.23) (xy 41.91 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee57db1c-e74c-4192-b0a5-97f0b029a236")
+	)
+	(wire
+		(pts
+			(xy 138.43 17.78) (xy 138.43 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef02ff2b-ebdd-4a0d-a8e7-922d6b9af47f")
+	)
+	(wire
+		(pts
+			(xy 187.96 17.78) (xy 187.96 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1ba423a-6143-461d-8f9d-fb9863d935ec")
+	)
+	(wire
+		(pts
+			(xy 102.87 46.99) (xy 102.87 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f317393e-6bbd-428c-8ea2-a7b8090a424f")
+	)
+	(wire
+		(pts
+			(xy 77.47 85.09) (xy 81.28 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f53802d2-ec59-4223-9709-e634239e6de5")
+	)
+	(wire
+		(pts
+			(xy 138.43 31.75) (xy 138.43 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fba8d1f7-0131-44b7-822f-31fe692ac978")
+	)
+	(wire
+		(pts
+			(xy 198.12 40.64) (xy 200.66 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbd380ec-d01b-4e2d-808f-03414056e2e6")
+	)
+	(wire
+		(pts
+			(xy 77.47 85.09) (xy 77.47 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd24071-b10c-4919-8f2a-c030ef3f0acd")
+	)
+	(wire
+		(pts
+			(xy 125.73 85.09) (xy 129.54 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fffbfc46-7271-463a-8530-b9f7de6b316a")
+	)
+	(hierarchical_label "LED8"
+		(shape input)
+		(at 166.37 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0a6e0bf5-fe0a-4970-8ff4-2e6f2edffd2e")
+	)
+	(hierarchical_label "LED3"
+		(shape input)
+		(at 116.84 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "118fab91-68e3-4b8d-b963-da786dec109c")
+	)
+	(hierarchical_label "LED4"
+		(shape input)
+		(at 166.37 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "49b936bc-e723-4019-97b2-54fd618800e8")
+	)
+	(hierarchical_label "LED7"
+		(shape input)
+		(at 116.84 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53bb2b36-0e23-4817-aab1-6bc95e3ba664")
+	)
+	(hierarchical_label "LED1"
+		(shape input)
+		(at 20.32 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "620a27d7-1ca9-4c5b-847c-69f30c43532a")
+	)
+	(hierarchical_label "LED2"
+		(shape input)
+		(at 68.58 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8195236e-7e50-48cf-891d-bc931b7980ed")
+	)
+	(hierarchical_label "LED5"
+		(shape input)
+		(at 20.32 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "846b862c-b610-4ada-8981-951d9292e4d2")
+	)
+	(hierarchical_label "LED6"
+		(shape input)
+		(at 68.58 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "baf37abf-80f5-4176-b5a8-23daade8d6da")
+	)
+	(symbol
+		(lib_id "DX_IC_PMIC_LEDRegulator:NCR321UX")
+		(at 132.08 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00d8bf4c-03fa-464b-a0a1-bff42185991a")
+		(property "Reference" "U10"
+			(at 139.7 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NCR321UX"
+			(at 139.7 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Packages:TSOT-23-6"
+			(at 132.08 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/NCR320U.pdf"
+			(at 132.08 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED Driver IC 1 Output Linear Constant Current PWM Dimming 250mA TSOP-6"
+			(at 132.08 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0811-0300-00005"
+			(at 139.7 81.534 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "3"
+			(uuid "7b28646c-3874-4463-8a3a-678869f42c33")
+		)
+		(pin "5"
+			(uuid "d1efd5fd-6f67-4223-8497-cc41ad2cb4ba")
+		)
+		(pin "4"
+			(uuid "67011a19-f030-46f6-89f0-af0f9d65ac62")
+		)
+		(pin "6"
+			(uuid "c49f6155-c0f5-4eb8-b06f-3058a67e6682")
+		)
+		(pin "1"
+			(uuid "e119ecfc-0a72-4189-abf8-712cab429dba")
+		)
+		(pin "2"
+			(uuid "da00c618-80ec-4fe1-a913-9be0a77d597a")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Device_Power:VCC-USB")
+		(at 41.91 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "041dcb57-42d3-44e3-9bc4-b4cc4a3ab69d")
+		(property "Reference" "#PWR043"
+			(at 41.91 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC-USB"
+			(at 41.91 58.801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB VBUS Power Supply"
+			(at 41.91 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b890916-c733-4001-b05b-f785b3c0f518")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Resistor:RC0402JR-0710KL")
+		(at 73.66 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04374cd2-3bb6-42de-bf74-617402fab908")
+		(property "Reference" "R35"
+			(at 73.66 81.534 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 73.66 83.185 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+			(at 68.326 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
+			(at 67.31 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 10K OHM 5% 1/16W 0402"
+			(at 69.85 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0204-0000-00016"
+			(at 65.532 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f385027-4f36-441a-b8e5-6292df81a1da")
+		)
+		(pin "2"
+			(uuid "9ef8a249-3c83-4273-b719-f234aa887c88")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 147.32 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07069d0f-c4f1-49cc-b8c9-67cf797d8b2a")
+		(property "Reference" "#PWR049"
+			(at 153.67 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.892 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58b0f871-8067-45fe-a9cd-a73d30bbaf78")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_LED:JK3030AWT-P-H40EA0000-N0000001")
+		(at 41.91 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "078f6775-91a6-4300-aaf9-124e049997ef")
+		(property "Reference" "D14"
+			(at 43.434 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "JK3030AWT-P-H40EA0000-N0000001"
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Daxxn_LEDs:JK3030AWT"
+			(at 35.052 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/JSeries-3030.pdf"
+			(at 32.004 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED J NEUTRAL WHT 4000K SMD"
+			(at 33.528 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0900-0000-00021"
+			(at 43.434 68.58 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Color" "WHITE"
+			(at 43.434 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "0d8ff0cf-a74a-46e4-8afc-557b56d39be0")
+		)
+		(pin "1"
+			(uuid "cc22cc89-97ee-4bd7-8662-8a033f149b3a")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0a843c97-b73c-4628-bb17-b73ffab01a31")
+		(property "Reference" "#PWR042"
+			(at 200.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fcfd5c8-152b-4ca0-9e4e-d1bfc9125fd1")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 125.73 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b41c10d-e98e-467e-bf84-cd4fc45823cd")
+		(property "Reference" "#PWR066"
+			(at 125.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b417c473-c8de-4c55-b060-74d8554be9aa")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Device:C")
+		(at 144.78 63.5 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f4c9648-9cf7-4d86-b5e3-0ab226d0a9e5")
+		(property "Reference" "C33"
+			(at 144.78 59.436 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 144.78 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
+			(at 138.938 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.922 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 140.462 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" ""
+			(at 144.78 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "43ab66fd-63fa-4b5e-92b4-e9d5883c8cc0")
+		)
+		(pin "1"
+			(uuid "afd9ba0e-fd5a-4229-a177-45e7157d27a5")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Device:R")
+		(at 200.66 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0fc53dcd-6ef4-4e5c-b598-ee75ad6b72d5")
+		(property "Reference" "R27"
+			(at 201.676 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3"
+			(at 201.676 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0805"
+			(at 200.66 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 200.66 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" ""
+			(at 200.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a6ef4c77-b189-44b8-a4aa-760fdc426cab")
+		)
+		(pin "1"
+			(uuid "8b326dc6-3abb-486e-a741-c21d9c036fa1")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Device_Power:VCC-USB")
+		(at 90.17 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "166165a4-3209-4a9f-ac67-0b996cd0db2f")
+		(property "Reference" "#PWR032"
+			(at 90.17 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC-USB"
+			(at 90.17 14.351 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB VBUS Power Supply"
+			(at 90.17 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb8e2dd9-55ff-439a-a01d-fd866b46c532")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Device:C")
+		(at 96.52 63.5 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18ec7693-f61c-4cfb-992b-8a7ebc569543")
+		(property "Reference" "C32"
+			(at 96.52 59.436 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 96.52 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
+			(at 90.678 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 89.662 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 92.202 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" ""
+			(at 96.52 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b36075ea-4788-4dae-b917-63a455bbde78")
+		)
+		(pin "1"
+			(uuid "6c47ef57-cbc7-4e51-8d2d-b2c1ea084079")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Device_Power:VCC-USB")
+		(at 90.17 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ae0a0a3-d121-4ec4-8021-517cf3ee2c6c")
+		(property "Reference" "#PWR044"
+			(at 90.17 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC-USB"
+			(at 90.17 58.801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB VBUS Power Supply"
+			(at 90.17 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f8f1c4b-d423-4816-b1d6-083f30cd6778")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Device:R")
+		(at 151.13 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22bd235e-0a0a-4274-b907-b8459eed03e7")
+		(property "Reference" "R22"
+			(at 152.146 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3"
+			(at 152.146 45.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0805"
+			(at 151.13 39.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 151.13 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" ""
+			(at 151.13 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "76a50320-2fda-4233-8127-551b08e91d25")
+		)
+		(pin "1"
+			(uuid "63641b3b-f0e9-432c-8998-354a70e08cee")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25386191-8811-4db3-9f9a-2cb47f83e8b7")
+		(property "Reference" "#PWR052"
+			(at 102.87 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7adc3df-bb74-4c48-a891-12de80e59c80")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.85 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "265627e5-d95a-4f17-9032-b7a4248749e0")
+		(property "Reference" "#PWR050"
+			(at 203.2 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.422 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66f2335f-d353-44bf-8649-c2e014f4aeb8")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Resistor:RC0402JR-0710KL")
+		(at 121.92 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b0acb63-67fc-46a1-a3c0-7aaa606d997e")
+		(property "Reference" "R36"
+			(at 121.92 81.534 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 121.92 83.185 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+			(at 116.586 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
+			(at 115.57 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 10K OHM 5% 1/16W 0402"
+			(at 118.11 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0204-0000-00016"
+			(at 113.792 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fced194-4332-4023-9276-8930e770208e")
+		)
+		(pin "2"
+			(uuid "2064538f-747a-4dbf-9470-b8f17e6b59bc")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Device:R")
+		(at 54.61 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c20ad71-d0c0-44fb-98c7-de565083ab8d")
+		(property "Reference" "R24"
+			(at 55.626 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3"
+			(at 55.626 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0805"
+			(at 54.61 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 54.61 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" ""
+			(at 54.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ff70b6e3-b703-40ae-a169-02ebdc2d9ba1")
+		)
+		(pin "1"
+			(uuid "c510deea-5161-435d-9543-422a00b05167")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Device:R")
+		(at 200.66 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ea1a121-b213-4a99-bc0a-c209f505bf25")
+		(property "Reference" "R23"
+			(at 201.676 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3"
+			(at 201.676 45.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0805"
+			(at 200.66 39.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 200.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" ""
+			(at 200.66 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "49a321f8-0150-4d80-8bdc-a921fde9a124")
+		)
+		(pin "1"
+			(uuid "37de9088-e3e3-4238-9ae9-c412b7239d33")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Resistor:RC0402JR-0710KL")
+		(at 171.45 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3059d8b0-3329-46bf-a80f-42cabd1eabe4")
+		(property "Reference" "R33"
+			(at 171.45 37.084 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 171.45 38.735 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+			(at 166.116 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
+			(at 165.1 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 10K OHM 5% 1/16W 0402"
+			(at 167.64 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0204-0000-00016"
+			(at 163.322 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc4b09dd-fd02-4b76-9668-9983bb44a485")
+		)
+		(pin "2"
+			(uuid "0926a5e6-07cb-4e27-80c2-a3a139b7b88d")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Capacitor_Ceramic:CL05A105KO5NNNC")
+		(at 29.21 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38ef8e12-6b0f-499c-b6c3-488ae8da20e6")
+		(property "Reference" "C41"
+			(at 29.718 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 29.718 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 30.226 80.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL05A105KO5NNNC.pdf"
+			(at 30.226 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 16V X5R 0402"
+			(at 29.21 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00050"
+			(at 29.21 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "39c3137b-36ab-4c9b-8c83-00d835d6507a")
+		)
+		(pin "1"
+			(uuid "70fa438a-9adf-4af9-a9d5-e04ebb95307a")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_LED:JK3030AWT-P-H40EA0000-N0000001")
+		(at 187.96 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e75efd4-b12f-4465-8d67-cb9e0e7c2b16")
+		(property "Reference" "D21"
+			(at 189.484 72.136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "JK3030AWT-P-H40EA0000-N0000001"
+			(at 182.88 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Daxxn_LEDs:JK3030AWT"
+			(at 181.102 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/JSeries-3030.pdf"
+			(at 178.054 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED J NEUTRAL WHT 4000K SMD"
+			(at 179.578 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0900-0000-00021"
+			(at 189.484 74.93 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Color" "WHITE"
+			(at 189.484 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "2706b440-7d83-42eb-a1c8-7acbbad0ee86")
+		)
+		(pin "1"
+			(uuid "1da10400-0650-455c-b1b8-117edc34ec4f")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Device_Power:VCC-USB")
+		(at 41.91 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4c87229d-6cf3-47e4-8e0b-9382819bcd76")
+		(property "Reference" "#PWR031"
+			(at 41.91 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC-USB"
+			(at 41.91 14.351 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB VBUS Power Supply"
+			(at 41.91 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7872ea71-e622-4039-95e2-9d197af483b1")
+		)
+		(instances
+			(project ""
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Capacitor_Ceramic:CL05A105KO5NNNC")
+		(at 125.73 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e2ef087-741d-485f-abd2-8576fc53bff7")
+		(property "Reference" "C39"
+			(at 126.238 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 126.238 46.228 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 126.746 36.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL05A105KO5NNNC.pdf"
+			(at 126.746 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 16V X5R 0402"
+			(at 125.73 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00050"
+			(at 125.73 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fc7b1e44-6881-466b-a499-8260bbc82dad")
+		)
+		(pin "1"
+			(uuid "e79d0cab-4f2b-4717-ae6e-99e5993d11f8")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Device:R")
+		(at 151.13 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e3aeb76-4c0f-487a-b786-5ae150694db9")
+		(property "Reference" "R26"
+			(at 152.146 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3"
+			(at 152.146 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0805"
+			(at 151.13 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 151.13 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" ""
+			(at 151.13 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0d2b2efd-c75f-4e22-a209-f7f93575e2ad")
+		)
+		(pin "1"
+			(uuid "439e6786-1460-4ff0-9a25-ff386131681a")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_LED:JK3030AWT-P-H40EA0000-N0000001")
+		(at 90.17 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f20dcb0-4830-45b9-9f78-8b09de0712b4")
+		(property "Reference" "D16"
+			(at 91.694 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "JK3030AWT-P-H40EA0000-N0000001"
+			(at 85.09 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Daxxn_LEDs:JK3030AWT"
+			(at 83.312 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/JSeries-3030.pdf"
+			(at 80.264 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED J NEUTRAL WHT 4000K SMD"
+			(at 81.788 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0900-0000-00021"
+			(at 91.694 68.58 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Color" "WHITE"
+			(at 91.694 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "49d9ad18-e6a0-46c5-8353-d8aa76234063")
+		)
+		(pin "1"
+			(uuid "f581eb4d-0ef8-4c50-a779-b16a1fb352a5")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_LED:JK3030AWT-P-H40EA0000-N0000001")
+		(at 138.43 22.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "500845b0-d1fd-4efb-b4b6-2a3e4dc4ec1a")
+		(property "Reference" "D10"
+			(at 139.954 21.336 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "JK3030AWT-P-H40EA0000-N0000001"
+			(at 133.35 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Daxxn_LEDs:JK3030AWT"
+			(at 131.572 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/JSeries-3030.pdf"
+			(at 128.524 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED J NEUTRAL WHT 4000K SMD"
+			(at 130.048 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0900-0000-00021"
+			(at 139.954 24.13 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Color" "WHITE"
+			(at 139.954 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "0bb59a84-b435-427f-8bc7-4965889488bd")
+		)
+		(pin "1"
+			(uuid "94c9ec64-f1fd-4657-a77f-28811246cc83")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Device:C")
+		(at 194.31 63.5 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "519ef4a9-86ca-43b3-b963-645774d7851a")
+		(property "Reference" "C34"
+			(at 194.31 59.436 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 194.31 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
+			(at 188.468 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.452 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 189.992 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" ""
+			(at 194.31 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "321bb19d-55a2-41c6-a00c-56f68f9408b8")
+		)
+		(pin "1"
+			(uuid "538ca745-fabd-4fb0-97c4-006d2925aab8")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Device_Power:VCC-USB")
+		(at 138.43 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54aedb54-1998-43bf-9d3e-561524d97f4c")
+		(property "Reference" "#PWR033"
+			(at 138.43 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC-USB"
+			(at 138.43 14.351 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB VBUS Power Supply"
+			(at 138.43 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a111bb90-b796-47f8-8234-7744a9cd1b5c")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Resistor:RC0402JR-0710KL")
+		(at 171.45 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5509ce9a-69e6-42d2-9ac1-616c9d582b0a")
+		(property "Reference" "R37"
+			(at 171.45 81.534 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 171.45 83.185 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+			(at 166.116 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
+			(at 165.1 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 10K OHM 5% 1/16W 0402"
+			(at 167.64 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0204-0000-00016"
+			(at 163.322 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d8ed566-6325-4e58-9517-a2fd2991db83")
+		)
+		(pin "2"
+			(uuid "aa87beed-4c2e-44f7-b498-78d7e54b3f75")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57591278-637e-4cb2-b2a1-61aaf8c42f0d")
+		(property "Reference" "#PWR051"
+			(at 54.61 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fca81199-5b15-4941-8f05-608542b6da30")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_IC_PMIC_LEDRegulator:NCR321UX")
+		(at 35.56 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57fa88e4-a4ca-475a-8de6-cc4efe0c1104")
+		(property "Reference" "U8"
+			(at 43.18 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NCR321UX"
+			(at 43.18 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Packages:TSOT-23-6"
+			(at 35.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/NCR320U.pdf"
+			(at 35.56 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED Driver IC 1 Output Linear Constant Current PWM Dimming 250mA TSOP-6"
+			(at 35.56 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0811-0300-00005"
+			(at 43.18 81.534 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "3"
+			(uuid "e3de96ce-ee39-4920-950f-05eed062f017")
+		)
+		(pin "5"
+			(uuid "0a428f29-320e-486c-ad48-1195459094f2")
+		)
+		(pin "4"
+			(uuid "99fa690e-d7fb-48a5-9557-2798a27c31fd")
+		)
+		(pin "6"
+			(uuid "59890e2a-3028-4fe2-a409-128b993ad2e0")
+		)
+		(pin "1"
+			(uuid "c9014ca1-2684-40f1-bf2f-02f402df52c6")
+		)
+		(pin "2"
+			(uuid "15f73988-6c29-4ccd-8456-204a3667d6ac")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_IC_PMIC_LEDRegulator:NCR321UX")
+		(at 181.61 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58b7e0c3-2514-4018-81c1-811f0c7e06e3")
+		(property "Reference" "U11"
+			(at 189.23 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NCR321UX"
+			(at 189.23 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Packages:TSOT-23-6"
+			(at 181.61 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/NCR320U.pdf"
+			(at 181.61 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED Driver IC 1 Output Linear Constant Current PWM Dimming 250mA TSOP-6"
+			(at 181.61 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0811-0300-00005"
+			(at 189.23 81.534 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "3"
+			(uuid "e6bf023b-8712-4324-8546-b481e5bb48d6")
+		)
+		(pin "5"
+			(uuid "66a5fd21-8511-49bb-91a1-bad4e55af28d")
+		)
+		(pin "4"
+			(uuid "f454899b-e00a-49bc-bbc3-b3db1758afca")
+		)
+		(pin "6"
+			(uuid "c2e4134a-aef9-4c11-9672-9f9c32a8fe0b")
+		)
+		(pin "1"
+			(uuid "46d76e0e-6ac8-4682-96ea-34f6f13f98b9")
+		)
+		(pin "2"
+			(uuid "c9bfa634-5f64-4007-a663-12cd000dcb01")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_IC_PMIC_LEDRegulator:NCR321UX")
+		(at 83.82 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5bd6bac9-9987-4029-8197-776d91a36057")
+		(property "Reference" "U5"
+			(at 91.44 33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NCR321UX"
+			(at 91.44 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Packages:TSOT-23-6"
+			(at 83.82 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/NCR320U.pdf"
+			(at 83.82 27.432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED Driver IC 1 Output Linear Constant Current PWM Dimming 250mA TSOP-6"
+			(at 83.82 28.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0811-0300-00005"
+			(at 91.44 37.084 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "3"
+			(uuid "f6697c64-873f-4f1e-bd56-36480f0c4e10")
+		)
+		(pin "5"
+			(uuid "e3039e51-1d57-4d43-bb12-edd84ae90df2")
+		)
+		(pin "4"
+			(uuid "762b6ad0-0eaa-4694-a4ac-52f726e62529")
+		)
+		(pin "6"
+			(uuid "a18ba0b2-e216-4b16-9f1e-2f3c8bd9e4d0")
+		)
+		(pin "1"
+			(uuid "a9431c27-176b-48ab-bbd5-0aac4e3b945d")
+		)
+		(pin "2"
+			(uuid "bfafed22-8f80-40dc-bb6f-a331a619c37a")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 29.21 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c70320a-3709-4d27-b450-b7acd0eaf979")
+		(property "Reference" "#PWR060"
+			(at 29.21 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f13f9ab6-36d5-4074-9354-d252c48c48b5")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Resistor:RC0402JR-0710KL")
+		(at 73.66 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5fadf0d9-e2ea-42a9-b1d1-6f445cef0245")
+		(property "Reference" "R31"
+			(at 73.66 37.084 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 73.66 38.735 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+			(at 68.326 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
+			(at 67.31 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 10K OHM 5% 1/16W 0402"
+			(at 69.85 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0204-0000-00016"
+			(at 65.532 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca046147-9fcf-4afc-911a-ce74e7735ed1")
+		)
+		(pin "2"
+			(uuid "e7957374-7d26-4c6a-a1a7-ee9a36c4c975")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_IC_PMIC_LEDRegulator:NCR321UX")
+		(at 132.08 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6000800c-ebd2-44cd-9ea2-8366aed6fcee")
+		(property "Reference" "U6"
+			(at 139.7 33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NCR321UX"
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Packages:TSOT-23-6"
+			(at 132.08 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/NCR320U.pdf"
+			(at 132.08 27.432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED Driver IC 1 Output Linear Constant Current PWM Dimming 250mA TSOP-6"
+			(at 132.08 28.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0811-0300-00005"
+			(at 139.7 37.084 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "3"
+			(uuid "065c6f83-f0e5-416a-8a0f-f40524fae53a")
+		)
+		(pin "5"
+			(uuid "c9c59ea0-338f-4788-81d2-57191bc0bd2a")
+		)
+		(pin "4"
+			(uuid "b10f07e7-b67c-4ac1-98ab-595804d4cefc")
+		)
+		(pin "6"
+			(uuid "23bcd8e1-45ff-4e71-bdf3-653a0650f837")
+		)
+		(pin "1"
+			(uuid "5aee4356-acd6-4256-86e0-fed3a923ebb7")
+		)
+		(pin "2"
+			(uuid "4e3b184c-2a97-4da9-bcbc-b69baf8eeb37")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 125.73 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6066e61b-53a5-4b4b-85f9-72b4d9281a2e")
+		(property "Reference" "#PWR062"
+			(at 125.73 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a162a6cd-1172-4b3d-a05b-c14029c82355")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Device:R")
+		(at 102.87 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "653865af-2207-4b78-8307-8cff6e9c865d")
+		(property "Reference" "R25"
+			(at 103.886 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3"
+			(at 103.886 89.916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0805"
+			(at 102.87 83.566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 102.87 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" ""
+			(at 102.87 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "99efaeee-94a3-4617-8df0-7650f0575b8b")
+		)
+		(pin "1"
+			(uuid "cec6621b-9aa1-441d-ad32-60490c91d954")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Device:R")
+		(at 54.61 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "665d076a-3839-4f12-aa07-775f9152660f")
+		(property "Reference" "R20"
+			(at 55.626 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3"
+			(at 55.626 45.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0805"
+			(at 54.61 39.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 54.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" ""
+			(at 54.61 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9b5ad0dc-4438-4c05-a92c-2988a41bac15")
+		)
+		(pin "1"
+			(uuid "cffc9d1e-568d-4504-b5d6-4bbb64d0a441")
+		)
+		(instances
+			(project ""
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Capacitor_Ceramic:CL05A105KO5NNNC")
+		(at 77.47 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66b9cd0a-9f67-4924-9d59-5ace1c78d8c6")
+		(property "Reference" "C42"
+			(at 77.978 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 77.978 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 78.486 80.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL05A105KO5NNNC.pdf"
+			(at 78.486 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 16V X5R 0402"
+			(at 77.47 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00050"
+			(at 77.47 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "81d8e086-bd7e-4606-a093-215e1d2374ea")
+		)
+		(pin "1"
+			(uuid "73f2fc2f-5e31-4d83-8523-8b2a6b905050")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Resistor:RC0402JR-0710KL")
+		(at 121.92 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6cc0fc72-8b0f-40f6-ab08-3300faf263d7")
+		(property "Reference" "R32"
+			(at 121.92 37.084 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 121.92 38.735 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+			(at 116.586 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
+			(at 115.57 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 10K OHM 5% 1/16W 0402"
+			(at 118.11 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0204-0000-00016"
+			(at 113.792 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4aa4ad3e-2bd4-461d-9a57-f162f5f98253")
+		)
+		(pin "2"
+			(uuid "64391875-6fc3-4573-b86e-0c671f079bc2")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6cc2bae9-a65b-4b24-85cc-a9d8a4dc2308")
+		(property "Reference" "#PWR054"
+			(at 200.66 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69814e67-3f8f-466b-bc21-ef95882d4a7a")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 19.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6eb35078-38f7-4f28-afe9-813a2a4ed62d")
+		(property "Reference" "#PWR035"
+			(at 57.15 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.372 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4cca0dc-a1f2-44c0-82c0-25f2e36875b4")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_IC_PMIC_LEDRegulator:NCR321UX")
+		(at 35.56 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "70ba064b-a0de-4c52-a6df-39b676c83d30")
+		(property "Reference" "U4"
+			(at 43.18 33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NCR321UX"
+			(at 43.18 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Packages:TSOT-23-6"
+			(at 35.56 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/NCR320U.pdf"
+			(at 35.56 27.432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED Driver IC 1 Output Linear Constant Current PWM Dimming 250mA TSOP-6"
+			(at 35.56 28.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0811-0300-00005"
+			(at 43.18 37.084 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "3"
+			(uuid "36324256-7d7d-4d95-a629-360e3ad21e3e")
+		)
+		(pin "5"
+			(uuid "ca0a185e-062c-4126-8305-e7ad1a26d0e3")
+		)
+		(pin "4"
+			(uuid "c04eb7eb-144e-4338-bf37-0c11e34c7678")
+		)
+		(pin "6"
+			(uuid "3bf01345-f127-4239-8f0d-4629f3f0a3c8")
+		)
+		(pin "1"
+			(uuid "0b472781-9dea-42d3-aac7-7747dfec1e2f")
+		)
+		(pin "2"
+			(uuid "778d179e-965f-41b2-9d17-b4002061d960")
+		)
+		(instances
+			(project ""
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "717ef4f3-3859-408e-9f37-53c821474458")
+		(property "Reference" "#PWR040"
+			(at 102.87 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21e8f8d4-f46d-41fd-9e9e-1d6c29a9559a")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Capacitor_Ceramic:CL05A105KO5NNNC")
+		(at 29.21 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b497bdc-1a86-4ac2-acb9-03e3a8225d67")
+		(property "Reference" "C37"
+			(at 29.718 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 29.718 46.228 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 30.226 36.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL05A105KO5NNNC.pdf"
+			(at 30.226 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 16V X5R 0402"
+			(at 29.21 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00050"
+			(at 29.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c547f45f-c663-48dd-b1a1-fa85fe98a6b7")
+		)
+		(pin "1"
+			(uuid "0d491ac0-b743-4fba-9692-f24335209d95")
+		)
+		(instances
+			(project ""
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Device:C")
+		(at 144.78 19.05 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "848d5d4d-75ca-4dc3-94d5-6d4c81bd2515")
+		(property "Reference" "C29"
+			(at 144.78 14.986 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 144.78 16.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
+			(at 138.938 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.922 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 140.462 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" ""
+			(at 144.78 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8f722159-e4a8-4a0a-b527-aa5f3cbd38b9")
+		)
+		(pin "1"
+			(uuid "8b5515ab-10a8-4c76-98b6-3433be7d4c62")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Resistor:RC0402JR-0710KL")
+		(at 25.4 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "857e44ca-293c-442f-a046-b5cb1c0f8d35")
+		(property "Reference" "R30"
+			(at 25.4 37.084 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 25.4 38.735 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+			(at 20.066 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
+			(at 19.05 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 10K OHM 5% 1/16W 0402"
+			(at 21.59 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0204-0000-00016"
+			(at 17.272 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37030b80-22b8-4764-aa74-0932e3412ffb")
+		)
+		(pin "2"
+			(uuid "c026986a-e1dc-44a0-b9b4-bed402945986")
+		)
+		(instances
+			(project ""
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "875f93eb-9b16-44d0-ab06-06822b942ef5")
+		(property "Reference" "#PWR039"
+			(at 54.61 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b15a246-fedd-4d5f-9bd1-fc015a3e9694")
+		)
+		(instances
+			(project ""
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_LED:JK3030AWT-P-H40EA0000-N0000001")
+		(at 90.17 22.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a4cb1bf-bb94-4eec-92f9-3b2f839f9f8a")
+		(property "Reference" "D8"
+			(at 91.694 21.336 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "JK3030AWT-P-H40EA0000-N0000001"
+			(at 85.09 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Daxxn_LEDs:JK3030AWT"
+			(at 83.312 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/JSeries-3030.pdf"
+			(at 80.264 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED J NEUTRAL WHT 4000K SMD"
+			(at 81.788 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0900-0000-00021"
+			(at 91.694 24.13 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Color" "WHITE"
+			(at 91.694 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "85453351-25f4-4941-9ab4-e44e78c61a80")
+		)
+		(pin "1"
+			(uuid "5680a56d-019f-484e-b55d-93acc49fa876")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 196.85 19.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ac9098b-bf61-41ed-acb9-a9d365ab85fb")
+		(property "Reference" "#PWR038"
+			(at 203.2 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.422 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91dd2ecc-760e-4030-b744-8c048d856163")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Device:R")
+		(at 102.87 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91cdccd9-c485-496c-8104-56cc6f61d789")
+		(property "Reference" "R21"
+			(at 103.886 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3"
+			(at 103.886 45.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0805"
+			(at 102.87 39.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 102.87 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" ""
+			(at 102.87 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "870b22b0-7350-4727-81e7-2ed0e8b980ad")
+		)
+		(pin "1"
+			(uuid "d80d954f-8d87-41e4-b1a4-d266f4d050c1")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Capacitor_Ceramic:CL05A105KO5NNNC")
+		(at 77.47 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93e0cc99-02ff-439a-bea0-5601f67b7fa1")
+		(property "Reference" "C38"
+			(at 77.978 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 77.978 46.228 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 78.486 36.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL05A105KO5NNNC.pdf"
+			(at 78.486 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 16V X5R 0402"
+			(at 77.47 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00050"
+			(at 77.47 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fd5f1794-cf5e-4ec0-87e5-a01132ff11b8")
+		)
+		(pin "1"
+			(uuid "3c638f1c-006c-4da9-8125-8815d7ca7427")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "946f3102-5a04-4a38-9c48-dab1617f27ea")
+		(property "Reference" "#PWR047"
+			(at 57.15 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.372 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2fc7a8d-2f7a-44bc-8420-8f41e491acf9")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96a39072-1327-48bb-9800-733566b9e1af")
+		(property "Reference" "#PWR063"
+			(at 175.26 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80eb1e60-d88b-4905-8b5e-8ab09d4fb789")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Resistor:RC0402JR-0710KL")
+		(at 25.4 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a8df5fd-63cf-4c6f-a20e-b37d8e4400c2")
+		(property "Reference" "R34"
+			(at 25.4 81.534 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 25.4 83.185 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+			(at 20.066 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
+			(at 19.05 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 10K OHM 5% 1/16W 0402"
+			(at 21.59 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0204-0000-00016"
+			(at 17.272 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "888908ed-116a-4f5d-b84a-f7910a37bd27")
+		)
+		(pin "2"
+			(uuid "5e8c4186-80a6-432f-bf48-550d2bc56049")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Device:C")
+		(at 48.26 63.5 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b45d5ed-a18a-418b-b993-3345b32b0718")
+		(property "Reference" "C31"
+			(at 48.26 59.436 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 48.26 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
+			(at 42.418 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.402 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 43.942 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" ""
+			(at 48.26 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f4d37193-aade-46d3-9c4b-bf4b6e1ae388")
+		)
+		(pin "1"
+			(uuid "6230b7d2-4f12-46fe-a526-786384065c3e")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_LED:JK3030AWT-P-H40EA0000-N0000001")
+		(at 41.91 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a011ae3f-13e9-4072-aa57-4a201d70b73b")
+		(property "Reference" "D7"
+			(at 43.434 27.686 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "JK3030AWT-P-H40EA0000-N0000001"
+			(at 36.83 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Daxxn_LEDs:JK3030AWT"
+			(at 35.052 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/JSeries-3030.pdf"
+			(at 32.004 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED J NEUTRAL WHT 4000K SMD"
+			(at 33.528 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0900-0000-00021"
+			(at 43.434 30.48 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Color" "WHITE"
+			(at 43.434 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "d1f9b17a-2f76-488a-9c1d-0718ca4bdaa8")
+		)
+		(pin "1"
+			(uuid "c7e24a77-483e-459a-a378-0c1fbf2526d9")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Device_Power:VCC-USB")
+		(at 187.96 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3cf3577-d797-470e-884a-cb2593a3ed81")
+		(property "Reference" "#PWR034"
+			(at 187.96 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC-USB"
+			(at 187.96 14.351 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB VBUS Power Supply"
+			(at 187.96 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18370358-e39c-47e1-ac60-b480250f08e5")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4d271ef-6e65-4765-91f2-34855e259d92")
+		(property "Reference" "#PWR041"
+			(at 151.13 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49826fb2-ebf3-4909-84f2-72aeb039faed")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ace495ad-f789-478e-a9fc-927ac222da20")
+		(property "Reference" "#PWR067"
+			(at 175.26 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83760eed-2025-4b63-9d96-a894c35cf3a3")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 29.21 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af05a9bb-cd0d-485e-abb3-7423e4f68efb")
+		(property "Reference" "#PWR064"
+			(at 29.21 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 29.21 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 29.21 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d14859ce-6a3b-4bca-a1ab-0ba7864db052")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_LED:JK3030AWT-P-H40EA0000-N0000001")
+		(at 41.91 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2745a92-e682-443d-8671-34aa8967d6e1")
+		(property "Reference" "D15"
+			(at 43.434 72.136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "JK3030AWT-P-H40EA0000-N0000001"
+			(at 36.83 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Daxxn_LEDs:JK3030AWT"
+			(at 35.052 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/JSeries-3030.pdf"
+			(at 32.004 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED J NEUTRAL WHT 4000K SMD"
+			(at 33.528 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0900-0000-00021"
+			(at 43.434 74.93 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Color" "WHITE"
+			(at 43.434 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "faceb84b-dbc8-47a8-a0a4-64dec604d80a")
+		)
+		(pin "1"
+			(uuid "57097a41-e378-411c-bf2b-57d6035f786a")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Device:C")
+		(at 48.26 19.05 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2758b1d-58ae-4841-80ac-b41d96dc01db")
+		(property "Reference" "C27"
+			(at 48.26 14.986 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 48.26 16.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
+			(at 42.418 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.402 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 43.942 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" ""
+			(at 48.26 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4a681b0f-77fa-46aa-9317-3b4ebd6bcaa2")
+		)
+		(pin "1"
+			(uuid "b58028c8-e12e-4e5e-987a-0e9c8cb07f60")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Device:C")
+		(at 96.52 19.05 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2cfb5de-cf23-4cab-81a6-c0fc02fd7a58")
+		(property "Reference" "C28"
+			(at 96.52 14.986 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 96.52 16.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
+			(at 90.678 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 89.662 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 92.202 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" ""
+			(at 96.52 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d3326f78-86a9-4c4e-8ccd-42ca51304c9e")
+		)
+		(pin "1"
+			(uuid "e40841e1-a5e8-4405-93e4-8296428c9c61")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6fb7ec7-1c74-4f0a-b2e6-74473f2c1ae1")
+		(property "Reference" "#PWR053"
+			(at 151.13 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce552d8a-82f6-4bda-9f49-dab261bd350a")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_LED:JK3030AWT-P-H40EA0000-N0000001")
+		(at 138.43 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b85fe174-0ccd-4fbd-9997-ceab46012020")
+		(property "Reference" "D19"
+			(at 139.954 72.136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "JK3030AWT-P-H40EA0000-N0000001"
+			(at 133.35 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Daxxn_LEDs:JK3030AWT"
+			(at 131.572 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/JSeries-3030.pdf"
+			(at 128.524 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED J NEUTRAL WHT 4000K SMD"
+			(at 130.048 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0900-0000-00021"
+			(at 139.954 74.93 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Color" "WHITE"
+			(at 139.954 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "f1db19dc-d800-4ea4-b942-31f9680bd72e")
+		)
+		(pin "1"
+			(uuid "e9426dc1-7d12-40b5-a378-957b80fe14db")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 77.47 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba8a425d-cd76-4207-bd9c-ef5c9ceb9eda")
+		(property "Reference" "#PWR065"
+			(at 77.47 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30d12cf6-f9fe-4a8a-89ed-aa83b9c55603")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Device_Power:VCC-USB")
+		(at 138.43 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb36c4f3-8952-4497-a233-5b474c6a5cbe")
+		(property "Reference" "#PWR045"
+			(at 138.43 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC-USB"
+			(at 138.43 58.801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB VBUS Power Supply"
+			(at 138.43 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52804bd0-9090-424d-8434-20dc1542600b")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Capacitor_Ceramic:CL05A105KO5NNNC")
+		(at 175.26 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c014e978-480b-4813-8a76-e77d9202ef26")
+		(property "Reference" "C44"
+			(at 175.768 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 175.768 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 176.276 80.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL05A105KO5NNNC.pdf"
+			(at 176.276 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 16V X5R 0402"
+			(at 175.26 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00050"
+			(at 175.26 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6087b37a-fae5-483a-a521-85cafd0a7935")
+		)
+		(pin "1"
+			(uuid "719903a8-0ba1-4a15-88a0-42b1d5f5969d")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Capacitor_Ceramic:CL05A105KO5NNNC")
+		(at 175.26 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5d0323c-224f-47d1-8b48-a1a313dd0981")
+		(property "Reference" "C40"
+			(at 175.768 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 175.768 46.228 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 176.276 36.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL05A105KO5NNNC.pdf"
+			(at 176.276 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 16V X5R 0402"
+			(at 175.26 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00050"
+			(at 175.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4f6532a9-aa37-4e6c-8ab1-68a426be4414")
+		)
+		(pin "1"
+			(uuid "6549816d-7397-4cfb-affe-62f21185c147")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_IC_PMIC_LEDRegulator:NCR321UX")
+		(at 83.82 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6f747aa-7e58-40b3-a8c7-e935834a5f54")
+		(property "Reference" "U9"
+			(at 91.44 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NCR321UX"
+			(at 91.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Packages:TSOT-23-6"
+			(at 83.82 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/NCR320U.pdf"
+			(at 83.82 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED Driver IC 1 Output Linear Constant Current PWM Dimming 250mA TSOP-6"
+			(at 83.82 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0811-0300-00005"
+			(at 91.44 81.534 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "3"
+			(uuid "ee18f5d2-e09d-4617-95fb-ca3b3092b7f2")
+		)
+		(pin "5"
+			(uuid "b0d1315c-5d8b-40d2-a1b8-8f1050499956")
+		)
+		(pin "4"
+			(uuid "9b62e25b-5466-42b6-b13f-0e16da8aedda")
+		)
+		(pin "6"
+			(uuid "cda1ae4c-1755-4ccf-a30e-fced22dbca3c")
+		)
+		(pin "1"
+			(uuid "0461ddc9-aefd-4f20-82ca-bd2406cf0682")
+		)
+		(pin "2"
+			(uuid "7e848dbe-938c-45aa-8df9-ecb8dbf841c4")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_LED:JK3030AWT-P-H40EA0000-N0000001")
+		(at 90.17 73.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c71f42d8-fb9d-4540-8a7e-e4bd862cf215")
+		(property "Reference" "D17"
+			(at 91.694 72.136 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "JK3030AWT-P-H40EA0000-N0000001"
+			(at 85.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Daxxn_LEDs:JK3030AWT"
+			(at 83.312 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/JSeries-3030.pdf"
+			(at 80.264 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED J NEUTRAL WHT 4000K SMD"
+			(at 81.788 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0900-0000-00021"
+			(at 91.694 74.93 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Color" "WHITE"
+			(at 91.694 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "31e466d6-1b49-4347-82d1-a0fcf459cc65")
+		)
+		(pin "1"
+			(uuid "453ed50d-0868-4472-b377-0368c16866a1")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 19.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c779b242-6b88-4d48-a562-a1d7b54a9b2b")
+		(property "Reference" "#PWR036"
+			(at 105.41 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 103.632 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d73f1c02-ba75-4359-9e61-739c1c1a4737")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_LED:JK3030AWT-P-H40EA0000-N0000001")
+		(at 41.91 22.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7cf3153-7ac3-4bba-aca6-d1c576c4f75e")
+		(property "Reference" "D6"
+			(at 43.434 21.336 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "JK3030AWT-P-H40EA0000-N0000001"
+			(at 36.83 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Daxxn_LEDs:JK3030AWT"
+			(at 35.052 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/JSeries-3030.pdf"
+			(at 32.004 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED J NEUTRAL WHT 4000K SMD"
+			(at 33.528 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0900-0000-00021"
+			(at 43.434 24.13 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Color" "WHITE"
+			(at 43.434 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "30dc576c-f9df-4b94-8cf2-1ed7983591ba")
+		)
+		(pin "1"
+			(uuid "c28c46cb-60a2-48c0-a167-df97a80265a4")
+		)
+		(instances
+			(project ""
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_LED:JK3030AWT-P-H40EA0000-N0000001")
+		(at 138.43 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cdc6fa31-43d7-4ee0-b889-e663397284a7")
+		(property "Reference" "D18"
+			(at 139.954 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "JK3030AWT-P-H40EA0000-N0000001"
+			(at 133.35 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Daxxn_LEDs:JK3030AWT"
+			(at 131.572 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/JSeries-3030.pdf"
+			(at 128.524 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED J NEUTRAL WHT 4000K SMD"
+			(at 130.048 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0900-0000-00021"
+			(at 139.954 68.58 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Color" "WHITE"
+			(at 139.954 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "ee292f90-9efe-4159-9c47-406d2748594d")
+		)
+		(pin "1"
+			(uuid "7a990c63-59aa-4b58-853b-5621af5fc8e7")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_LED:JK3030AWT-P-H40EA0000-N0000001")
+		(at 138.43 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce6ddd25-956a-4731-8877-072aa92931d2")
+		(property "Reference" "D11"
+			(at 139.954 27.686 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "JK3030AWT-P-H40EA0000-N0000001"
+			(at 133.35 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Daxxn_LEDs:JK3030AWT"
+			(at 131.572 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/JSeries-3030.pdf"
+			(at 128.524 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED J NEUTRAL WHT 4000K SMD"
+			(at 130.048 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0900-0000-00021"
+			(at 139.954 30.48 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Color" "WHITE"
+			(at 139.954 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "81deb8bc-734f-4193-b430-9fbbd1097cf6")
+		)
+		(pin "1"
+			(uuid "57167eda-6264-4768-8f38-564eb6e72103")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 147.32 19.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da63311f-72d3-4f86-8fb1-09ba4c65da14")
+		(property "Reference" "#PWR037"
+			(at 153.67 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.892 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ece2b39d-2961-4932-982f-3aa8187e601a")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_IC_PMIC_LEDRegulator:NCR321UX")
+		(at 181.61 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfb9ef21-86f7-4581-9c0c-b641670095c8")
+		(property "Reference" "U7"
+			(at 189.23 33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NCR321UX"
+			(at 189.23 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Packages:TSOT-23-6"
+			(at 181.61 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/NCR320U.pdf"
+			(at 181.61 27.432 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED Driver IC 1 Output Linear Constant Current PWM Dimming 250mA TSOP-6"
+			(at 181.61 28.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0811-0300-00005"
+			(at 189.23 37.084 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "3"
+			(uuid "d0fd0148-ffaa-4aaf-a57f-49887bb10a5f")
+		)
+		(pin "5"
+			(uuid "d2069955-a94b-46fd-b384-2d58ef157864")
+		)
+		(pin "4"
+			(uuid "2dfce385-a848-4cf4-a5c0-247aa7ab0a36")
+		)
+		(pin "6"
+			(uuid "75f99623-276e-481c-96a4-b6b81f795671")
+		)
+		(pin "1"
+			(uuid "b618ccb7-4f15-4c02-86f9-d521697fc624")
+		)
+		(pin "2"
+			(uuid "7e8920e5-50a0-4013-9b91-df3d82b4ac57")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 99.06 63.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e111a2e1-045f-4bfe-a4f8-c03a75c782dd")
+		(property "Reference" "#PWR048"
+			(at 105.41 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 103.632 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 99.06 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4eaf8310-14b0-4a84-a446-7c6f429b7d07")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_LED:JK3030AWT-P-H40EA0000-N0000001")
+		(at 187.96 22.86 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e726fe6d-c350-4a5f-af0a-5a5d5ba7d903")
+		(property "Reference" "D12"
+			(at 189.484 21.336 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "JK3030AWT-P-H40EA0000-N0000001"
+			(at 182.88 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Daxxn_LEDs:JK3030AWT"
+			(at 181.102 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/JSeries-3030.pdf"
+			(at 178.054 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED J NEUTRAL WHT 4000K SMD"
+			(at 179.578 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0900-0000-00021"
+			(at 189.484 24.13 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Color" "WHITE"
+			(at 189.484 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "baf4dbc8-0d57-414a-a62c-3484c2f64dda")
+		)
+		(pin "1"
+			(uuid "1df06ba2-d19b-4460-9791-c5e21de29bd1")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_LED:JK3030AWT-P-H40EA0000-N0000001")
+		(at 187.96 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eafd11ff-67ed-4739-87e8-90cf56120a55")
+		(property "Reference" "D20"
+			(at 189.484 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "JK3030AWT-P-H40EA0000-N0000001"
+			(at 182.88 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Daxxn_LEDs:JK3030AWT"
+			(at 181.102 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/JSeries-3030.pdf"
+			(at 178.054 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED J NEUTRAL WHT 4000K SMD"
+			(at 179.578 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0900-0000-00021"
+			(at 189.484 68.58 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Color" "WHITE"
+			(at 189.484 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "8cb9739d-2e97-4a34-9dc9-691f4ba42fad")
+		)
+		(pin "1"
+			(uuid "0d9d5270-b9c8-4744-b4df-6874c04523c2")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Device:C")
+		(at 194.31 19.05 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef8e0572-b400-41d3-ad2c-8d596471856c")
+		(property "Reference" "C30"
+			(at 194.31 14.986 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 194.31 16.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
+			(at 188.468 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.452 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized Capacitor"
+			(at 189.992 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" ""
+			(at 194.31 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e0ec320e-3c06-4f35-b9be-50654b2c6231")
+		)
+		(pin "1"
+			(uuid "18d827fa-a9c1-4b57-8194-d48aa56fb487")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 77.47 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f877762f-37b8-45e9-97a7-4ed2e74c2c3d")
+		(property "Reference" "#PWR061"
+			(at 77.47 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52e1af20-9438-4e21-baa3-79dab43bd5d0")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_LED:JK3030AWT-P-H40EA0000-N0000001")
+		(at 90.17 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb9fd32c-a8a1-433d-a085-048f1c1a1d07")
+		(property "Reference" "D9"
+			(at 91.694 27.686 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "JK3030AWT-P-H40EA0000-N0000001"
+			(at 85.09 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Daxxn_LEDs:JK3030AWT"
+			(at 83.312 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/JSeries-3030.pdf"
+			(at 80.264 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED J NEUTRAL WHT 4000K SMD"
+			(at 81.788 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0900-0000-00021"
+			(at 91.694 30.48 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Color" "WHITE"
+			(at 91.694 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "a7c9a5f4-ca97-40db-a482-ddfbfe695371")
+		)
+		(pin "1"
+			(uuid "5d36d5ef-9a23-4e6e-90e9-26b6e61301b0")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Device_Power:VCC-USB")
+		(at 187.96 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fbdefa06-aae4-4770-8ef1-c15bd16450ce")
+		(property "Reference" "#PWR046"
+			(at 187.96 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC-USB"
+			(at 187.96 58.801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB VBUS Power Supply"
+			(at 187.96 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37fd7270-6a2a-40e9-a9a0-5814509e304d")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Capacitor_Ceramic:CL05A105KO5NNNC")
+		(at 125.73 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe294c7c-f4d8-4af9-87a7-b48990ac52db")
+		(property "Reference" "C43"
+			(at 126.238 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 126.238 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 126.746 80.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL05A105KO5NNNC.pdf"
+			(at 126.746 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 16V X5R 0402"
+			(at 125.73 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00050"
+			(at 125.73 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "35764ff8-b59c-4e9c-8fab-5a7022417b14")
+		)
+		(pin "1"
+			(uuid "6e1511a5-8a0d-4434-bcf0-eabba7456bc6")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_LED:JK3030AWT-P-H40EA0000-N0000001")
+		(at 187.96 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe983f75-121b-4635-9a52-099fba7efea5")
+		(property "Reference" "D13"
+			(at 189.484 27.686 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "JK3030AWT-P-H40EA0000-N0000001"
+			(at 182.88 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Daxxn_LEDs:JK3030AWT"
+			(at 181.102 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/JSeries-3030.pdf"
+			(at 178.054 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED J NEUTRAL WHT 4000K SMD"
+			(at 179.578 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0900-0000-00021"
+			(at 189.484 30.48 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Color" "WHITE"
+			(at 189.484 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "f37c2d29-becd-4b61-9c65-2f8af1eba7ca")
+		)
+		(pin "1"
+			(uuid "081431ce-412c-49db-8028-2f173f04e2cc")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

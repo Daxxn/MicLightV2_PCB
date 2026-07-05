@@ -10,7 +10,7 @@
 		(company "Daxxn Industries")
 	)
 	(lib_symbols
-		(symbol "DX_Capacitor_Ceramic:CL05A104KA5NNNC"
+		(symbol "DX_Capacitor_Ceramic:CL05A105KO5NNNC"
 			(pin_numbers
 				(hide yes)
 			)
@@ -29,7 +29,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "100n"
+			(property "Value" "1u"
 				(at 2.794 0 0)
 				(effects
 					(font
@@ -47,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "${DATASHEETS}/CL05A104KA5NNNC.pdf"
+			(property "Datasheet" "${DATASHEETS}/CL05A105KO5NNNC.pdf"
 				(at 1.016 9.906 0)
 				(effects
 					(font
@@ -56,7 +56,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "CAP CER 100nF 0.1UF 25V X5R 0402"
+			(property "Description" "CAP CER 1UF 16V X5R 0402"
 				(at 0 11.684 0)
 				(effects
 					(font
@@ -65,7 +65,7 @@
 					(hide yes)
 				)
 			)
-			(property "PartNumber" "0201-0100-00086"
+			(property "PartNumber" "0201-0100-00050"
 				(at 0 6.35 0)
 				(effects
 					(font
@@ -74,7 +74,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "CL05A104KA5NNNC_0_1"
+			(symbol "CL05A105KO5NNNC_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -100,7 +100,7 @@
 					)
 				)
 			)
-			(symbol "CL05A104KA5NNNC_1_1"
+			(symbol "CL05A105KO5NNNC_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -140,19 +140,18 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DX_Device:C"
+		(symbol "DX_Capacitor_Ceramic:CL10A105KA8NNNC"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0.254)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 0.254 1.524 0)
+				(at 2.794 1.778 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -160,8 +159,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "C"
-				(at 0.254 -1.905 0)
+			(property "Value" "1u"
+				(at 2.794 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -169,8 +168,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
-				(at 0 5.842 0)
+			(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
+				(at 1.016 8.128 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -178,8 +177,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 6.858 0)
+			(property "Datasheet" "${DATASHEETS}/CL10A105KA8NNNC.pdf"
+				(at 1.016 9.906 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -187,8 +186,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized Capacitor"
-				(at 0 4.318 0)
+			(property "Description" "CAP CER 1UF 25V X5R 0603"
+				(at 0 11.684 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -196,8 +195,8 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "capacitor cap daxxn"
-				(at 0 0 0)
+			(property "PartNumber" "0201-0100-00051"
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -205,16 +204,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
+			(symbol "CL10A105KA8NNNC_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -240,7 +230,137 @@
 					)
 				)
 			)
-			(symbol "C_1_1"
+			(symbol "CL10A105KA8NNNC_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DX_Capacitor_Ceramic:GRM155R71H104KE14J"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.794 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100n"
+				(at 2.794 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+				(at 1.016 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${DATASHEETS}/GRM155R71H104KE14J.pdf"
+				(at 1.016 9.906 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 100nF 0.1UF 50V X7R 0402"
+				(at 0 11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PartNumber" "0201-0100-00001"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GRM155R71H104KE14J_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GRM155R71H104KE14J_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -808,7 +928,7 @@
 					(hide yes)
 				)
 			)
-			(property "PartNumber" "na"
+			(property "PartNumber" "0802-0200-00003"
 				(at 11.43 0.762 0)
 				(effects
 					(font
@@ -1033,11 +1153,12 @@
 				)
 			)
 			(property "PartNumber" "0900-0000-00021"
-				(at 0 -3.81 0)
+				(at 0 11.43 0)
 				(effects
 					(font
 						(size 1 1)
 					)
+					(hide yes)
 				)
 			)
 			(property "Color" "WHITE"
@@ -1598,7 +1719,7 @@
 				)
 			)
 			(property "Datasheet" "${DATASHEETS}/TNPW_E3.pdf"
-				(at 0 9.652 0)
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1615,7 +1736,7 @@
 					(hide yes)
 				)
 			)
-			(property "PartNumber" "na"
+			(property "PartNumber" "0204-0100-00019"
 				(at 0 8.382 0)
 				(effects
 					(font
@@ -1743,7 +1864,7 @@
 					(hide yes)
 				)
 			)
-			(property "PartNumber" "na"
+			(property "PartNumber" "0204-0200-00031"
 				(at 0 10.922 0)
 				(effects
 					(font
@@ -5518,82 +5639,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Device:C")
-		(at 278.13 77.47 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0f4c9648-9cf7-4d86-b5e3-0ab226d0a9e5")
-		(property "Reference" "C33"
-			(at 278.13 73.406 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1u"
-			(at 278.13 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
-			(at 272.288 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 271.272 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized Capacitor"
-			(at 273.812 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" ""
-			(at 278.13 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "43ab66fd-63fa-4b5e-92b4-e9d5883c8cc0")
-		)
-		(pin "1"
-			(uuid "afd9ba0e-fd5a-4229-a177-45e7157d27a5")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
-					(reference "C33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DX_Device_Power:VCC-USB")
 		(at 199.39 17.78 0)
 		(unit 1)
@@ -5800,7 +5845,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Capacitor_Ceramic:CL05A104KA5NNNC")
+		(lib_id "DX_Capacitor_Ceramic:GRM155R71H104KE14J")
 		(at 314.96 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5835,7 +5880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${DATASHEETS}/CL05A104KA5NNNC.pdf"
+		(property "Datasheet" "${DATASHEETS}/GRM155R71H104KE14J.pdf"
 			(at 305.054 30.734 0)
 			(effects
 				(font
@@ -5844,7 +5889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 100nF 0.1UF 25V X5R 0402"
+		(property "Description" "CAP CER 100nF 0.1UF 50V X7R 0402"
 			(at 303.276 31.75 0)
 			(effects
 				(font
@@ -5853,7 +5898,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "0201-0100-00086"
+		(property "PartNumber" "0201-0100-00001"
 			(at 308.61 31.75 0)
 			(effects
 				(font
@@ -5872,82 +5917,6 @@
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
 					(reference "C40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Device:C")
-		(at 205.74 77.47 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "18ec7693-f61c-4cfb-992b-8a7ebc569543")
-		(property "Reference" "C32"
-			(at 205.74 73.406 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1u"
-			(at 205.74 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
-			(at 199.898 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.882 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized Capacitor"
-			(at 201.422 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" ""
-			(at 205.74 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b36075ea-4788-4dae-b917-63a455bbde78")
-		)
-		(pin "1"
-			(uuid "6c47ef57-cbc7-4e51-8d2d-b2c1ea084079")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
-					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -6013,6 +5982,82 @@
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Capacitor_Ceramic:CL10A105KA8NNNC")
+		(at 133.35 19.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c3fea1d-b013-4a70-8a19-a66941b8e8b8")
+		(property "Reference" "C27"
+			(at 133.35 14.986 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 133.35 16.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
+			(at 125.222 18.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL10A105KA8NNNC.pdf"
+			(at 123.444 18.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 25V X5R 0603"
+			(at 121.666 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00051"
+			(at 127 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4315968-6033-4f5c-9211-5637d5d6ae26")
+		)
+		(pin "2"
+			(uuid "a4d0438d-7bef-4617-b5f7-324a77d2af8e")
+		)
+		(instances
+			(project ""
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -6529,7 +6574,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "na"
+		(property "PartNumber" "0204-0100-00019"
 			(at 238.76 104.648 0)
 			(effects
 				(font
@@ -6554,7 +6599,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Capacitor_Ceramic:CL05A104KA5NNNC")
+		(lib_id "DX_Capacitor_Ceramic:GRM155R71H104KE14J")
 		(at 242.57 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6589,7 +6634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${DATASHEETS}/CL05A104KA5NNNC.pdf"
+		(property "Datasheet" "${DATASHEETS}/GRM155R71H104KE14J.pdf"
 			(at 232.664 30.734 0)
 			(effects
 				(font
@@ -6598,7 +6643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 100nF 0.1UF 25V X5R 0402"
+		(property "Description" "CAP CER 100nF 0.1UF 50V X7R 0402"
 			(at 230.886 31.75 0)
 			(effects
 				(font
@@ -6607,7 +6652,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "0201-0100-00086"
+		(property "PartNumber" "0201-0100-00001"
 			(at 236.22 31.75 0)
 			(effects
 				(font
@@ -7125,7 +7170,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Capacitor_Ceramic:CL05A104KA5NNNC")
+		(lib_id "DX_Capacitor_Ceramic:GRM155R71H104KE14J")
 		(at 314.96 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7160,7 +7205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${DATASHEETS}/CL05A104KA5NNNC.pdf"
+		(property "Datasheet" "${DATASHEETS}/GRM155R71H104KE14J.pdf"
 			(at 305.054 89.154 0)
 			(effects
 				(font
@@ -7169,7 +7214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 100nF 0.1UF 25V X5R 0402"
+		(property "Description" "CAP CER 100nF 0.1UF 50V X7R 0402"
 			(at 303.276 90.17 0)
 			(effects
 				(font
@@ -7178,7 +7223,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "0201-0100-00086"
+		(property "PartNumber" "0201-0100-00001"
 			(at 308.61 90.17 0)
 			(effects
 				(font
@@ -7451,7 +7496,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "na"
+		(property "PartNumber" "0204-0200-00031"
 			(at 199.39 43.688 0)
 			(effects
 				(font
@@ -7963,7 +8008,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "na"
+		(property "PartNumber" "0204-0200-00031"
 			(at 199.39 102.108 0)
 			(effects
 				(font
@@ -8041,7 +8086,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "na"
+		(property "PartNumber" "0204-0200-00031"
 			(at 271.78 43.688 0)
 			(effects
 				(font
@@ -8066,7 +8111,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Capacitor_Ceramic:CL05A104KA5NNNC")
+		(lib_id "DX_Capacitor_Ceramic:GRM155R71H104KE14J")
 		(at 242.57 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8101,7 +8146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${DATASHEETS}/CL05A104KA5NNNC.pdf"
+		(property "Datasheet" "${DATASHEETS}/GRM155R71H104KE14J.pdf"
 			(at 232.664 89.154 0)
 			(effects
 				(font
@@ -8110,7 +8155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 100nF 0.1UF 25V X5R 0402"
+		(property "Description" "CAP CER 100nF 0.1UF 50V X7R 0402"
 			(at 230.886 90.17 0)
 			(effects
 				(font
@@ -8119,7 +8164,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "0201-0100-00086"
+		(property "PartNumber" "0201-0100-00001"
 			(at 236.22 90.17 0)
 			(effects
 				(font
@@ -8144,7 +8189,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Capacitor_Ceramic:CL05A104KA5NNNC")
+		(lib_id "DX_Capacitor_Ceramic:GRM155R71H104KE14J")
 		(at 38.1 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8179,7 +8224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${DATASHEETS}/CL05A104KA5NNNC.pdf"
+		(property "Datasheet" "${DATASHEETS}/GRM155R71H104KE14J.pdf"
 			(at 28.194 82.804 0)
 			(effects
 				(font
@@ -8188,7 +8233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 100nF 0.1UF 25V X5R 0402"
+		(property "Description" "CAP CER 100nF 0.1UF 50V X7R 0402"
 			(at 26.416 83.82 0)
 			(effects
 				(font
@@ -8197,7 +8242,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "0201-0100-00086"
+		(property "PartNumber" "0201-0100-00001"
 			(at 31.75 83.82 0)
 			(effects
 				(font
@@ -8275,7 +8320,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "na"
+		(property "PartNumber" "0204-0200-00031"
 			(at 127 102.108 0)
 			(effects
 				(font
@@ -8365,7 +8410,83 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Capacitor_Ceramic:CL05A104KA5NNNC")
+		(lib_id "DX_Capacitor_Ceramic:CL10A105KA8NNNC")
+		(at 205.74 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "451a1deb-022d-4a7e-9b86-093ed4085263")
+		(property "Reference" "C32"
+			(at 205.74 73.406 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 205.74 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
+			(at 197.612 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL10A105KA8NNNC.pdf"
+			(at 195.834 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 25V X5R 0603"
+			(at 194.056 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00051"
+			(at 199.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbe935ec-9cde-445d-8844-6a670e54061d")
+		)
+		(pin "2"
+			(uuid "3f8413b8-1c2d-4d2c-aba8-a35151ada65a")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Capacitor_Ceramic:GRM155R71H104KE14J")
 		(at 97.79 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8400,7 +8521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${DATASHEETS}/CL05A104KA5NNNC.pdf"
+		(property "Datasheet" "${DATASHEETS}/GRM155R71H104KE14J.pdf"
 			(at 87.884 30.734 0)
 			(effects
 				(font
@@ -8409,7 +8530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 100nF 0.1UF 25V X5R 0402"
+		(property "Description" "CAP CER 100nF 0.1UF 50V X7R 0402"
 			(at 86.106 31.75 0)
 			(effects
 				(font
@@ -8418,7 +8539,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "0201-0100-00086"
+		(property "PartNumber" "0201-0100-00001"
 			(at 91.44 31.75 0)
 			(effects
 				(font
@@ -8572,7 +8693,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "na"
+		(property "PartNumber" "0204-0100-00019"
 			(at 311.15 46.228 0)
 			(effects
 				(font
@@ -8971,82 +9092,6 @@
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
 					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Device:C")
-		(at 350.52 77.47 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "519ef4a9-86ca-43b3-b963-645774d7851a")
-		(property "Reference" "C34"
-			(at 350.52 73.406 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1u"
-			(at 350.52 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
-			(at 344.678 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 343.662 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized Capacitor"
-			(at 346.202 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" ""
-			(at 350.52 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "321bb19d-55a2-41c6-a00c-56f68f9408b8")
-		)
-		(pin "1"
-			(uuid "538ca745-fabd-4fb0-97c4-006d2925aab8")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
-					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -9933,7 +9978,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "na"
+		(property "PartNumber" "0204-0100-00019"
 			(at 311.15 104.648 0)
 			(effects
 				(font
@@ -10572,84 +10617,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Capacitor_Ceramic:CL05A104KA5NNNC")
-		(at 38.1 29.21 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "746e11bc-4939-4197-bbf5-7d4c5cc7297e")
-		(property "Reference" "C54"
-			(at 37.084 28.448 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 37.084 30.226 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
-			(at 29.972 28.194 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${DATASHEETS}/CL05A104KA5NNNC.pdf"
-			(at 28.194 28.194 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 100nF 0.1UF 25V X5R 0402"
-			(at 26.416 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" "0201-0100-00086"
-			(at 31.75 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "10ace917-54b5-4d55-af4b-05cfa72dc311")
-		)
-		(pin "2"
-			(uuid "59150623-0261-49fb-9115-315cfbcfa618")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
-					(reference "C54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DX_Resistor_Sense:CRCW121810R0FKEKHP")
 		(at 344.17 113.03 0)
 		(unit 1)
@@ -10703,7 +10670,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "na"
+		(property "PartNumber" "0204-0200-00031"
 			(at 344.17 102.108 0)
 			(effects
 				(font
@@ -10948,7 +10915,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Capacitor_Ceramic:CL05A104KA5NNNC")
+		(lib_id "DX_Capacitor_Ceramic:GRM155R71H104KE14J")
 		(at 170.18 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10983,7 +10950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${DATASHEETS}/CL05A104KA5NNNC.pdf"
+		(property "Datasheet" "${DATASHEETS}/GRM155R71H104KE14J.pdf"
 			(at 160.274 89.154 0)
 			(effects
 				(font
@@ -10992,7 +10959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 100nF 0.1UF 25V X5R 0402"
+		(property "Description" "CAP CER 100nF 0.1UF 50V X7R 0402"
 			(at 158.496 90.17 0)
 			(effects
 				(font
@@ -11001,7 +10968,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "0201-0100-00086"
+		(property "PartNumber" "0201-0100-00001"
 			(at 163.83 90.17 0)
 			(effects
 				(font
@@ -11020,6 +10987,82 @@
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
 					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Capacitor_Ceramic:CL10A105KA8NNNC")
+		(at 350.52 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81e0eb75-a875-4196-a155-24f5ef2cea02")
+		(property "Reference" "C34"
+			(at 350.52 73.406 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 350.52 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
+			(at 342.392 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL10A105KA8NNNC.pdf"
+			(at 340.614 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 25V X5R 0603"
+			(at 338.836 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00051"
+			(at 344.17 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23a33270-dea2-4e6c-bd4e-5af50f0039cc")
+		)
+		(pin "2"
+			(uuid "d69e94f4-bc34-46a6-9ab2-2f2e4688e920")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -11150,82 +11193,6 @@
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
 					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Device:C")
-		(at 278.13 19.05 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "848d5d4d-75ca-4dc3-94d5-6d4c81bd2515")
-		(property "Reference" "C29"
-			(at 278.13 14.986 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1u"
-			(at 278.13 16.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
-			(at 272.288 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 271.272 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized Capacitor"
-			(at 273.812 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" ""
-			(at 278.13 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8f722159-e4a8-4a0a-b527-aa5f3cbd38b9")
-		)
-		(pin "1"
-			(uuid "8b5515ab-10a8-4c76-98b6-3433be7d4c62")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
-					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -12415,82 +12382,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Device:C")
-		(at 133.35 77.47 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9b45d5ed-a18a-418b-b993-3345b32b0718")
-		(property "Reference" "C31"
-			(at 133.35 73.406 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1u"
-			(at 133.35 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
-			(at 127.508 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 126.492 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized Capacitor"
-			(at 129.032 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" ""
-			(at 133.35 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f4d37193-aade-46d3-9c4b-bf4b6e1ae388")
-		)
-		(pin "1"
-			(uuid "6230b7d2-4f12-46fe-a526-786384065c3e")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
-					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DX_Resistor:RC0402JR-07100RL")
 		(at 92.71 95.25 90)
 		(unit 1)
@@ -12620,7 +12511,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "na"
+		(property "PartNumber" "0204-0100-00019"
 			(at 93.98 104.648 0)
 			(effects
 				(font
@@ -12917,7 +12808,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "na"
+		(property "PartNumber" "0204-0200-00031"
 			(at 127 43.688 0)
 			(effects
 				(font
@@ -13074,7 +12965,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "na"
+		(property "PartNumber" "0204-0100-00019"
 			(at 166.37 104.648 0)
 			(effects
 				(font
@@ -13093,6 +12984,160 @@
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
 					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Capacitor_Ceramic:CL10A105KA8NNNC")
+		(at 278.13 19.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a495f831-bc26-4cc9-b380-0ba24c14ca04")
+		(property "Reference" "C29"
+			(at 278.13 14.986 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 278.13 16.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
+			(at 270.002 18.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL10A105KA8NNNC.pdf"
+			(at 268.224 18.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 25V X5R 0603"
+			(at 266.446 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00051"
+			(at 271.78 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa3f200f-2b92-4b8d-b6eb-a8013727d4a4")
+		)
+		(pin "2"
+			(uuid "8f794f8c-a761-4db7-b4a1-4a0ffd36b215")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Capacitor_Ceramic:CL05A105KO5NNNC")
+		(at 38.1 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7bc2572-c17e-4c0a-b53c-4adf6038f8c1")
+		(property "Reference" "C54"
+			(at 37.084 28.448 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 37.084 30.226 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 29.972 28.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL05A105KO5NNNC.pdf"
+			(at 28.194 28.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 16V X5R 0402"
+			(at 26.416 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00050"
+			(at 31.75 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "adf4827b-be6e-4d37-bedf-9dd8368964da")
+		)
+		(pin "1"
+			(uuid "2ffbfd48-a7fa-4357-8a6d-63d43ef76641")
+		)
+		(instances
+			(project ""
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -13243,7 +13288,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Capacitor_Ceramic:CL05A104KA5NNNC")
+		(lib_id "DX_Capacitor_Ceramic:GRM155R71H104KE14J")
 		(at 97.79 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13278,7 +13323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${DATASHEETS}/CL05A104KA5NNNC.pdf"
+		(property "Datasheet" "${DATASHEETS}/GRM155R71H104KE14J.pdf"
 			(at 87.884 89.154 0)
 			(effects
 				(font
@@ -13287,7 +13332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 100nF 0.1UF 25V X5R 0402"
+		(property "Description" "CAP CER 100nF 0.1UF 50V X7R 0402"
 			(at 86.106 90.17 0)
 			(effects
 				(font
@@ -13296,7 +13341,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "0201-0100-00086"
+		(property "PartNumber" "0201-0100-00001"
 			(at 91.44 90.17 0)
 			(effects
 				(font
@@ -13614,158 +13659,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Device:C")
-		(at 133.35 19.05 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b2758b1d-58ae-4841-80ac-b41d96dc01db")
-		(property "Reference" "C27"
-			(at 133.35 14.986 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1u"
-			(at 133.35 16.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
-			(at 127.508 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 126.492 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized Capacitor"
-			(at 129.032 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" ""
-			(at 133.35 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "4a681b0f-77fa-46aa-9317-3b4ebd6bcaa2")
-		)
-		(pin "1"
-			(uuid "b58028c8-e12e-4e5e-987a-0e9c8cb07f60")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
-					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Device:C")
-		(at 205.74 19.05 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b2cfb5de-cf23-4cab-81a6-c0fc02fd7a58")
-		(property "Reference" "C28"
-			(at 205.74 14.986 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1u"
-			(at 205.74 16.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
-			(at 199.898 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.882 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized Capacitor"
-			(at 201.422 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" ""
-			(at 205.74 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d3326f78-86a9-4c4e-8ccd-42ca51304c9e")
-		)
-		(pin "1"
-			(uuid "e40841e1-a5e8-4405-93e4-8296428c9c61")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
-					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DX_IC_Amplifier_OPAMP:APX321WG-7")
 		(at 316.23 39.37 0)
 		(unit 1)
@@ -14058,6 +13951,82 @@
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
 					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Capacitor_Ceramic:CL10A105KA8NNNC")
+		(at 205.74 19.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b85463cc-1a4a-4aac-a79f-22d32e4e4c6a")
+		(property "Reference" "C28"
+			(at 205.74 14.986 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 205.74 16.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
+			(at 197.612 18.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL10A105KA8NNNC.pdf"
+			(at 195.834 18.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 25V X5R 0603"
+			(at 194.056 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00051"
+			(at 199.39 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f51bfade-6719-4d73-859c-fe2a16879979")
+		)
+		(pin "2"
+			(uuid "2c0ebaae-5a2f-4074-aa84-1029e5755e9e")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -14415,7 +14384,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "na"
+		(property "PartNumber" "0802-0200-00003"
 			(at 44.45 37.338 0)
 			(effects
 				(font
@@ -14604,84 +14573,6 @@
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
 					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Capacitor_Ceramic:CL05A104KA5NNNC")
-		(at 38.1 80.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bf7abd3c-a850-4afb-9979-eac997422c2a")
-		(property "Reference" "C50"
-			(at 37.084 79.248 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 37.084 81.026 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
-			(at 29.972 78.994 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${DATASHEETS}/CL05A104KA5NNNC.pdf"
-			(at 28.194 78.994 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 100nF 0.1UF 25V X5R 0402"
-			(at 26.416 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" "0201-0100-00086"
-			(at 31.75 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d36ef064-4e70-4c80-ab44-05857f7cf681")
-		)
-		(pin "2"
-			(uuid "4b2dea63-8a8a-4243-9d00-d85a74e606cd")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
-					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -14898,7 +14789,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "na"
+		(property "PartNumber" "0204-0200-00031"
 			(at 344.17 43.688 0)
 			(effects
 				(font
@@ -15584,7 +15475,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "na"
+		(property "PartNumber" "0802-0200-00003"
 			(at 44.45 88.138 0)
 			(effects
 				(font
@@ -15680,7 +15571,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "na"
+		(property "PartNumber" "0204-0100-00019"
 			(at 166.37 46.228 0)
 			(effects
 				(font
@@ -15823,7 +15714,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "na"
+		(property "PartNumber" "0204-0200-00031"
 			(at 271.78 102.108 0)
 			(effects
 				(font
@@ -15842,6 +15733,84 @@
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
 					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Capacitor_Ceramic:CL05A105KO5NNNC")
+		(at 38.1 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7d4ae18-85fa-4230-94af-819b50ddc8b1")
+		(property "Reference" "C50"
+			(at 37.084 79.248 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 37.084 81.026 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 29.972 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL05A105KO5NNNC.pdf"
+			(at 28.194 78.994 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 16V X5R 0402"
+			(at 26.416 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00050"
+			(at 31.75 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "be88504f-f0bd-42c6-9bc2-8318b6c98c22")
+		)
+		(pin "1"
+			(uuid "799e38cd-90e3-467c-89cb-db9cd3740a84")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -16000,6 +15969,82 @@
 		)
 	)
 	(symbol
+		(lib_id "DX_Capacitor_Ceramic:CL10A105KA8NNNC")
+		(at 133.35 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e07150ee-4d8d-4c27-a853-8dee86a1748d")
+		(property "Reference" "C31"
+			(at 133.35 73.406 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 133.35 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
+			(at 125.222 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL10A105KA8NNNC.pdf"
+			(at 123.444 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 25V X5R 0603"
+			(at 121.666 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00051"
+			(at 127 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57e79182-cb84-4983-b353-84c1972292a3")
+		)
+		(pin "2"
+			(uuid "da7d96e9-401a-4e0c-af74-8affbd517ce3")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 208.28 77.47 90)
 		(unit 1)
@@ -16118,7 +16163,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "na"
+		(property "PartNumber" "0204-0100-00019"
 			(at 238.76 46.228 0)
 			(effects
 				(font
@@ -16137,6 +16182,82 @@
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
 					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Capacitor_Ceramic:CL10A105KA8NNNC")
+		(at 278.13 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2e97fac-c2dc-467f-a678-24f723fc5e47")
+		(property "Reference" "C33"
+			(at 278.13 73.406 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 278.13 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
+			(at 270.002 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL10A105KA8NNNC.pdf"
+			(at 268.224 76.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 25V X5R 0603"
+			(at 266.446 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00051"
+			(at 271.78 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "082f7c19-87ca-404a-878d-9cc31ffaef40")
+		)
+		(pin "2"
+			(uuid "acd4f970-5b5e-401f-a268-1e1c5b6dd22a")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -16208,6 +16329,82 @@
 		)
 	)
 	(symbol
+		(lib_id "DX_Capacitor_Ceramic:CL10A105KA8NNNC")
+		(at 350.52 19.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e48743ed-485a-4756-8dfe-b46feb10c16f")
+		(property "Reference" "C30"
+			(at 350.52 14.986 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 350.52 16.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
+			(at 342.392 18.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL10A105KA8NNNC.pdf"
+			(at 340.614 18.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 25V X5R 0603"
+			(at 338.836 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00051"
+			(at 344.17 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8eecfd6-22ae-47a8-9560-b80e8e474520")
+		)
+		(pin "2"
+			(uuid "88c069f9-8ed6-4122-9984-731d7bda39e3")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 331.47 115.57 0)
 		(unit 1)
@@ -16273,7 +16470,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Capacitor_Ceramic:CL05A104KA5NNNC")
+		(lib_id "DX_Capacitor_Ceramic:GRM155R71H104KE14J")
 		(at 170.18 31.75 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16308,7 +16505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${DATASHEETS}/CL05A104KA5NNNC.pdf"
+		(property "Datasheet" "${DATASHEETS}/GRM155R71H104KE14J.pdf"
 			(at 160.274 30.734 0)
 			(effects
 				(font
@@ -16317,7 +16514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 100nF 0.1UF 25V X5R 0402"
+		(property "Description" "CAP CER 100nF 0.1UF 50V X7R 0402"
 			(at 158.496 31.75 0)
 			(effects
 				(font
@@ -16326,7 +16523,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "0201-0100-00086"
+		(property "PartNumber" "0201-0100-00001"
 			(at 163.83 31.75 0)
 			(effects
 				(font
@@ -16438,7 +16635,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Capacitor_Ceramic:CL05A104KA5NNNC")
+		(lib_id "DX_Capacitor_Ceramic:GRM155R71H104KE14J")
 		(at 38.1 33.02 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16473,7 +16670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${DATASHEETS}/CL05A104KA5NNNC.pdf"
+		(property "Datasheet" "${DATASHEETS}/GRM155R71H104KE14J.pdf"
 			(at 28.194 32.004 0)
 			(effects
 				(font
@@ -16482,7 +16679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 100nF 0.1UF 25V X5R 0402"
+		(property "Description" "CAP CER 100nF 0.1UF 50V X7R 0402"
 			(at 26.416 33.02 0)
 			(effects
 				(font
@@ -16491,7 +16688,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "0201-0100-00086"
+		(property "PartNumber" "0201-0100-00001"
 			(at 31.75 33.02 0)
 			(effects
 				(font
@@ -16763,82 +16960,6 @@
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
 					(reference "R40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Device:C")
-		(at 350.52 19.05 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ef8e0572-b400-41d3-ad2c-8d596471856c")
-		(property "Reference" "C30"
-			(at 350.52 14.986 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1u"
-			(at 350.52 16.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
-			(at 344.678 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 343.662 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized Capacitor"
-			(at 346.202 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" ""
-			(at 350.52 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e0ec320e-3c06-4f35-b9be-50654b2c6231")
-		)
-		(pin "1"
-			(uuid "18d827fa-a9c1-4b57-8194-d48aa56fb487")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
-					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -17183,7 +17304,7 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "na"
+		(property "PartNumber" "0204-0100-00019"
 			(at 93.98 46.228 0)
 			(effects
 				(font

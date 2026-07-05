@@ -140,6 +140,266 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "DX_Capacitor_Ceramic:CL05A105KO5NNNC"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.794 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1u"
+				(at 2.794 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+				(at 1.016 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${DATASHEETS}/CL05A105KO5NNNC.pdf"
+				(at 1.016 9.906 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 1UF 16V X5R 0402"
+				(at 0 11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PartNumber" "0201-0100-00050"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CL05A105KO5NNNC_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CL05A105KO5NNNC_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DX_Capacitor_Ceramic:CL10A105KA8NNNC"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.794 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1u"
+				(at 2.794 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
+				(at 1.016 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${DATASHEETS}/CL10A105KA8NNNC.pdf"
+				(at 1.016 9.906 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 1UF 25V X5R 0603"
+				(at 0 11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PartNumber" "0201-0100-00051"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CL10A105KA8NNNC_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CL10A105KA8NNNC_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "DX_Capacitor_Ceramic:CL21A475KLCLQNC"
 			(pin_numbers
 				(hide yes)
@@ -270,7 +530,267 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DX_Capacitor_Electro:HILITCHI-8-CAP-ALUM-100U"
+		(symbol "DX_Capacitor_Ceramic:CL32A106KAULNNE"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.794 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10u"
+				(at 2.794 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Daxxn_Standard_Capacitors:CAP_1210"
+				(at 1.016 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${DATASHEETS}/CL32A106KAULNNE.pdf"
+				(at 1.016 9.906 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 10UF 25V X5R 1210"
+				(at 0 11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PartNumber" "0201-0100-00040"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CL32A106KAULNNE_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CL32A106KAULNNE_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DX_Capacitor_Ceramic:GRM155R71H104KE14J"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.794 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100n"
+				(at 2.794 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+				(at 1.016 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${DATASHEETS}/GRM155R71H104KE14J.pdf"
+				(at 1.016 9.906 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 100nF 0.1UF 50V X7R 0402"
+				(at 0 11.684 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PartNumber" "0201-0100-00001"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GRM155R71H104KE14J_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GRM155R71H104KE14J_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DX_Capacitor_Electrolytic:HILITCHI-8-CAP-ALUM-100U"
 			(pin_numbers
 				(hide yes)
 			)
@@ -431,7 +951,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DX_Capacitor_Electro:UWT1H101MNL1GS"
+		(symbol "DX_Capacitor_Electrolytic:UWT1H101MNL1GS"
 			(pin_numbers
 				(hide yes)
 			)
@@ -592,7 +1112,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DX_Capacitor_Tant:TCJB106M035R0200"
+		(symbol "DX_Capacitor_Tantalum:TCJB106M035R0200"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2160,144 +2680,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DX_Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 1.016 0.635 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R"
-				(at 1.016 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-				(at 0 5.334 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "r resistor daxxn"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_1_1"
-				(polyline
-					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.016)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.016)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "DX_Device_Power:VCC-USB"
 			(power)
 			(pin_names
@@ -2420,7 +2802,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DX_IC_Logic_Buffer:TC7PZ17FU"
+		(symbol "DX_IC_Logic_Buffer:TC7PZ17FU,LJ(CT"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2432,7 +2814,7 @@
 					)
 				)
 			)
-			(property "Value" "TC7PZ17FU"
+			(property "Value" "TC7PZ17FU,LJ(CT"
 				(at 7.874 4.318 0)
 				(effects
 					(font
@@ -2441,32 +2823,29 @@
 				)
 			)
 			(property "Footprint" "Daxxn_Packages:SOT-363_SC-70-6"
-				(at 0 12.7 0)
+				(at 0 10.668 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
 			(property "Datasheet" "${DATASHEETS}/TC7PZ17FU.pdf"
-				(at 0 11.43 0)
+				(at 0 9.398 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
 			(property "Description" "Buffer, Non-Inverting 2 Element 1 Bit per Element Push-Pull Output SC-70-6"
-				(at 0 10.16 0)
+				(at 0 8.128 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
@@ -2487,7 +2866,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TC7PZ17FU_0_0"
+			(symbol "TC7PZ17FU,LJ(CT_0_0"
 				(pin unspecified line
 					(at 0 0 0)
 					(length 2.54)
@@ -2597,7 +2976,7 @@
 					)
 				)
 			)
-			(symbol "TC7PZ17FU_0_1"
+			(symbol "TC7PZ17FU,LJ(CT_0_1"
 				(rectangle
 					(start 2.54 1.27)
 					(end 12.7 -6.35)
@@ -2657,31 +3036,9 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 8.255 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 8.255 -5.08)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
-						(xy 8.509 0) (xy 9.017 0)
+						(xy 8.001 0) (xy 8.509 0)
 					)
 					(stroke
 						(width 0)
@@ -2693,7 +3050,7 @@
 				)
 				(polyline
 					(pts
-						(xy 8.509 -5.08) (xy 9.017 -5.08)
+						(xy 8.001 -5.08) (xy 8.509 -5.08)
 					)
 					(stroke
 						(width 0)
@@ -2711,7 +3068,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 4.318 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2720,7 +3077,7 @@
 				)
 			)
 			(property "Value" "STM32F072CBU6"
-				(at 0 2.54 0)
+				(at 0 2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2734,7 +3091,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
@@ -2744,7 +3100,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
@@ -2754,12 +3109,11 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
 			(property "PartNumber" "0807-0200-00002"
-				(at 0 1.016 0)
+				(at 0 0.762 0)
 				(effects
 					(font
 						(size 1 1)
@@ -2824,7 +3178,6 @@
 				(pin power_in line
 					(at -2.54 -7.62 0)
 					(length 2.54)
-					(hide yes)
 					(name "VDD"
 						(effects
 							(font
@@ -2915,7 +3268,6 @@
 				(pin power_in line
 					(at -2.54 -22.86 0)
 					(length 2.54)
-					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -2934,7 +3286,6 @@
 				(pin power_in line
 					(at -2.54 -22.86 0)
 					(length 2.54)
-					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -2953,7 +3304,6 @@
 				(pin power_in line
 					(at -2.54 -22.86 0)
 					(length 2.54)
-					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -3055,6 +3405,15 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(text "x2"
+					(at 4.826 -7.62 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left)
 					)
 				)
 			)
@@ -4051,7 +4410,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 18.542 4.318 0)
+				(at 18.542 4.064 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4060,7 +4419,7 @@
 				)
 			)
 			(property "Value" "AP33772DKZ-13"
-				(at 18.542 2.54 0)
+				(at 18.542 2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4069,7 +4428,7 @@
 				)
 			)
 			(property "Footprint" "Daxxn_Packages:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm"
-				(at 10.16 9.906 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4078,7 +4437,7 @@
 				)
 			)
 			(property "Datasheet" "${DATASHEETS}/AP33772.pdf"
-				(at 10.16 11.43 0)
+				(at 0 9.144 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4087,7 +4446,7 @@
 				)
 			)
 			(property "Description" "USB, Type-C Controller PMIC W-QFN4040-24 (Type A1)"
-				(at 10.16 12.954 0)
+				(at 0 10.668 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4096,7 +4455,7 @@
 				)
 			)
 			(property "PartNumber" "0811-0600-00001"
-				(at 18.542 1.016 0)
+				(at 18.542 0.762 0)
 				(effects
 					(font
 						(size 1 1)
@@ -5393,6 +5752,888 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "DX_Resistor:RC0402FR-135K1L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.016 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "5K1"
+				(at 1.016 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+				(at 0 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES 5.1K OHM 1% 1/16W 0402"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PartNumber" "0204-0000-00115"
+				(at 0 7.874 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor daxxn"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RC0402FR-135K1L_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DX_Resistor:RC0402JR-07100RL"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.016 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100"
+				(at 1.016 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+				(at 0 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES 100 OHM 5% 1/16W 0402"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PartNumber" "0204-0000-00011"
+				(at 0 7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor daxxn"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RC0402JR-07100RL_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DX_Resistor:RC0402JR-0710KL"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.016 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10K"
+				(at 1.016 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+				(at 0 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES 10K OHM 5% 1/16W 0402"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PartNumber" "0204-0000-00016"
+				(at 0 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor daxxn"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RC0402JR-0710KL_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DX_Resistor:RC0402JR-071KL"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.016 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1K"
+				(at 1.016 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+				(at 0 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES 1K OHM 5% 1/16W 0402"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PartNumber" "0204-0000-00032"
+				(at 0 7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor daxxn"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RC0402JR-071KL_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DX_Resistor:RMCF0402FT100K"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.016 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100K"
+				(at 1.016 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+				(at 0 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${DATASHEETS}/SEI-RMCF_RMCP.pdf"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES 100K OHM 1% 1/16W 0402"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PartNumber" "0204-0000-00013"
+				(at 0 7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor daxxn"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RMCF0402FT100K_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DX_Resistor:WR04X3301FTL"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.016 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "3K3"
+				(at 1.016 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+				(at 0 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${DATASHEETS}/ASC_WR.pdf"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES 3.3K OHM 1% 1/16W 0402"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PartNumber" "0204-0000-00056"
+				(at 0 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor daxxn"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WR04X3301FTL_1_1"
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "DX_Resistor_Sense:CSR1206FT10L0"
 			(pin_numbers
 				(hide yes)
@@ -5521,7 +6762,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DX_Sensor_Temperature:ERT-J0EG103FA"
+		(symbol "DX_Sensor_Temp:ERT-J0EG103FA"
 			(pin_numbers
 				(hide yes)
 			)
@@ -6146,7 +7387,7 @@
 				(offset 0)
 				(hide yes)
 			)
-			(exclude_from_sim yes)
+			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "JP"
@@ -6337,7 +7578,7 @@
 				(offset 1.016)
 				(hide yes)
 			)
-			(exclude_from_sim yes)
+			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
@@ -6426,176 +7667,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "TL1105VF250Q_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 6.096 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TL1105VF250Q"
-				(at 0 4.572 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Daxxn_Controls_Buttons:TL1105VF"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "${DATASHEETS}/TL1105.pdf"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SWITCH TACTILE SPST-NO 0.05A 12V"
-				(at 0 10.414 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PartNumber" "0401-0000-00029"
-				(at 0 3.048 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "ki_keywords" "switch button push"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TL1105VF250Q_1_0_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 1.905)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.5)
-					(name "M"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11744,16 +12815,17 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Device:C")
-		(at 232.41 33.02 0)
+		(lib_id "DX_Capacitor_Ceramic:GRM155R71H104KE14J")
+		(at 171.45 114.3 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "01244cee-ba7c-4a83-bdc7-a7ad2c186d53")
-		(property "Reference" "C12"
-			(at 232.664 31.496 0)
+		(uuid "00e96408-f0b1-458d-b7d7-73af42102852")
+		(property "Reference" "C18"
+			(at 171.196 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11761,8 +12833,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
-			(at 232.664 34.925 0)
+		(property "Value" "100n"
+			(at 171.196 116.078 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11770,8 +12842,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
-			(at 232.41 27.178 0)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 170.434 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11779,8 +12851,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 232.41 26.162 0)
+		(property "Datasheet" "${DATASHEETS}/GRM155R71H104KE14J.pdf"
+			(at 170.434 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11788,8 +12860,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized Capacitor"
-			(at 232.41 28.702 0)
+		(property "Description" "CAP CER 100nF 0.1UF 50V X7R 0402"
+			(at 171.45 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11797,24 +12869,103 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" ""
-			(at 232.41 33.02 0)
+		(property "PartNumber" "0201-0100-00001"
+			(at 171.45 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "5475c90c-4a72-4475-8431-1b38e6089bc7")
 		)
 		(pin "1"
-			(uuid "dfbe25c0-ecce-41c6-af54-aa4d9aac0d4c")
+			(uuid "f142e5b7-730a-4517-b3eb-bf66d9f15cbf")
+		)
+		(pin "2"
+			(uuid "785e2e65-6a3a-4fc2-b3fc-2b1363687e3e")
 		)
 		(instances
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "C12")
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Resistor:WR04X3301FTL")
+		(at 139.7 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04760377-7e18-49d4-96e2-458ea092df05")
+		(property "Reference" "R16"
+			(at 140.716 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3K3"
+			(at 140.716 169.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+			(at 139.7 163.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/ASC_WR.pdf"
+			(at 139.7 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 3.3K OHM 1% 1/16W 0402"
+			(at 139.7 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0204-0000-00056"
+			(at 139.7 160.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "18b0681b-1a1a-45b6-a9ad-dbc655494d28")
+		)
+		(pin "1"
+			(uuid "a564c341-190d-4d2b-b70c-125a13d35e78")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -11880,75 +13031,6 @@
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b"
 					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Device:R")
-		(at 139.7 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "05d7a118-1dbe-486c-9a88-87589105c63f")
-		(property "Reference" "R16"
-			(at 140.97 168.148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3K3"
-			(at 140.97 169.799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 139.7 163.576 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 139.7 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 139.7 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1f9218f2-0929-4a52-8f9d-b4802f84de9d")
-		)
-		(pin "2"
-			(uuid "125288a4-c5ef-40b8-9f60-6666c5d7fd19")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -12033,17 +13115,17 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Device:C")
-		(at 176.53 54.61 0)
+		(lib_id "DX_Capacitor_Ceramic:GRM155R71H104KE14J")
+		(at 181.61 114.3 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0831aff0-7d7c-4887-8d79-b02a0c8705a2")
-		(property "Reference" "C14"
-			(at 176.276 53.086 0)
+		(uuid "07d7f26b-a0e3-42b0-9bb3-c653642abb6b")
+		(property "Reference" "C20"
+			(at 181.356 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12051,8 +13133,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
-			(at 176.276 56.515 0)
+		(property "Value" "100n"
+			(at 181.356 116.078 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12061,7 +13143,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
-			(at 176.53 48.768 0)
+			(at 180.594 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12069,8 +13151,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 176.53 47.752 0)
+		(property "Datasheet" "${DATASHEETS}/GRM155R71H104KE14J.pdf"
+			(at 180.594 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12078,8 +13160,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized Capacitor"
-			(at 176.53 50.292 0)
+		(property "Description" "CAP CER 100nF 0.1UF 50V X7R 0402"
+			(at 181.61 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12087,16 +13169,25 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "89193637-71d7-47e1-a7ab-e72c13d7f0d5")
+		(property "PartNumber" "0201-0100-00001"
+			(at 181.61 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "d874e243-2cbc-4302-bdea-4572411a4d5d")
+			(uuid "aa418603-bcde-4b55-bd19-f25273615741")
+		)
+		(pin "2"
+			(uuid "0bab2cb8-8399-4f8e-847e-ac02a9a82f0a")
 		)
 		(instances
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "C14")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -12188,6 +13279,164 @@
 		)
 	)
 	(symbol
+		(lib_id "DX_Capacitor_Ceramic:GRM155R71H104KE14J")
+		(at 234.95 157.48 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0af60b8e-d442-4142-a044-4d61fc93cf04")
+		(property "Reference" "C26"
+			(at 234.696 155.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 234.696 159.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 233.934 149.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/GRM155R71H104KE14J.pdf"
+			(at 233.934 147.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 100nF 0.1UF 50V X7R 0402"
+			(at 234.95 145.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00001"
+			(at 234.95 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1334e84c-b10f-4bd3-8804-3d8ddcc8c511")
+		)
+		(pin "2"
+			(uuid "efdf1496-4f6f-476a-9dd2-c90bfbcbf1e0")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Capacitor_Ceramic:GRM155R71H104KE14J")
+		(at 191.77 114.3 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ba1a572-08db-4b1f-9db4-565cca89ce2d")
+		(property "Reference" "C22"
+			(at 191.516 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 191.516 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 190.754 106.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/GRM155R71H104KE14J.pdf"
+			(at 190.754 104.394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 100nF 0.1UF 50V X7R 0402"
+			(at 191.77 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00001"
+			(at 191.77 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc924aa6-7b08-4210-a948-14bb5cd489c8")
+		)
+		(pin "2"
+			(uuid "233fd204-3515-4db3-8046-b4625e141d52")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 88.9 121.92 0)
 		(unit 1)
@@ -12253,155 +13502,16 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Device:R")
-		(at 95.25 220.98 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "13597ec4-a34d-47cb-8ec9-bc9bc790ae41")
-		(property "Reference" "R28"
-			(at 94.234 220.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 94.234 221.996 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 95.25 215.646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 95.25 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5637ed8a-b0ec-4f0b-8200-cf0f922ea59f")
-		)
-		(pin "2"
-			(uuid "bb78ed88-07ab-4447-a976-cc019e5b80c9")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Device:R")
-		(at 208.28 69.85 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "13831521-fb7a-4c72-a3ec-7206d6a6d617")
-		(property "Reference" "R29"
-			(at 208.28 71.882 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100K"
-			(at 208.28 73.533 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 213.614 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 212.09 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ed2a430-8baf-435c-90aa-9284bc3aa525")
-		)
-		(pin "2"
-			(uuid "935bdc8c-7f35-47dd-846b-2ccf40fc348b")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "R29")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Device:R")
+		(lib_id "DX_Resistor:RC0402JR-071KL")
 		(at 109.22 220.98 0)
-		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1394f2c7-dffe-430a-8875-5592e48770b4")
+		(uuid "17b318cc-5c11-47df-a9cf-39af154e5371")
 		(property "Reference" "R10"
-			(at 108.204 220.345 0)
+			(at 110.236 220.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12410,7 +13520,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 108.204 221.996 0)
+			(at 110.236 221.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12427,7 +13537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
 			(at 109.22 214.63 0)
 			(effects
 				(font
@@ -12436,7 +13546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 1K OHM 5% 1/16W 0402"
 			(at 109.22 217.17 0)
 			(effects
 				(font
@@ -12445,94 +13555,25 @@
 				(hide yes)
 			)
 		)
+		(property "PartNumber" "0204-0000-00032"
+			(at 109.22 213.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "1bb67fe8-0e2b-4433-a1cb-8bbffe771fbd")
+			(uuid "758e4a43-1b84-4247-be67-982d791fd036")
 		)
 		(pin "2"
-			(uuid "99809980-a1be-4688-b303-4b72891e10eb")
+			(uuid "8a7ba61d-680d-49c0-bf91-a655be926c91")
 		)
 		(instances
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Device:C")
-		(at 199.39 33.02 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "158c1102-bb86-4489-84f3-197e969144c0")
-		(property "Reference" "C9"
-			(at 199.136 31.496 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 199.136 34.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
-			(at 199.39 27.178 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 26.162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized Capacitor"
-			(at 199.39 28.702 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" ""
-			(at 199.39 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e47c827c-0a63-4bb4-a5d3-9c78c8837f1a")
-		)
-		(pin "1"
-			(uuid "9607f3e4-a484-46fc-a345-34ad3314e890")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -12745,7 +13786,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Capacitor_Tant:TCJB106M035R0200")
+		(lib_id "DX_Capacitor_Tantalum:TCJB106M035R0200")
 		(at 146.05 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12817,6 +13858,162 @@
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Capacitor_Ceramic:CL10A105KA8NNNC")
+		(at 100.33 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1bff3ad3-5247-48dd-8e08-d6b91f4c369e")
+		(property "Reference" "C5"
+			(at 100.584 28.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 100.584 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
+			(at 101.346 22.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL10A105KA8NNNC.pdf"
+			(at 101.346 20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 25V X5R 0603"
+			(at 100.33 18.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00051"
+			(at 100.33 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90d76cfc-93e5-47d0-b7e3-ae4777db7d7a")
+		)
+		(pin "2"
+			(uuid "eb144bf7-55b9-4538-a694-a49a186017d2")
+		)
+		(instances
+			(project ""
+				(path "/528a920b-dd40-4828-87b9-18775790300b"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Resistor:WR04X3301FTL")
+		(at 133.35 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1cfd00e6-0d43-4890-a6bc-0ea067e8d967")
+		(property "Reference" "R15"
+			(at 134.366 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3K3"
+			(at 134.366 169.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+			(at 133.35 163.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/ASC_WR.pdf"
+			(at 133.35 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 3.3K OHM 1% 1/16W 0402"
+			(at 133.35 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0204-0000-00056"
+			(at 133.35 160.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9e52c10d-5aa8-4979-887e-2285705c262e")
+		)
+		(pin "1"
+			(uuid "4b1693ae-00b8-4e7b-996f-e014677a75aa")
+		)
+		(instances
+			(project ""
+				(path "/528a920b-dd40-4828-87b9-18775790300b"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -12911,6 +14108,85 @@
 		)
 	)
 	(symbol
+		(lib_id "DX_Capacitor_Ceramic:GRM155R71H104KE14J")
+		(at 34.29 114.3 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d360832-3c99-4a96-bbd5-667594f37621")
+		(property "Reference" "C16"
+			(at 34.036 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 34.036 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 33.274 106.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/GRM155R71H104KE14J.pdf"
+			(at 33.274 104.394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 100nF 0.1UF 50V X7R 0402"
+			(at 34.29 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00001"
+			(at 34.29 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "44b24db7-7500-4ebc-9162-77699210d168")
+		)
+		(pin "2"
+			(uuid "75edd64c-8c61-4c6d-80a5-c861386b750a")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 199.39 25.4 0)
 		(unit 1)
@@ -12976,157 +14252,16 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Device:C")
-		(at 184.15 157.48 0)
-		(mirror y)
+		(lib_id "DX_Resistor:RC0402JR-0710KL")
+		(at 153.67 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "20653729-1044-472a-9c90-2d3f970c4106")
-		(property "Reference" "C25"
-			(at 183.896 155.956 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 183.896 159.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
-			(at 184.15 151.638 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 150.622 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized Capacitor"
-			(at 184.15 153.162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b605bc22-1f41-4668-8f7e-7ef751e170d6")
-		)
-		(pin "1"
-			(uuid "159f9199-3085-4676-9360-72501c6f67dc")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Device:R")
-		(at 87.63 58.42 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2415d67e-995a-4c6c-ab43-1d6ee9853742")
-		(property "Reference" "R7"
-			(at 86.36 57.658 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5K1"
-			(at 86.36 59.309 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 87.63 53.086 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 87.63 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b406f14-2aef-4c3d-b328-8c2a8abbe2a5")
-		)
-		(pin "2"
-			(uuid "7b4e6859-956b-4841-98a1-f54776fb815d")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Device:R")
-		(at 147.32 73.66 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "265332da-7fb7-4f75-a187-2001365df08b")
-		(property "Reference" "R8"
-			(at 146.05 72.898 0)
+		(uuid "210479be-37e3-4285-a85d-f0563005f504")
+		(property "Reference" "R9"
+			(at 154.686 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13135,7 +14270,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 146.05 74.549 0)
+			(at 154.686 74.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13144,7 +14279,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 147.32 68.326 0)
+			(at 153.67 68.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13152,8 +14287,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 147.32 67.31 0)
+		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
+			(at 153.67 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13161,8 +14296,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 147.32 69.85 0)
+		(property "Description" "RES 10K OHM 5% 1/16W 0402"
+			(at 153.67 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13170,16 +14305,25 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "ff5baa8c-94c5-4806-9d30-660075502811")
+		(property "PartNumber" "0204-0000-00016"
+			(at 153.67 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "4e014e37-2143-4b73-ad46-6633b0ae5072")
+			(uuid "09bbb687-8009-43b6-9dd2-34fb97ace92c")
+		)
+		(pin "1"
+			(uuid "ffaf60b1-b4a3-4010-ba9a-2d560b9f5386")
 		)
 		(instances
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -13245,6 +14389,85 @@
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Capacitor_Ceramic:GRM155R71H104KE14J")
+		(at 203.2 74.93 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29e05ba0-6826-46fc-8057-384a308e922f")
+		(property "Reference" "C36"
+			(at 202.946 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 202.946 76.708 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 202.184 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/GRM155R71H104KE14J.pdf"
+			(at 202.184 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 100nF 0.1UF 50V X7R 0402"
+			(at 203.2 63.246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00001"
+			(at 203.2 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b28e23f1-5c18-4d00-aeb2-8b85505bd827")
+		)
+		(pin "2"
+			(uuid "edd27a14-66aa-4b47-b866-3cb8d39569e0")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b"
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -13389,6 +14612,162 @@
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Capacitor_Ceramic:CL32A106KAULNNE")
+		(at 85.09 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35ae7e93-3d20-4ee0-b09d-cca038c10068")
+		(property "Reference" "C2"
+			(at 85.344 28.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 85.344 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_1210"
+			(at 86.106 22.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL32A106KAULNNE.pdf"
+			(at 86.106 20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10UF 25V X5R 1210"
+			(at 85.09 18.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00040"
+			(at 85.09 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "29a21e84-c741-405c-85b1-0516e0aca7ee")
+		)
+		(pin "1"
+			(uuid "d61b7b58-5c68-41e1-99df-1e76fd19564d")
+		)
+		(instances
+			(project ""
+				(path "/528a920b-dd40-4828-87b9-18775790300b"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Capacitor_Ceramic:CL21A475KLCLQNC")
+		(at 105.41 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36e2a2d5-6ad7-44f2-869c-1dc25892eac0")
+		(property "Reference" "C49"
+			(at 105.664 28.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 105.664 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0805"
+			(at 106.426 22.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL21A475KLCLQNC.pdf"
+			(at 106.426 20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 4.7UF 35V X5R 0805"
+			(at 105.41 18.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00074"
+			(at 105.41 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "382c5c6a-4a68-40fa-abd0-e6d0e7a0961f")
+		)
+		(pin "1"
+			(uuid "dd083262-7d31-4fb2-9d34-ff26a76bbbc0")
+		)
+		(instances
+			(project ""
+				(path "/528a920b-dd40-4828-87b9-18775790300b"
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -13610,6 +14989,84 @@
 		)
 	)
 	(symbol
+		(lib_id "DX_Resistor:RC0402JR-0710KL")
+		(at 147.32 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38947bba-4252-4871-a46b-670b8d755418")
+		(property "Reference" "R8"
+			(at 148.336 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 148.336 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+			(at 147.32 68.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
+			(at 147.32 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 10K OHM 5% 1/16W 0402"
+			(at 147.32 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0204-0000-00016"
+			(at 147.32 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "07d76acf-3571-4254-bd80-f1c7b0fb0e07")
+		)
+		(pin "1"
+			(uuid "1462b7b4-90e7-4e7f-89c8-63559415372f")
+		)
+		(instances
+			(project ""
+				(path "/528a920b-dd40-4828-87b9-18775790300b"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 215.9 40.64 0)
 		(unit 1)
@@ -13669,6 +15126,85 @@
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Resistor:RC0402FR-135K1L")
+		(at 87.63 58.42 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "411f8ee5-3f2a-4a03-8e37-e9f6bf37199e")
+		(property "Reference" "R7"
+			(at 86.614 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5K1"
+			(at 86.614 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+			(at 87.63 53.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
+			(at 87.63 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 5.1K OHM 1% 1/16W 0402"
+			(at 87.63 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0204-0000-00115"
+			(at 87.63 50.546 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "26193eee-b59b-4e93-9d58-ffa5ba478042")
+		)
+		(pin "1"
+			(uuid "c0247ee0-e1d3-40ec-9dd9-42e430142a82")
+		)
+		(instances
+			(project ""
+				(path "/528a920b-dd40-4828-87b9-18775790300b"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -13740,17 +15276,17 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Device:C")
-		(at 201.93 114.3 0)
+		(lib_id "DX_Capacitor_Ceramic:GRM155R71H104KE14J")
+		(at 166.37 114.3 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "442ed39a-3574-43fa-b09a-211c6f9d4cfe")
-		(property "Reference" "C24"
-			(at 201.676 112.776 0)
+		(uuid "4343f7f7-cafd-4f0a-b72f-f347eb33ff4e")
+		(property "Reference" "C17"
+			(at 166.116 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13759,7 +15295,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 201.676 116.205 0)
+			(at 166.116 116.078 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13768,7 +15304,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
-			(at 201.93 108.458 0)
+			(at 165.354 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13776,8 +15312,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 201.93 107.442 0)
+		(property "Datasheet" "${DATASHEETS}/GRM155R71H104KE14J.pdf"
+			(at 165.354 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13785,8 +15321,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized Capacitor"
-			(at 201.93 109.982 0)
+		(property "Description" "CAP CER 100nF 0.1UF 50V X7R 0402"
+			(at 166.37 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13794,16 +15330,25 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "ff6bd325-7ac2-4e88-8990-b4ba17da87e7")
+		(property "PartNumber" "0201-0100-00001"
+			(at 166.37 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "4eb7c443-4b4e-44d6-9805-8ce8516a62be")
+			(uuid "92a62b40-1265-4bfc-8678-0425b9769f2e")
+		)
+		(pin "2"
+			(uuid "d8fcb872-b018-45b5-8bdb-b61bfec1b25c")
 		)
 		(instances
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "C24")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -13875,6 +15420,84 @@
 		)
 	)
 	(symbol
+		(lib_id "DX_Resistor:RC0402JR-07100RL")
+		(at 130.81 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ac7a96b-dcdb-438a-8109-d61b860d5816")
+		(property "Reference" "R5"
+			(at 131.826 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 131.826 39.116 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+			(at 130.81 32.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
+			(at 130.81 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 100 OHM 5% 1/16W 0402"
+			(at 130.81 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0204-0000-00011"
+			(at 130.81 30.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "522c1390-34d0-4e09-aeab-9667801e26cc")
+		)
+		(pin "1"
+			(uuid "92d4c6aa-469c-49d2-bf42-33ae79973560")
+		)
+		(instances
+			(project ""
+				(path "/528a920b-dd40-4828-87b9-18775790300b"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 203.2 166.37 0)
 		(mirror y)
@@ -13935,6 +15558,82 @@
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Resistor:RMCF0402FT100K")
+		(at 208.28 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bd81379-5fe8-424c-94ec-cd4181c8c1bf")
+		(property "Reference" "R29"
+			(at 208.28 71.882 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100K"
+			(at 208.28 73.533 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+			(at 202.946 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/SEI-RMCF_RMCP.pdf"
+			(at 201.93 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 100K OHM 1% 1/16W 0402"
+			(at 204.47 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0204-0000-00013"
+			(at 200.406 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5dbc8ed8-fdab-42c9-a58a-4f73158b03a1")
+		)
+		(pin "2"
+			(uuid "2cf818f1-830b-473b-9e9d-94768c9a9b92")
+		)
+		(instances
+			(project ""
+				(path "/528a920b-dd40-4828-87b9-18775790300b"
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -14184,87 +15883,16 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Device:R")
-		(at 203.2 148.59 0)
-		(mirror y)
+		(lib_id "DX_Resistor:RC0402JR-071KL")
+		(at 53.34 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "55672d5e-2f5a-4a3e-a230-75d370d131ba")
-		(property "Reference" "R17"
-			(at 202.184 147.955 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100K"
-			(at 202.184 149.606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 203.2 143.256 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 203.2 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 203.2 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fedf7a8e-316d-4291-a384-5758f16ff98b")
-		)
-		(pin "2"
-			(uuid "66af4479-4a66-4c53-a0ee-616f54129bd2")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Device:R")
-		(at 81.28 220.98 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "592eec8a-2bdc-4214-bcd4-b119d9e71229")
-		(property "Reference" "R11"
-			(at 80.264 220.345 0)
+		(uuid "535705f3-38d3-44ea-8a5c-fe4dfab55595")
+		(property "Reference" "R13"
+			(at 54.356 220.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14273,7 +15901,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 80.264 221.996 0)
+			(at 54.356 221.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14282,7 +15910,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 81.28 215.646 0)
+			(at 53.34 215.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14290,8 +15918,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 81.28 214.63 0)
+		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
+			(at 53.34 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14299,8 +15927,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 81.28 217.17 0)
+		(property "Description" "RES 1K OHM 5% 1/16W 0402"
+			(at 53.34 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0204-0000-00032"
+			(at 53.34 213.106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14309,15 +15946,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "499eb606-d9b6-4942-9f75-b63345a916fa")
+			(uuid "196bac94-2601-4496-8755-0667e55585e3")
 		)
 		(pin "2"
-			(uuid "c74db60e-5a93-42f2-a8b0-babcdf22852e")
+			(uuid "29b41d11-f9ad-4c8b-9ac3-e4abd46e4cec")
 		)
 		(instances
-			(project "MicLightV2"
+			(project ""
 				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -14412,7 +16049,85 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_IC_Logic_Buffer:TC7PZ17FU")
+		(lib_id "DX_Resistor:RC0402JR-071KL")
+		(at 81.28 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c039400-67af-4dbd-a543-4661593cc021")
+		(property "Reference" "R11"
+			(at 82.296 220.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 82.296 221.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+			(at 81.28 215.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
+			(at 81.28 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 1K OHM 5% 1/16W 0402"
+			(at 81.28 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0204-0000-00032"
+			(at 81.28 213.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7129dbf-3720-4b12-8bb8-19d67bc436a1")
+		)
+		(pin "2"
+			(uuid "e7dd48da-aa44-41ba-9ff0-001a80e97fa0")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_IC_Logic_Buffer:TC7PZ17FU,LJ(CT")
 		(at 199.39 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14590,300 +16305,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Device:C")
-		(at 186.69 114.3 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5f40d23d-19d4-4ea9-b0c6-272d9554f4c7")
-		(property "Reference" "C21"
-			(at 186.436 112.776 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 186.436 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
-			(at 186.69 108.458 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.69 107.442 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized Capacitor"
-			(at 186.69 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a7341ae5-2114-4162-afbb-1f383cf5e1d4")
-		)
-		(pin "1"
-			(uuid "5ab67abb-fb56-4ac9-8d30-748a7f9cd87c")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Device:C")
-		(at 95.25 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "628be80f-7099-49b4-a2aa-8241e9c1a5ad")
-		(property "Reference" "C4"
-			(at 95.504 28.956 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 95.504 32.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_1210"
-			(at 95.25 24.638 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 23.622 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized Capacitor"
-			(at 95.25 26.162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" ""
-			(at 95.25 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2b4fb148-fe42-4304-bb2d-4664221da8d6")
-		)
-		(pin "1"
-			(uuid "9b47dece-7f68-40db-ba6c-a66abc0c4b85")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Device:C")
-		(at 100.33 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "63dee470-b1dc-4c71-8af1-b2395f607bdf")
-		(property "Reference" "C5"
-			(at 100.584 28.956 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 100.584 32.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
-			(at 100.33 24.638 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 23.622 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized Capacitor"
-			(at 100.33 26.162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" ""
-			(at 100.33 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7f9647c6-f30c-4ae9-9aff-fdc8ceb8ffee")
-		)
-		(pin "1"
-			(uuid "5df5d67d-c352-4239-9309-bd6233026283")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Device:C")
-		(at 176.53 114.3 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6e9df128-538a-44af-b24e-f9fe6afcb2ce")
-		(property "Reference" "C19"
-			(at 176.276 112.776 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 176.276 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
-			(at 176.53 108.458 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 107.442 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized Capacitor"
-			(at 176.53 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1bb7429e-2794-4b57-935b-f8fd3c26908b")
-		)
-		(pin "1"
-			(uuid "07b02b11-dc7b-4752-aeb5-f4326f4a2c19")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 127 116.84 0)
 		(unit 1)
@@ -14943,153 +16364,6 @@
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Device:C")
-		(at 90.17 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6fe94a00-8797-4d53-ba8f-0db6260f5aee")
-		(property "Reference" "C3"
-			(at 90.424 28.956 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 90.424 32.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_1210"
-			(at 90.17 24.638 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 23.622 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized Capacitor"
-			(at 90.17 26.162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" ""
-			(at 90.17 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "dc6997d8-980b-45ad-b5dd-346196b7408f")
-		)
-		(pin "1"
-			(uuid "7899cc92-59cb-4a23-9411-d3b19aa6a287")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Device:C")
-		(at 191.77 114.3 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ff8968f-0197-4520-8550-3099fd0623de")
-		(property "Reference" "C22"
-			(at 191.516 112.776 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 191.516 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
-			(at 191.77 108.458 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 191.77 107.442 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized Capacitor"
-			(at 191.77 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "84c8c349-62ec-403b-8cb9-c7d9f63e3ca0")
-		)
-		(pin "1"
-			(uuid "a42b6b34-0b9b-4fa7-86b9-ae5a7627d451")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -15161,143 +16435,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Device:R")
-		(at 119.38 110.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "71d8d497-56b7-4ba5-b0e5-feab02a578fd")
-		(property "Reference" "R3"
-			(at 119.38 106.934 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 119.38 108.585 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 114.046 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 115.57 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "40457704-e5cb-45e1-81c5-89b44617886e")
-		)
-		(pin "2"
-			(uuid "97584ec6-832d-4965-ac6f-7081fcad2664")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Device:R")
-		(at 67.31 220.98 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "71e488d1-4fbd-47c4-8e95-1251479041c8")
-		(property "Reference" "R12"
-			(at 66.294 220.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 66.294 221.996 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 67.31 215.646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 67.31 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 67.31 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "248c35e3-6334-4ac9-ba24-f6fc72b4d020")
-		)
-		(pin "2"
-			(uuid "9d1a3fb7-96b5-4b50-bc06-6bf8d05efe9a")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VDD")
 		(at 232.41 25.4 0)
 		(unit 1)
@@ -15357,75 +16494,6 @@
 			(project ""
 				(path "/528a920b-dd40-4828-87b9-18775790300b"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Device:R")
-		(at 153.67 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "743020cb-c84a-4258-a233-ddc8ff4ee05b")
-		(property "Reference" "R9"
-			(at 154.94 72.898 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 154.94 74.549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 153.67 68.326 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 153.67 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "babee9a1-65e7-41be-9835-a8d39bf9e749")
-		)
-		(pin "2"
-			(uuid "00471777-8335-4b50-a373-4efbb76e81d1")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -15498,7 +16566,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Capacitor_Electro:UWT1H101MNL1GS")
+		(lib_id "DX_Capacitor_Electrolytic:UWT1H101MNL1GS")
 		(at 58.42 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15576,7 +16644,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Sensor_Temperature:ERT-J0EG103FA")
+		(lib_id "DX_Sensor_Temp:ERT-J0EG103FA")
 		(at 102.87 66.04 0)
 		(mirror y)
 		(unit 1)
@@ -15714,76 +16782,6 @@
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Device:R")
-		(at 81.28 58.42 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "771cd868-87f0-4722-9534-0bf57cd04c1d")
-		(property "Reference" "R6"
-			(at 80.01 57.658 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5K1"
-			(at 80.01 59.309 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 81.28 53.086 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 81.28 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5f528bb-5aea-4b59-bd99-78b82eee5fd7")
-		)
-		(pin "2"
-			(uuid "54488d6f-d263-4378-9932-d75f091d06ff")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -16157,7 +17155,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Capacitor_Electro:HILITCHI-8-CAP-ALUM-100U")
+		(lib_id "DX_Capacitor_Electrolytic:HILITCHI-8-CAP-ALUM-100U")
 		(at 167.64 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16235,77 +17233,7 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Device:C")
-		(at 196.85 114.3 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "83d34581-a510-4d9c-8d5f-5558124a4ede")
-		(property "Reference" "C23"
-			(at 196.596 112.776 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 196.596 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
-			(at 196.85 108.458 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 196.85 107.442 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized Capacitor"
-			(at 196.85 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b182eb08-7b4b-4de4-9fdf-15aae32a1f55")
-		)
-		(pin "1"
-			(uuid "7754b9fe-bf8f-4792-b8a1-c312fd96e71b")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Capacitor_Tant:TCJB106M035R0200")
+		(lib_id "DX_Capacitor_Tantalum:TCJB106M035R0200")
 		(at 151.13 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16471,17 +17399,17 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Device:C")
-		(at 234.95 157.48 0)
+		(lib_id "DX_Capacitor_Ceramic:GRM155R71H104KE14J")
+		(at 171.45 54.61 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8948801c-0c69-46f6-9ea5-52ad725f0287")
-		(property "Reference" "C26"
-			(at 234.696 155.956 0)
+		(uuid "8941474a-bcfa-4cbb-a7c8-acb96d1bc231")
+		(property "Reference" "C13"
+			(at 171.196 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16490,7 +17418,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 234.696 159.385 0)
+			(at 171.196 56.388 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16499,7 +17427,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
-			(at 234.95 151.638 0)
+			(at 170.434 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16507,8 +17435,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 234.95 150.622 0)
+		(property "Datasheet" "${DATASHEETS}/GRM155R71H104KE14J.pdf"
+			(at 170.434 44.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16516,8 +17444,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized Capacitor"
-			(at 234.95 153.162 0)
+		(property "Description" "CAP CER 100nF 0.1UF 50V X7R 0402"
+			(at 171.45 42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16525,16 +17453,25 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "0484ce63-0516-44d0-adce-c02dda0736ab")
+		(property "PartNumber" "0201-0100-00001"
+			(at 171.45 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "24210aa1-2ae5-4ee9-8de9-b2cc2e0a7091")
+			(uuid "648a7fce-188d-4bae-843c-91f5027e178e")
+		)
+		(pin "2"
+			(uuid "a19f9dc8-a615-4362-8237-c3aae2e36453")
 		)
 		(instances
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "C26")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -16672,16 +17609,17 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Capacitor_Ceramic:CL21A475KLCLQNC")
-		(at 105.41 30.48 0)
+		(lib_id "DX_Capacitor_Ceramic:GRM155R71H104KE14J")
+		(at 196.85 114.3 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8cc24aad-355d-40d8-8118-32b984ae823e")
-		(property "Reference" "C49"
-			(at 105.664 28.956 0)
+		(uuid "8cef9a81-3547-47bb-80f9-3c22ac832fe2")
+		(property "Reference" "C23"
+			(at 196.596 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16689,8 +17627,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4u7"
-			(at 105.664 32.258 0)
+		(property "Value" "100n"
+			(at 196.596 116.078 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16698,8 +17636,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0805"
-			(at 106.426 22.352 0)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 195.834 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16707,8 +17645,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${DATASHEETS}/CL21A475KLCLQNC.pdf"
-			(at 106.426 20.574 0)
+		(property "Datasheet" "${DATASHEETS}/GRM155R71H104KE14J.pdf"
+			(at 195.834 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16716,8 +17654,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 4.7UF 35V X5R 0805"
-			(at 105.41 18.796 0)
+		(property "Description" "CAP CER 100nF 0.1UF 50V X7R 0402"
+			(at 196.85 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16725,8 +17663,8 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "0201-0100-00074"
-			(at 105.41 24.13 0)
+		(property "PartNumber" "0201-0100-00001"
+			(at 196.85 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16735,15 +17673,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3222b3ce-a9a9-4883-9244-01d036adc6c1")
+			(uuid "88559c41-9d32-4427-929d-ec50da4239f1")
 		)
 		(pin "2"
-			(uuid "85795937-5c46-4a7a-bad4-12c42f2b9d66")
+			(uuid "122469a7-fc30-4add-8613-4a4669fde14d")
 		)
 		(instances
-			(project ""
+			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "C49")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -16809,6 +17747,84 @@
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Capacitor_Ceramic:CL05A105KO5NNNC")
+		(at 176.53 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "925cf722-49d9-46ed-9247-6a940c495f23")
+		(property "Reference" "C14"
+			(at 176.784 53.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 176.784 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 177.546 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL05A105KO5NNNC.pdf"
+			(at 177.546 44.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 16V X5R 0402"
+			(at 176.53 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00050"
+			(at 176.53 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7872c404-96db-4d99-b555-5a16e188ec53")
+		)
+		(pin "1"
+			(uuid "4a3ea9dd-7ac2-4533-a0f8-fe0c8b6f3fb9")
+		)
+		(instances
+			(project ""
+				(path "/528a920b-dd40-4828-87b9-18775790300b"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -16958,17 +17974,17 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Device:C")
-		(at 203.2 74.93 0)
+		(lib_id "DX_Capacitor_Ceramic:GRM155R71H104KE14J")
+		(at 201.93 114.3 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9941fca0-7b6f-4a6f-86a5-5b06049adffe")
-		(property "Reference" "C36"
-			(at 202.946 73.406 0)
+		(uuid "9adb1c6c-16a1-4e53-b71a-e715a2094ece")
+		(property "Reference" "C24"
+			(at 201.676 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16977,7 +17993,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 202.946 76.835 0)
+			(at 201.676 116.078 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16986,7 +18002,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
-			(at 203.2 69.088 0)
+			(at 200.914 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16994,8 +18010,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 203.2 68.072 0)
+		(property "Datasheet" "${DATASHEETS}/GRM155R71H104KE14J.pdf"
+			(at 200.914 104.394 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17003,8 +18019,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized Capacitor"
-			(at 203.2 70.612 0)
+		(property "Description" "CAP CER 100nF 0.1UF 50V X7R 0402"
+			(at 201.93 102.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17012,68 +18028,8 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "ad37d0a2-d674-4678-8184-79cf9c5c553c")
-		)
-		(pin "1"
-			(uuid "e9edfdc8-278f-4c0e-b609-78b0bdef4290")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "C36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Device:R")
-		(at 127 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9aef729b-e5f8-46ad-a3ed-28f857541363")
-		(property "Reference" "R14"
-			(at 128.27 168.148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 128.27 169.799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 127 163.576 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 127 165.1 0)
+		(property "PartNumber" "0201-0100-00001"
+			(at 201.93 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17082,15 +18038,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "55aea90e-be4b-4597-b81e-88c898978ec5")
+			(uuid "cfa1d9bc-983f-443b-bcaa-2a5379a2662a")
 		)
 		(pin "2"
-			(uuid "a07318ce-7cbe-4c3c-a9bd-3ff4259cb846")
+			(uuid "f471836c-dfa1-425a-ac55-4bc376e8bf84")
 		)
 		(instances
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "R14")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -17162,76 +18118,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Device:R")
-		(at 53.34 220.98 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9b634a04-b211-4a42-aea5-721c2d4a4029")
-		(property "Reference" "R13"
-			(at 52.324 220.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 52.324 221.996 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 53.34 215.646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 53.34 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "503dc979-6f68-49e8-bb71-e4a3726832b3")
-		)
-		(pin "2"
-			(uuid "5eefb053-1afa-4312-9c19-8aa79f60a37d")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VDD")
 		(at 88.9 104.14 0)
 		(unit 1)
@@ -17297,7 +18183,6 @@
 		)
 	)
 	(symbol
-		(lib_name "TL1105VF250Q_1")
 		(lib_id "DX_Control_Button:TL1105VF250Q")
 		(at 203.2 158.75 90)
 		(mirror x)
@@ -17374,6 +18259,163 @@
 			(project ""
 				(path "/528a920b-dd40-4828-87b9-18775790300b"
 					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Resistor:RC0402JR-0710KL")
+		(at 127 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a15a71ad-6633-4fbd-9c54-5675d6f22cbd")
+		(property "Reference" "R14"
+			(at 128.016 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 128.016 169.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+			(at 127 163.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
+			(at 127 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 10K OHM 5% 1/16W 0402"
+			(at 127 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0204-0000-00016"
+			(at 127 160.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d7d505fd-2fc8-4e06-aa80-cef6bd0225be")
+		)
+		(pin "1"
+			(uuid "83449ad1-863b-4d09-9c8e-15a42c43979e")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Capacitor_Ceramic:GRM155R71H104KE14J")
+		(at 184.15 157.48 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a416496e-8d5d-42d1-a516-ebc2f6065257")
+		(property "Reference" "C25"
+			(at 183.896 155.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 183.896 159.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 183.134 149.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/GRM155R71H104KE14J.pdf"
+			(at 183.134 147.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 100nF 0.1UF 50V X7R 0402"
+			(at 184.15 145.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00001"
+			(at 184.15 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfbf6ff6-21d8-461b-9cc9-12b0f92be864")
+		)
+		(pin "2"
+			(uuid "0e77b1be-408e-41cd-af3f-b242d12c53fb")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b"
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -17858,17 +18900,16 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Device:C")
-		(at 34.29 114.3 0)
-		(mirror y)
+		(lib_id "DX_Resistor:RC0402JR-071KL")
+		(at 67.31 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ae7de831-6a2b-4e32-a056-38929067321f")
-		(property "Reference" "C16"
-			(at 34.036 112.776 0)
+		(uuid "af086427-7f07-4b81-b6eb-eb1c4ea086b2")
+		(property "Reference" "R12"
+			(at 68.326 220.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17876,8 +18917,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 34.036 116.205 0)
+		(property "Value" "1K"
+			(at 68.326 221.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17885,8 +18926,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
-			(at 34.29 108.458 0)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+			(at 67.31 215.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17894,8 +18935,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 34.29 107.442 0)
+		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
+			(at 67.31 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17903,8 +18944,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized Capacitor"
-			(at 34.29 109.982 0)
+		(property "Description" "RES 1K OHM 5% 1/16W 0402"
+			(at 67.31 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17912,16 +18953,25 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "ab4c7766-0838-4857-b15e-54853c010c99")
+		(property "PartNumber" "0204-0000-00032"
+			(at 67.31 213.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "c4d3dac5-ac2e-4ef4-a0ee-d24dec20f654")
+			(uuid "200f42e8-74c7-4e84-939b-2a56f576c7d3")
+		)
+		(pin "2"
+			(uuid "3eecb7c3-e73e-446f-a024-4a8a82b3a160")
 		)
 		(instances
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "C16")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -18006,17 +19056,17 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Device:R")
-		(at 254 148.59 0)
+		(lib_id "DX_Resistor:RC0402FR-135K1L")
+		(at 81.28 58.42 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b4bd59ac-4cd1-41e9-a62d-9e87357bec32")
-		(property "Reference" "R18"
-			(at 252.984 147.955 0)
+		(uuid "b3741a84-2835-4429-8a81-3b1d0a8365cf")
+		(property "Reference" "R6"
+			(at 80.264 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18024,8 +19074,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
-			(at 252.984 149.606 0)
+		(property "Value" "5K1"
+			(at 80.264 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18034,7 +19084,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 254 143.256 0)
+			(at 81.28 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18042,8 +19092,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 254 142.24 0)
+		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
+			(at 81.28 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18051,8 +19101,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 254 144.78 0)
+		(property "Description" "RES 5.1K OHM 1% 1/16W 0402"
+			(at 81.28 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18060,33 +19110,41 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "64c57f76-1282-49d5-9cb0-977233be68de")
+		(property "PartNumber" "0204-0000-00115"
+			(at 81.28 50.546 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "74f71457-27db-4d2e-a964-1f7d6739d0f4")
+			(uuid "a9ab881a-0f34-4519-81fb-06c45053c100")
+		)
+		(pin "1"
+			(uuid "59bb72b0-1a42-4770-8ee5-9c9e1424d395")
 		)
 		(instances
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "R18")
+					(reference "R6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "DX_Device:C")
-		(at 171.45 54.61 0)
-		(mirror y)
+		(lib_id "DX_Capacitor_Ceramic:CL10A105KA8NNNC")
+		(at 232.41 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bd65ece8-b4da-4fc0-a97d-9eac55b36a56")
-		(property "Reference" "C13"
-			(at 171.196 53.086 0)
+		(uuid "bd3be7f5-8abe-4338-887a-20c88ab75f62")
+		(property "Reference" "C12"
+			(at 232.664 31.496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18094,8 +19152,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 171.196 56.515 0)
+		(property "Value" "1u"
+			(at 232.664 34.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18103,8 +19161,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
-			(at 171.45 48.768 0)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
+			(at 233.426 24.892 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18112,8 +19170,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 171.45 47.752 0)
+		(property "Datasheet" "${DATASHEETS}/CL10A105KA8NNNC.pdf"
+			(at 233.426 23.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18121,8 +19179,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized Capacitor"
-			(at 171.45 50.292 0)
+		(property "Description" "CAP CER 1UF 25V X5R 0603"
+			(at 232.41 21.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18130,16 +19188,25 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "647525e7-4436-4c56-97d2-94ef61af95ea")
+		(property "PartNumber" "0201-0100-00051"
+			(at 232.41 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "d106cf10-1a31-46dd-a79b-9dc65b126b7d")
+			(uuid "e472de83-ea48-4bbe-88ba-f7f87be53810")
+		)
+		(pin "2"
+			(uuid "9829f0c1-506e-4ddb-8e71-e69a292ba557")
 		)
 		(instances
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "C13")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -18217,6 +19284,85 @@
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Capacitor_Ceramic:GRM155R71H104KE14J")
+		(at 186.69 114.3 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1929323-5bff-43ef-bb44-5228619c4201")
+		(property "Reference" "C21"
+			(at 186.436 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 186.436 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 185.674 106.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/GRM155R71H104KE14J.pdf"
+			(at 185.674 104.394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 100nF 0.1UF 50V X7R 0402"
+			(at 186.69 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00001"
+			(at 186.69 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b92f0e00-f3c8-4269-af0c-f619f7d42b31")
+		)
+		(pin "2"
+			(uuid "897ce426-d3d4-4a6c-a467-950cba17c365")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b"
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -18361,16 +19507,16 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Device:R")
-		(at 88.9 106.68 0)
+		(lib_id "DX_Resistor:RMCF0402FT100K")
+		(at 254 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "c42745e1-9b47-4039-a59f-30f6e31d3e37")
-		(property "Reference" "R1"
-			(at 90.17 105.918 0)
+		(uuid "c565f58b-60d0-4626-9b80-849db05e3cba")
+		(property "Reference" "R18"
+			(at 255.27 147.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18378,8 +19524,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
-			(at 90.17 107.569 0)
+		(property "Value" "100K"
+			(at 255.27 149.479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18388,7 +19534,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 88.9 101.346 0)
+			(at 254 143.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18396,8 +19542,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 88.9 100.33 0)
+		(property "Datasheet" "${DATASHEETS}/SEI-RMCF_RMCP.pdf"
+			(at 254 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18405,8 +19551,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 88.9 102.87 0)
+		(property "Description" "RES 100K OHM 1% 1/16W 0402"
+			(at 254 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0204-0000-00013"
+			(at 254 140.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18415,15 +19570,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d3c1d4e9-25cc-4b84-9c84-e9c649a63931")
+			(uuid "6980e32e-2bc8-48cf-b65a-d36c0519e236")
 		)
 		(pin "2"
-			(uuid "4c65b8a0-1594-4144-8d3d-2c0cb44ac0f4")
+			(uuid "1cb71e3b-5905-46e3-ab40-59f7df3a307f")
 		)
 		(instances
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "R1")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -18512,6 +19667,84 @@
 			(project ""
 				(path "/528a920b-dd40-4828-87b9-18775790300b"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Capacitor_Ceramic:CL32A106KAULNNE")
+		(at 95.25 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ccfeeff2-0cbe-49f6-9f88-06f8ab2511c3")
+		(property "Reference" "C4"
+			(at 95.504 28.956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 95.504 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_1210"
+			(at 96.266 22.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL32A106KAULNNE.pdf"
+			(at 96.266 20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 10UF 25V X5R 1210"
+			(at 95.25 18.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00040"
+			(at 95.25 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f41fdf99-99c4-4a0d-8ff3-fe273a0de6cf")
+		)
+		(pin "1"
+			(uuid "27c438a1-c776-43c5-b3f7-ab1afaba1b11")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -18880,6 +20113,85 @@
 		)
 	)
 	(symbol
+		(lib_id "DX_Capacitor_Ceramic:GRM155R71H104KE14J")
+		(at 110.49 66.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d33aa3ee-ce58-4b49-ab79-e9f5869a38ae")
+		(property "Reference" "C15"
+			(at 110.236 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 110.236 67.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 109.474 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/GRM155R71H104KE14J.pdf"
+			(at 109.474 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 100nF 0.1UF 50V X7R 0402"
+			(at 110.49 54.356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00001"
+			(at 110.49 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b137862-b9b5-4c79-bf9c-d64d792bdcde")
+		)
+		(pin "2"
+			(uuid "d2640c30-78fa-4802-8369-e1f06f6546b0")
+		)
+		(instances
+			(project ""
+				(path "/528a920b-dd40-4828-87b9-18775790300b"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:Jumper_3_Bridged12")
 		(at 127 110.49 270)
 		(unit 1)
@@ -18960,6 +20272,84 @@
 		)
 	)
 	(symbol
+		(lib_id "DX_Resistor:RC0402JR-0710KL")
+		(at 88.9 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5ec9f6e-342a-49ae-ac9c-d308cffeb11e")
+		(property "Reference" "R1"
+			(at 89.916 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 89.916 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+			(at 88.9 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
+			(at 88.9 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 10K OHM 5% 1/16W 0402"
+			(at 88.9 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0204-0000-00016"
+			(at 88.9 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8224f382-a67f-4f79-a682-a048cfd46c37")
+		)
+		(pin "1"
+			(uuid "79581c4a-820a-43ef-bf78-4e6bba0b623a")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 146.05 38.1 0)
 		(unit 1)
@@ -19025,17 +20415,16 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Device:C")
-		(at 166.37 114.3 0)
-		(mirror y)
+		(lib_id "DX_Resistor:RC0402JR-071KL")
+		(at 95.25 220.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d81d4ff1-c11e-4326-8d70-b0a2763a33e5")
-		(property "Reference" "C17"
-			(at 166.116 112.776 0)
+		(uuid "d9f80b8e-c9ff-4d1c-b321-889a3086b65b")
+		(property "Reference" "R28"
+			(at 96.266 220.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19043,8 +20432,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 166.116 116.205 0)
+		(property "Value" "1K"
+			(at 96.266 221.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19052,8 +20441,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
-			(at 166.37 108.458 0)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+			(at 95.25 215.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19061,8 +20450,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 166.37 107.442 0)
+		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
+			(at 95.25 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19070,8 +20459,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized Capacitor"
-			(at 166.37 109.982 0)
+		(property "Description" "RES 1K OHM 5% 1/16W 0402"
+			(at 95.25 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19079,16 +20468,25 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "14e182db-7bc8-4d22-b8a6-95227771c659")
+		(property "PartNumber" "0204-0000-00032"
+			(at 95.25 213.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "4301b63c-21ef-4ab1-9616-a54ac03ec4e8")
+			(uuid "ae2d01b0-5451-4afc-825d-6fb785978877")
+		)
+		(pin "2"
+			(uuid "09129895-77cb-4df0-8fc2-2c3ca14bb57b")
 		)
 		(instances
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "C17")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -19183,16 +20581,16 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Device:R")
-		(at 133.35 168.91 0)
+		(lib_id "DX_Resistor:RMCF0402FT100K")
+		(at 203.2 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e0c30936-e159-420b-93a8-29f706ff94c6")
-		(property "Reference" "R15"
-			(at 134.62 168.148 0)
+		(uuid "e4f9e8bf-1a63-4648-a040-b608543c8bf8")
+		(property "Reference" "R17"
+			(at 204.47 147.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19200,8 +20598,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3K3"
-			(at 134.62 169.799 0)
+		(property "Value" "100K"
+			(at 204.47 149.479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19210,7 +20608,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 133.35 163.576 0)
+			(at 203.2 143.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19218,8 +20616,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 133.35 162.56 0)
+		(property "Datasheet" "${DATASHEETS}/SEI-RMCF_RMCP.pdf"
+			(at 203.2 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19227,8 +20625,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 133.35 165.1 0)
+		(property "Description" "RES 100K OHM 1% 1/16W 0402"
+			(at 203.2 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0204-0000-00013"
+			(at 203.2 140.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19237,31 +20644,31 @@
 			)
 		)
 		(pin "1"
-			(uuid "391feaea-f73f-4fe2-bcef-64494a664efa")
+			(uuid "55a0cfd0-1222-4d67-a764-9ee75ec44c32")
 		)
 		(pin "2"
-			(uuid "8a4dc776-21c6-4d3b-93a6-c021fcf1e7bc")
+			(uuid "eb70a5ee-51fc-4c85-b682-72fc5ca31780")
 		)
 		(instances
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "R15")
+					(reference "R17")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "DX_Device:C")
-		(at 85.09 30.48 0)
+		(lib_id "DX_Capacitor_Ceramic:CL32A106KAULNNE")
+		(at 90.17 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e1ca8ba3-f592-42cc-9e81-f484950954ea")
-		(property "Reference" "C2"
-			(at 85.344 28.956 0)
+		(uuid "e5314a03-95d1-413b-ab23-07fc82770107")
+		(property "Reference" "C3"
+			(at 90.424 28.956 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19270,7 +20677,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 85.344 32.385 0)
+			(at 90.424 32.258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19279,7 +20686,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_1210"
-			(at 85.09 24.638 0)
+			(at 91.186 22.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19287,8 +20694,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 85.09 23.622 0)
+		(property "Datasheet" "${DATASHEETS}/CL32A106KAULNNE.pdf"
+			(at 91.186 20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19296,8 +20703,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized Capacitor"
-			(at 85.09 26.162 0)
+		(property "Description" "CAP CER 10UF 25V X5R 1210"
+			(at 90.17 18.796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19305,31 +20712,32 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" ""
-			(at 85.09 30.48 0)
+		(property "PartNumber" "0201-0100-00040"
+			(at 90.17 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "2f186bb2-68ea-4d9a-a175-02f9c77d74c8")
+			(uuid "4365d858-1427-46cf-af00-e3be81aad447")
 		)
 		(pin "1"
-			(uuid "7a6cae72-3d68-48ff-bda0-9f406d685fab")
+			(uuid "31a111f0-df53-472c-91e3-83aee0a8304a")
 		)
 		(instances
-			(project ""
+			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "C2")
+					(reference "C3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "DX_Device:C")
+		(lib_id "DX_Capacitor_Ceramic:GRM155R71H104KE14J")
 		(at 222.25 186.69 90)
 		(mirror x)
 		(unit 1)
@@ -19337,7 +20745,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e3bf5647-c99d-4091-affb-8c90c46cc7c2")
+		(uuid "e75cc999-4922-4342-9332-dad7917d0086")
 		(property "Reference" "C35"
 			(at 222.25 182.626 90)
 			(effects
@@ -19355,7 +20763,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
-			(at 216.408 186.69 0)
+			(at 214.122 187.706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19363,8 +20771,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 215.392 186.69 0)
+		(property "Datasheet" "${DATASHEETS}/GRM155R71H104KE14J.pdf"
+			(at 212.344 187.706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19372,8 +20780,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized Capacitor"
-			(at 217.932 186.69 0)
+		(property "Description" "CAP CER 100nF 0.1UF 50V X7R 0402"
+			(at 210.566 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19381,11 +20789,20 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "4aa84536-8ccb-4a17-a93d-3a81b98f44d2")
+		(property "PartNumber" "0201-0100-00001"
+			(at 215.9 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "da55e6d0-53ab-4e75-bf98-35d04edb400e")
+			(uuid "bce9826a-ba32-4781-883d-fe0305c84eb8")
+		)
+		(pin "2"
+			(uuid "44d89536-60a9-4a17-a521-d32e253495b3")
 		)
 		(instances
 			(project "MicLightV2"
@@ -19397,104 +20814,32 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Device:C")
-		(at 110.49 66.04 0)
-		(mirror y)
+		(lib_id "DX_Resistor:RC0402JR-0710KL")
+		(at 119.38 110.49 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e6bff49b-3acd-47f2-bc88-e3fd5cb08773")
-		(property "Reference" "C15"
-			(at 110.236 64.516 0)
+		(uuid "ee9b0ab6-2189-4ec9-9360-298d5fde8cb7")
+		(property "Reference" "R3"
+			(at 119.38 106.934 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 110.236 67.945 0)
+		(property "Value" "10K"
+			(at 119.38 108.585 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
-			(at 110.49 60.198 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 59.182 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized Capacitor"
-			(at 110.49 61.722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e5c861c2-af9f-4cf2-9737-8b95cafa3a9b")
-		)
-		(pin "1"
-			(uuid "f72d631c-b269-431d-8633-568b611f3717")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Device:R")
-		(at 130.81 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ea0761a1-f4bf-4277-95a8-8e8b515d7723")
-		(property "Reference" "R5"
-			(at 132.08 37.338 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100"
-			(at 132.08 38.989 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 130.81 32.766 0)
+			(at 114.046 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19502,8 +20847,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 130.81 31.75 0)
+		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
+			(at 113.03 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19511,8 +20856,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 130.81 34.29 0)
+		(property "Description" "RES 10K OHM 5% 1/16W 0402"
+			(at 115.57 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19520,69 +20865,8 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "8e7c6a6b-8dac-4f71-9e36-1984e500c6c1")
-		)
-		(pin "2"
-			(uuid "c9c009bc-5876-4c18-80c7-cd7aec8c0447")
-		)
-		(instances
-			(project ""
-				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Device:C")
-		(at 181.61 114.3 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eaf501f6-1fe3-462b-9465-a71d43329755")
-		(property "Reference" "C20"
-			(at 181.356 112.776 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 181.356 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
-			(at 181.61 108.458 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 107.442 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized Capacitor"
-			(at 181.61 109.982 0)
+		(property "PartNumber" "0204-0000-00016"
+			(at 111.252 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19591,85 +20875,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "37784c6d-6628-474f-95a4-4861b7b3e185")
+			(uuid "36478d6f-54d1-4e08-baba-36f6911131f5")
 		)
 		(pin "1"
-			(uuid "6e240d07-ebb0-4539-9634-ceeecf29fb49")
+			(uuid "e5575383-35ed-4fbe-8970-51d045621411")
 		)
 		(instances
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Device:C")
-		(at 171.45 114.3 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f0390a84-cdf5-43e2-8dbd-8b0d8b8907d6")
-		(property "Reference" "C18"
-			(at 171.196 112.776 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 171.196 116.205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
-			(at 171.45 108.458 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 107.442 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized Capacitor"
-			(at 171.45 109.982 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bdfc201d-7451-4a3b-a277-d4208ccddd55")
-		)
-		(pin "1"
-			(uuid "68f036d4-1a38-4ca9-b1eb-289eb78131a5")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b"
-					(reference "C18")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -19735,6 +20949,164 @@
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Capacitor_Ceramic:GRM155R71H104KE14J")
+		(at 176.53 114.3 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1730aa2-fdf8-4743-9ab3-fb6862d4cf3e")
+		(property "Reference" "C19"
+			(at 176.276 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 176.276 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0402"
+			(at 175.514 106.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/GRM155R71H104KE14J.pdf"
+			(at 175.514 104.394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 100nF 0.1UF 50V X7R 0402"
+			(at 176.53 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00001"
+			(at 176.53 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d0fc83f-0ae7-4278-a92e-f20d636f9003")
+		)
+		(pin "2"
+			(uuid "7e66f2c5-6ef6-453c-ae7c-7f9d9650cbf7")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Capacitor_Ceramic:CL10A105KA8NNNC")
+		(at 199.39 33.02 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f19a4434-f61c-4df1-acd1-30eb605d4f8b")
+		(property "Reference" "C9"
+			(at 199.136 31.496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 199.136 34.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Capacitors:CAP_0603"
+			(at 198.374 24.892 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/CL10A105KA8NNNC.pdf"
+			(at 198.374 23.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP CER 1UF 25V X5R 0603"
+			(at 199.39 21.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0201-0100-00051"
+			(at 199.39 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a4e438a-678d-43d5-9931-5f72a3d922ad")
+		)
+		(pin "2"
+			(uuid "802a2a38-047b-49a0-89d3-9d10b52b5542")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b"
+					(reference "C9")
 					(unit 1)
 				)
 			)

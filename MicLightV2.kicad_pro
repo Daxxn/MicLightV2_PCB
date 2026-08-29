@@ -48,11 +48,24 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.22
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|18000000|38497120|62a8cf09-105d-4275-8c97-f4a7da46d9c9|8cdecef6-d11d-4a26-834b-18e9e30b0123",
+          ""
+        ],
+        [
+          "silk_edge_clearance|18000000|47437120|62a8cf09-105d-4275-8c97-f4a7da46d9c9|32516343-5046-4f3c-a40d-796efa29fc06",
+          ""
+        ],
+        [
+          "silk_over_copper|60000000|108767120|0d568aa2-b49d-436f-8ff4-01ea9f17405e|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -97,7 +110,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -659,6 +672,10 @@
     [
       "26672389-a749-4bba-a676-6e144768f8b4",
       "LEDS"
+    ],
+    [
+      "fbca9475-57c8-4b5d-9ec2-bd59ffbf0813",
+      "POWER"
     ]
   ],
   "text_variables": {}

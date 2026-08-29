@@ -6,7 +6,7 @@
 	(paper "User" 382 175)
 	(title_block
 		(title "MicLight Version 2 - LEDs")
-		(rev "REV2")
+		(rev "REV3")
 		(company "Daxxn Industries")
 	)
 	(lib_symbols
@@ -1937,12 +1937,15 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DX_Transistor_MOSFET:SIA440DJ-T1-GE3"
+		(symbol "DX_Transistor_Darlington:MJD112T4"
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Q"
-				(at 1.778 1.524 0)
+				(at 5.08 1.778 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1950,8 +1953,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SIA440DJ-T1-GE3"
-				(at 1.778 0 0)
+			(property "Value" "MJD112T4"
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1959,8 +1962,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Daxxn_Packages:PowerPak_SC-70-6"
-				(at 0 6.858 0)
+			(property "Footprint" "Daxxn_Packages:TO-252-2"
+				(at 0 10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1968,8 +1971,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "${DATASHEETS}/SIA440DJ.pdf"
-				(at 0 9.398 0)
+			(property "Datasheet" "${DATASHEETS}/MJD112T4.pdf"
+				(at 0 11.684 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1977,8 +1980,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "N-Channel 40 V 12A (Tc) 3.5W (Ta), 19W (Tc) Surface Mount PowerPAK® SC-70-6"
-				(at 0 8.128 0)
+			(property "Description" "TRANS NPN DARL 100V 2A DPAK"
+				(at 0 13.208 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1986,8 +1989,8 @@
 					(hide yes)
 				)
 			)
-			(property "PartNumber" "1806-0000-00009"
-				(at 1.778 -1.27 0)
+			(property "PartNumber" "1802-0000-00002"
+				(at 5.08 -1.524 0)
 				(effects
 					(font
 						(size 1 1)
@@ -1995,75 +1998,66 @@
 					(justify left)
 				)
 			)
-			(property "ki_keywords" "transistor mosfet nch n-ch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SIA440DJ-T1-GE3_0_0"
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.25)
-					(name "G"
+			(symbol "MJD112T4_0_0"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.9906 0.9906)
 							)
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 0 3.81 270)
+				(pin passive line
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 0 0)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
+								(size 0.9906 0.9906)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.9906 0.9906)
 							)
 						)
 					)
 				)
 			)
-			(symbol "SIA440DJ-T1-GE3_0_1"
+			(symbol "MJD112T4_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -1.27) (xy -1.524 1.27)
+						(xy -2.54 0) (xy 0.635 0)
 					)
 					(stroke
 						(width 0)
@@ -2075,7 +2069,44 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 1.778) (xy -1.27 0.762)
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.032) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MJD112T4_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2087,7 +2118,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy 0 1.27) (xy 0 1.27)
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -2099,7 +2130,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -0.508) (xy -1.27 0.508)
+						(xy 0.762 0.254) (xy 2.54 2.032)
 					)
 					(stroke
 						(width 0)
@@ -2111,79 +2142,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy 0 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.778) (xy -1.27 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 0) (xy -0.762 0.254) (xy -0.762 -0.254) (xy -1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0.762 -1.27) (xy 0.762 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 0.254) (xy 1.016 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.254) (xy 0.508 -0.254) (xy 1.016 -0.254) (xy 0.762 0.254)
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -2436,16 +2395,28 @@
 		(uuid "01aea918-873c-48b7-b9b5-1fa47ea0a577")
 	)
 	(junction
+		(at 199.39 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03da5f67-e29d-45f4-a878-94a23e6d42d2")
+	)
+	(junction
+		(at 344.17 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "095e65b7-1772-4848-9b62-636f76948e41")
+	)
+	(junction
+		(at 110.49 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a63e9fe-b269-4317-8b4f-ccec72f9a3ef")
+	)
+	(junction
 		(at 58.42 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0e8b5847-fa76-41ec-b3f6-3b3cfb029e0b")
-	)
-	(junction
-		(at 114.3 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "115195df-1d6b-4269-9b27-41a78a34815c")
 	)
 	(junction
 		(at 199.39 19.05)
@@ -2496,22 +2467,10 @@
 		(uuid "43c02936-99eb-4b5e-a499-081e6aae6634")
 	)
 	(junction
-		(at 186.69 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a67b64e-58ce-4361-8cdb-ae48838ddfa5")
-	)
-	(junction
 		(at 311.15 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c863ab7-16f7-489d-9534-8dcbf1324aea")
-	)
-	(junction
-		(at 344.17 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d3292f2-43a8-4860-837e-a2790907ba25")
 	)
 	(junction
 		(at 166.37 107.95)
@@ -2526,40 +2485,22 @@
 		(uuid "5c85a34e-ec6f-4129-94c5-df3f7b0eb54d")
 	)
 	(junction
-		(at 344.17 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d25a4a3-db88-4353-9d19-8fbfb0163dcb")
-	)
-	(junction
-		(at 331.47 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5de7bc06-5120-473b-acc6-7ca446083a81")
-	)
-	(junction
 		(at 127 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61ed4380-23a4-4cd6-8280-0e2599d0460e")
 	)
 	(junction
-		(at 271.78 49.53)
+		(at 327.66 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6cc2fdfd-9bd4-4c0a-81ca-1524665cb64d")
+		(uuid "68d56323-ff07-4242-bdaa-dec0d12a25d5")
 	)
 	(junction
-		(at 127 107.95)
+		(at 344.17 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6cecdcb9-9a99-42c4-8703-9c210bf1efcf")
-	)
-	(junction
-		(at 114.3 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7206bd37-5fe4-438f-bfcf-ea9cf7bf8b47")
+		(uuid "69455c9a-0bcb-4db0-b315-031f97f30b17")
 	)
 	(junction
 		(at 31.75 83.82)
@@ -2572,6 +2513,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7bc7f07e-6aca-4857-9ec0-6a2a7c84799d")
+	)
+	(junction
+		(at 127 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89014cac-b339-4cf3-b12c-a26b922dbe75")
+	)
+	(junction
+		(at 182.88 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f5e130a-14e1-4699-ba15-a099b40368a8")
 	)
 	(junction
 		(at 102.87 31.75)
@@ -2592,6 +2545,12 @@
 		(uuid "976ee00a-b7d9-4ebb-9e47-f5b2d9b44c87")
 	)
 	(junction
+		(at 182.88 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97dc6d9a-a908-4676-b58d-f95015a9b113")
+	)
+	(junction
 		(at 344.17 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2604,28 +2563,10 @@
 		(uuid "9a1553c0-e1b3-477b-bc2b-beb68d445e51")
 	)
 	(junction
-		(at 259.08 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ce6a168-c1e0-469d-8178-c244b4d9218a")
-	)
-	(junction
 		(at 199.39 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e5515d9-b9d2-4649-be2e-79f65f98d10b")
-	)
-	(junction
-		(at 271.78 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a24699fa-c0ee-4ad3-8e2f-a4614c10e8c8")
-	)
-	(junction
-		(at 259.08 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a5273c75-8aa6-4039-9751-584f2875c633")
 	)
 	(junction
 		(at 43.18 29.21)
@@ -2664,12 +2605,6 @@
 		(uuid "c6cc86c4-f9be-484a-bfa8-92c7d59278f4")
 	)
 	(junction
-		(at 199.39 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c775e012-f170-4c3a-a64b-a257355107d5")
-	)
-	(junction
 		(at 93.98 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2682,10 +2617,22 @@
 		(uuid "cccaeefb-dff5-4925-9de1-c26c5b435c32")
 	)
 	(junction
+		(at 271.78 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2895c04-76f9-4cac-b3e1-51b39aaa1b0e")
+	)
+	(junction
 		(at 247.65 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d55ea7ee-c991-4579-8eb9-2ebae9e8b005")
+	)
+	(junction
+		(at 255.27 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6445411-9d04-479b-9570-9a15a0f30575")
 	)
 	(junction
 		(at 102.87 90.17)
@@ -2694,32 +2641,34 @@
 		(uuid "d652e6d7-71c2-418c-86da-653f836c87c9")
 	)
 	(junction
-		(at 331.47 39.37)
+		(at 271.78 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e1882326-db1c-406a-ae9f-df8706fe5265")
+		(uuid "de38ffa2-fa5c-4fda-91f3-067e98077519")
 	)
 	(junction
-		(at 186.69 39.37)
+		(at 327.66 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f36d47d7-a45f-4dba-b680-b8a8938fb0fe")
+		(uuid "e00cbd45-f260-4a89-a0b7-6b683f37ec2b")
 	)
 	(junction
-		(at 127 49.53)
+		(at 255.27 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f6481cd7-8c6a-4bc9-80a2-9d3cec094016")
+		(uuid "e936509e-073a-4df4-942e-f24d9ce192be")
 	)
-	(wire
-		(pts
-			(xy 344.17 43.18) (xy 344.17 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "002d6011-df58-47af-85e4-b2b89d9d7598")
+	(junction
+		(at 127 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea403a76-ec5c-4a75-a092-4cbb855fc3c5")
+	)
+	(junction
+		(at 110.49 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f53ca299-718a-4c3c-a6eb-a873ec48ef5e")
 	)
 	(wire
 		(pts
@@ -2733,13 +2682,23 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 39.37) (xy 114.3 39.37)
+			(xy 109.22 39.37) (xy 110.49 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0264a29e-5ada-4081-b302-1d9b5f661954")
+	)
+	(wire
+		(pts
+			(xy 271.78 31.75) (xy 271.78 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0360b85e-9edb-4573-ad09-d5c7371a93ef")
 	)
 	(wire
 		(pts
@@ -2753,6 +2712,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 39.37) (xy 257.81 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05776d1e-2db2-4010-80fc-326c939a84df")
+	)
+	(wire
+		(pts
 			(xy 93.98 41.91) (xy 93.98 49.53)
 		)
 		(stroke
@@ -2760,6 +2729,16 @@
 			(type default)
 		)
 		(uuid "05e6b2c3-dad1-497b-bd60-b2e649b021f3")
+	)
+	(wire
+		(pts
+			(xy 127 44.45) (xy 127 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06a2a90f-235f-4873-9ec8-091b867574c0")
 	)
 	(wire
 		(pts
@@ -2773,13 +2752,43 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 97.79) (xy 267.97 97.79)
+			(xy 262.89 97.79) (xy 264.16 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0874e5dc-4ca0-48f9-8a46-1ffc3a98fe24")
+	)
+	(wire
+		(pts
+			(xy 344.17 31.75) (xy 344.17 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "090f40f0-32d6-40e4-b9f6-b08e8c3cab0c")
+	)
+	(wire
+		(pts
+			(xy 199.39 102.87) (xy 199.39 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "099ec4a6-2738-49ad-a59c-9e2f912e91f4")
+	)
+	(wire
+		(pts
+			(xy 327.66 97.79) (xy 330.2 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a0dd907-e6b2-47d4-9421-34d8e70e41f4")
 	)
 	(wire
 		(pts
@@ -2843,7 +2852,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 39.37) (xy 114.3 52.07)
+			(xy 110.49 39.37) (xy 110.49 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2863,23 +2872,13 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 97.79) (xy 261.62 97.79)
+			(xy 271.78 102.87) (xy 271.78 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ec2371d-4216-4f72-b6f9-f4a88f3f8be5")
-	)
-	(wire
-		(pts
-			(xy 199.39 43.18) (xy 199.39 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16406893-1fd3-4880-b1ca-2176a81da560")
+		(uuid "137663a6-8a75-471c-9956-8609dc56c2a0")
 	)
 	(wire
 		(pts
@@ -2983,23 +2982,13 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 39.37) (xy 259.08 52.07)
+			(xy 255.27 39.37) (xy 255.27 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "21527fe3-71da-4e7e-a92d-8c7b0baafe00")
-	)
-	(wire
-		(pts
-			(xy 271.78 90.17) (xy 271.78 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "229dac75-b600-488c-be2d-07c409473d18")
 	)
 	(wire
 		(pts
@@ -3063,7 +3052,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 97.79) (xy 186.69 110.49)
+			(xy 182.88 97.79) (xy 182.88 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3073,7 +3062,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 97.79) (xy 340.36 97.79)
+			(xy 335.28 97.79) (xy 336.55 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3093,7 +3082,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 39.37) (xy 186.69 39.37)
+			(xy 181.61 39.37) (xy 182.88 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3103,23 +3092,13 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 97.79) (xy 331.47 110.49)
+			(xy 327.66 97.79) (xy 327.66 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2e4adaae-e9a2-41a8-aaca-a4e59cff3a20")
-	)
-	(wire
-		(pts
-			(xy 331.47 97.79) (xy 334.01 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e61183d-2cae-49bc-bd2b-624f968283c9")
 	)
 	(wire
 		(pts
@@ -3133,7 +3112,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 97.79) (xy 195.58 97.79)
+			(xy 190.5 97.79) (xy 191.77 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3173,16 +3152,6 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 101.6) (xy 344.17 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33e6bac5-4528-41d6-8e0b-dda61968a3b8")
-	)
-	(wire
-		(pts
 			(xy 199.39 19.05) (xy 199.39 20.32)
 		)
 		(stroke
@@ -3213,7 +3182,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 39.37) (xy 267.97 39.37)
+			(xy 262.89 39.37) (xy 264.16 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3283,7 +3252,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 39.37) (xy 259.08 39.37)
+			(xy 254 39.37) (xy 255.27 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3363,7 +3332,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 97.79) (xy 331.47 97.79)
+			(xy 326.39 97.79) (xy 327.66 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3400,6 +3369,16 @@
 			(type default)
 		)
 		(uuid "44ea863a-dd61-4205-a68d-b19c4ab8af52")
+	)
+	(wire
+		(pts
+			(xy 344.17 102.87) (xy 344.17 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44f676a8-1bbf-4af2-a503-37e84357f65e")
 	)
 	(wire
 		(pts
@@ -3553,17 +3532,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 101.6) (xy 199.39 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "530ac2c8-d034-45d8-aa50-bcc4db9b5484")
-	)
-	(wire
-		(pts
-			(xy 256.54 49.53) (xy 271.78 49.53)
+			(xy 262.89 49.53) (xy 271.78 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3613,7 +3582,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 97.79) (xy 123.19 97.79)
+			(xy 118.11 97.79) (xy 119.38 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3643,7 +3612,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 107.95) (xy 271.78 107.95)
+			(xy 262.89 107.95) (xy 271.78 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3673,7 +3642,17 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 107.95) (xy 106.68 107.95)
+			(xy 271.78 90.17) (xy 271.78 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ddada55-56a6-426d-9e4e-3db7e14b663a")
+	)
+	(wire
+		(pts
+			(xy 93.98 107.95) (xy 113.03 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3693,7 +3672,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 49.53) (xy 251.46 49.53)
+			(xy 238.76 49.53) (xy 257.81 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3733,17 +3712,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 90.17) (xy 127 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6928cb30-2937-4e3c-8b0d-5d33ac4e6a87")
-	)
-	(wire
-		(pts
-			(xy 114.3 97.79) (xy 114.3 110.49)
+			(xy 110.49 97.79) (xy 110.49 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3753,7 +3722,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 49.53) (xy 106.68 49.53)
+			(xy 93.98 49.53) (xy 113.03 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3813,13 +3782,23 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 49.53) (xy 344.17 49.53)
+			(xy 335.28 49.53) (xy 344.17 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "70dabefb-8a99-4971-a619-5ea8c7bd9dc5")
+	)
+	(wire
+		(pts
+			(xy 199.39 90.17) (xy 199.39 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71375c42-7e20-4f55-86e7-c9bcec05e7d1")
 	)
 	(polyline
 		(pts
@@ -3830,6 +3809,16 @@
 			(type default)
 		)
 		(uuid "719b2bb9-5c7e-4607-9482-6d65fdd15763")
+	)
+	(wire
+		(pts
+			(xy 327.66 39.37) (xy 330.2 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7245cc5b-a921-4dac-a379-f73f0b4e8b9f")
 	)
 	(wire
 		(pts
@@ -3863,7 +3852,7 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 39.37) (xy 331.47 52.07)
+			(xy 327.66 39.37) (xy 327.66 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3873,7 +3862,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 107.95) (xy 127 107.95)
+			(xy 118.11 107.95) (xy 127 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3893,13 +3882,23 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 107.95) (xy 344.17 107.95)
+			(xy 335.28 107.95) (xy 344.17 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7db61f24-b538-4690-bd42-c9a6fc3a3786")
+	)
+	(wire
+		(pts
+			(xy 182.88 39.37) (xy 185.42 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e2b6274-c121-42f7-a9d6-119f44e3424b")
 	)
 	(wire
 		(pts
@@ -3913,27 +3912,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 31.75) (xy 127 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81b67cce-13de-4139-b7b3-4235e63b5b3a")
-	)
-	(wire
-		(pts
-			(xy 186.69 39.37) (xy 189.23 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83f579c6-334d-424b-a9bd-7c500991fea9")
-	)
-	(wire
-		(pts
-			(xy 184.15 49.53) (xy 199.39 49.53)
+			(xy 190.5 49.53) (xy 199.39 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3943,23 +3922,13 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 39.37) (xy 340.36 39.37)
+			(xy 335.28 39.37) (xy 336.55 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "855e8a16-dd2c-49bf-92ab-f103763a6fb2")
-	)
-	(wire
-		(pts
-			(xy 259.08 39.37) (xy 261.62 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85a23109-9527-46d8-ad98-234b0bf2de3c")
 	)
 	(wire
 		(pts
@@ -3983,7 +3952,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 31.75) (xy 199.39 35.56)
+			(xy 199.39 31.75) (xy 199.39 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4013,6 +3982,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 39.37) (xy 113.03 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87281ada-2c09-4572-85b0-da88bea27c37")
+	)
+	(wire
+		(pts
 			(xy 199.39 49.53) (xy 199.39 52.07)
 		)
 		(stroke
@@ -4033,7 +4012,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 97.79) (xy 114.3 97.79)
+			(xy 109.22 97.79) (xy 110.49 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4083,6 +4062,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 97.79) (xy 257.81 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "909544f1-3596-457a-b3f8-66458b4df21b")
+	)
+	(wire
+		(pts
 			(xy 245.11 31.75) (xy 247.65 31.75)
 		)
 		(stroke
@@ -4093,7 +4082,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 97.79) (xy 186.69 97.79)
+			(xy 181.61 97.79) (xy 182.88 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4103,7 +4092,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 107.95) (xy 323.85 107.95)
+			(xy 311.15 107.95) (xy 330.2 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4133,13 +4122,13 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 90.17) (xy 199.39 93.98)
+			(xy 127 102.87) (xy 127 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "961ac633-cddf-4125-9873-e73131ea897f")
+		(uuid "9497336c-d905-4f78-9056-0ec4d250c383")
 	)
 	(wire
 		(pts
@@ -4213,7 +4202,17 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 39.37) (xy 123.19 39.37)
+			(xy 127 90.17) (xy 127 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a15fa709-62af-4988-a984-dd0f7e393b74")
+	)
+	(wire
+		(pts
+			(xy 118.11 39.37) (xy 119.38 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4233,7 +4232,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 97.79) (xy 259.08 97.79)
+			(xy 254 97.79) (xy 255.27 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4273,13 +4272,13 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 90.17) (xy 344.17 93.98)
+			(xy 344.17 44.45) (xy 344.17 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a82ae4ec-c2b0-4e87-b891-d2e384890ccb")
+		(uuid "a5ff895f-047a-43f2-9220-de3e272e7e86")
 	)
 	(wire
 		(pts
@@ -4320,16 +4319,6 @@
 			(type default)
 		)
 		(uuid "af6c58ab-5fea-45a8-b446-ee9059a619a5")
-	)
-	(wire
-		(pts
-			(xy 127 101.6) (xy 127 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b03be13a-c784-4b96-a796-1b18120f4483")
 	)
 	(wire
 		(pts
@@ -4383,23 +4372,13 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 39.37) (xy 195.58 39.37)
+			(xy 190.5 39.37) (xy 191.77 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b9bc6f51-ae04-47e3-a829-ad909d34fd10")
-	)
-	(wire
-		(pts
-			(xy 344.17 31.75) (xy 344.17 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb08ba87-c416-4216-982a-d75b5b8cef28")
 	)
 	(wire
 		(pts
@@ -4413,26 +4392,6 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 39.37) (xy 334.01 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbf19d8e-2089-4c14-a2fa-1c2574ac94bc")
-	)
-	(wire
-		(pts
-			(xy 114.3 97.79) (xy 116.84 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc61efc5-0a55-45ba-b8d6-295987300251")
-	)
-	(wire
-		(pts
 			(xy 271.78 19.05) (xy 271.78 20.32)
 		)
 		(stroke
@@ -4443,17 +4402,27 @@
 	)
 	(wire
 		(pts
-			(xy 127 43.18) (xy 127 49.53)
+			(xy 182.88 97.79) (xy 185.42 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bea308ca-5625-4271-b5f7-549b2bba60e6")
+		(uuid "c04824bc-621c-40a6-9bff-8c63e6aac4a1")
 	)
 	(wire
 		(pts
-			(xy 111.76 49.53) (xy 127 49.53)
+			(xy 127 31.75) (xy 127 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c097841e-cb33-4a4d-9f25-a0a8ffa92eb9")
+	)
+	(wire
+		(pts
+			(xy 118.11 49.53) (xy 127 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4480,16 +4449,6 @@
 			(type default)
 		)
 		(uuid "c4514f8b-8a89-43de-ac4a-f91386e4aee4")
-	)
-	(wire
-		(pts
-			(xy 186.69 97.79) (xy 189.23 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5260db5-be8e-4fb9-8feb-dc90f94545bf")
 	)
 	(wire
 		(pts
@@ -4543,7 +4502,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 39.37) (xy 331.47 39.37)
+			(xy 326.39 39.37) (xy 327.66 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4553,7 +4512,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 107.95) (xy 199.39 107.95)
+			(xy 190.5 107.95) (xy 199.39 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4600,16 +4559,6 @@
 			(type default)
 		)
 		(uuid "d9c4ad48-8b83-4392-9df0-e1faa455f3e5")
-	)
-	(wire
-		(pts
-			(xy 271.78 101.6) (xy 271.78 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da7c7013-f006-4c4b-ab58-ed34c8920021")
 	)
 	(wire
 		(pts
@@ -4673,7 +4622,27 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 97.79) (xy 259.08 110.49)
+			(xy 344.17 90.17) (xy 344.17 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e43b4c2f-e258-48fd-a9aa-826ed980c0fa")
+	)
+	(wire
+		(pts
+			(xy 199.39 44.45) (xy 199.39 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4b934df-f734-409a-a757-f2cd80b3924e")
+	)
+	(wire
+		(pts
+			(xy 255.27 97.79) (xy 255.27 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4683,7 +4652,17 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 49.53) (xy 179.07 49.53)
+			(xy 110.49 97.79) (xy 113.03 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5cd7cde-9f28-40fc-b61d-f504e4062b36")
+	)
+	(wire
+		(pts
+			(xy 166.37 49.53) (xy 185.42 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4733,7 +4712,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 107.95) (xy 251.46 107.95)
+			(xy 238.76 107.95) (xy 257.81 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4783,7 +4762,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 39.37) (xy 186.69 52.07)
+			(xy 182.88 39.37) (xy 182.88 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4823,27 +4802,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 43.18) (xy 271.78 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f622e479-5a2c-499c-b126-5ce94d76fe97")
-	)
-	(wire
-		(pts
-			(xy 114.3 39.37) (xy 116.84 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f80b10ee-6c78-45de-bfd0-f5f86983e203")
-	)
-	(wire
-		(pts
-			(xy 311.15 49.53) (xy 323.85 49.53)
+			(xy 311.15 49.53) (xy 330.2 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4863,17 +4822,17 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 31.75) (xy 271.78 35.56)
+			(xy 271.78 44.45) (xy 271.78 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fba8d1f7-0131-44b7-822f-31fe692ac978")
+		(uuid "fd167da9-4765-467d-b0e8-abc28cd707dd")
 	)
 	(wire
 		(pts
-			(xy 166.37 107.95) (xy 179.07 107.95)
+			(xy 166.37 107.95) (xy 185.42 107.95)
 		)
 		(stroke
 			(width 0)
@@ -5046,6 +5005,87 @@
 			(justify right)
 		)
 		(uuid "f5281705-c856-455c-9853-1f2af4aa2610")
+	)
+	(symbol
+		(lib_id "DX_Transistor_Darlington:MJD112T4")
+		(at 124.46 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00db5b4c-15cb-4695-9a9d-520830236c9e")
+		(property "Reference" "Q2"
+			(at 129.54 37.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MJD112T4"
+			(at 129.54 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Packages:TO-252-2"
+			(at 124.46 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/MJD112T4.pdf"
+			(at 124.46 27.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TRANS NPN DARL 100V 2A DPAK"
+			(at 124.46 26.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "1802-0000-00002"
+			(at 129.54 40.894 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "2d84720e-26bd-4c75-989c-fd3b347bd2aa")
+		)
+		(pin "2"
+			(uuid "98769c2d-fd62-4a2a-9f23-1266814f49f2")
+		)
+		(pin "3"
+			(uuid "4523c2d5-1092-4100-9e3b-e5f9bbdea9be")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "DX_Device_Power:VCC-USB")
@@ -5265,87 +5305,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Transistor_MOSFET:SIA440DJ-T1-GE3")
-		(at 344.17 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "090617d8-8f94-4585-b921-834943eda375")
-		(property "Reference" "Q5"
-			(at 345.948 37.846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SIA440DJ-T1-GE3"
-			(at 345.948 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Packages:PowerPak_SC-70-6"
-			(at 344.17 32.512 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${DATASHEETS}/SIA440DJ.pdf"
-			(at 344.17 29.972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-Channel 40 V 12A (Tc) 3.5W (Ta), 19W (Tc) Surface Mount PowerPAK® SC-70-6"
-			(at 344.17 31.242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" "1806-0000-00009"
-			(at 345.948 40.64 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(pin "3"
-			(uuid "a98ee8f1-04a8-4a96-9cd1-085b3680ba50")
-		)
-		(pin "1"
-			(uuid "676bde76-312b-466d-8bfe-9257330e94b2")
-		)
-		(pin "2"
-			(uuid "8799976e-3a1a-4422-a065-fa750eb4b084")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DX_Resistor:RC0402JR-07100RL")
 		(at 237.49 36.83 90)
 		(unit 1)
@@ -5423,7 +5382,7 @@
 	)
 	(symbol
 		(lib_id "DX_Resistor_Precision:RT0402BRE071KL")
-		(at 326.39 49.53 90)
+		(at 332.74 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5431,7 +5390,7 @@
 		(dnp no)
 		(uuid "0b2f4853-5ab6-4862-bc48-3463bd6dd189")
 		(property "Reference" "R38"
-			(at 326.39 45.974 90)
+			(at 332.74 45.974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5439,7 +5398,7 @@
 			)
 		)
 		(property "Value" "1K 0.1%"
-			(at 326.39 47.498 90)
+			(at 332.74 47.498 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5447,7 +5406,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 319.532 49.53 0)
+			(at 325.882 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5456,7 +5415,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/RT-Series.pdf"
-			(at 316.738 49.53 0)
+			(at 323.088 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5465,7 +5424,7 @@
 			)
 		)
 		(property "Description" "1 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thin Film"
-			(at 321.31 49.53 0)
+			(at 327.66 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5474,7 +5433,7 @@
 			)
 		)
 		(property "PartNumber" "0204-0100-00012"
-			(at 318.008 49.53 0)
+			(at 324.358 49.53 0)
 			(effects
 				(font
 					(size 1 1)
@@ -5564,7 +5523,7 @@
 	)
 	(symbol
 		(lib_id "DX_Resistor_Precision:RT0402BRE071KL")
-		(at 254 49.53 90)
+		(at 260.35 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5572,7 +5531,7 @@
 		(dnp no)
 		(uuid "0d16e874-8054-430f-a1df-1cf782260cc1")
 		(property "Reference" "R33"
-			(at 254 45.974 90)
+			(at 260.35 45.974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5580,7 +5539,7 @@
 			)
 		)
 		(property "Value" "1K 0.1%"
-			(at 254 47.498 90)
+			(at 260.35 47.498 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5588,7 +5547,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 247.142 49.53 0)
+			(at 253.492 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5597,7 +5556,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/RT-Series.pdf"
-			(at 244.348 49.53 0)
+			(at 250.698 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5606,7 +5565,7 @@
 			)
 		)
 		(property "Description" "1 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thin Film"
-			(at 248.92 49.53 0)
+			(at 255.27 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5615,7 +5574,7 @@
 			)
 		)
 		(property "PartNumber" "0204-0100-00012"
-			(at 245.618 49.53 0)
+			(at 251.968 49.53 0)
 			(effects
 				(font
 					(size 1 1)
@@ -6055,7 +6014,7 @@
 			(uuid "a4d0438d-7bef-4617-b5f7-324a77d2af8e")
 		)
 		(instances
-			(project ""
+			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
 					(reference "C27")
 					(unit 1)
@@ -6130,7 +6089,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 57.15 0)
+		(at 110.49 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6138,7 +6097,7 @@
 		(dnp no)
 		(uuid "1fa8af24-e955-4c77-b971-5fdefc565114")
 		(property "Reference" "#PWR051"
-			(at 114.3 63.5 0)
+			(at 110.49 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6147,7 +6106,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 60.706 0)
+			(at 110.49 60.706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6155,7 +6114,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 57.15 0)
+			(at 110.49 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6164,7 +6123,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 57.15 0)
+			(at 110.49 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6173,7 +6132,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 57.15 0)
+			(at 110.49 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6194,8 +6153,89 @@
 		)
 	)
 	(symbol
+		(lib_id "DX_Transistor_Darlington:MJD112T4")
+		(at 269.24 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1fcf9f97-22c9-446e-bd17-50a40def3c40")
+		(property "Reference" "Q8"
+			(at 274.32 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MJD112T4"
+			(at 274.32 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Packages:TO-252-2"
+			(at 269.24 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/MJD112T4.pdf"
+			(at 269.24 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TRANS NPN DARL 100V 2A DPAK"
+			(at 269.24 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "1802-0000-00002"
+			(at 274.32 99.314 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "b8e2f46c-9569-4a15-8e8f-0f141d685545")
+		)
+		(pin "2"
+			(uuid "28717086-e940-48bc-96a7-d6294bccb7a5")
+		)
+		(pin "3"
+			(uuid "7a34fd88-23b2-4ba9-b525-277d1f599b0a")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DX_Device:R")
-		(at 336.55 39.37 90)
+		(at 332.74 39.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6203,7 +6243,7 @@
 		(dnp no)
 		(uuid "2404e4ac-c55e-4be9-a88b-bebe7249ff1f")
 		(property "Reference" "R37"
-			(at 336.55 41.402 90)
+			(at 332.74 41.402 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6211,7 +6251,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 336.55 43.053 90)
+			(at 332.74 43.053 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6219,7 +6259,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 331.216 39.37 0)
+			(at 327.406 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6228,7 +6268,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 330.2 39.37 0)
+			(at 326.39 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6237,7 +6277,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 332.74 39.37 0)
+			(at 328.93 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6262,7 +6302,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 331.47 57.15 0)
+		(at 327.66 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6270,7 +6310,7 @@
 		(dnp no)
 		(uuid "2523e386-79bf-423b-9982-c8c5992993b2")
 		(property "Reference" "#PWR075"
-			(at 331.47 63.5 0)
+			(at 327.66 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6279,7 +6319,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 331.47 60.706 0)
+			(at 327.66 60.706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6287,7 +6327,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 331.47 57.15 0)
+			(at 327.66 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6296,7 +6336,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 331.47 57.15 0)
+			(at 327.66 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6305,7 +6345,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 331.47 57.15 0)
+			(at 327.66 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6678,7 +6718,7 @@
 	)
 	(symbol
 		(lib_id "DX_Device:R")
-		(at 119.38 39.37 90)
+		(at 115.57 39.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6686,7 +6726,7 @@
 		(dnp no)
 		(uuid "2f0cff1a-f365-4d37-92e2-6ef6317af112")
 		(property "Reference" "R20"
-			(at 119.38 41.402 90)
+			(at 115.57 41.402 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6694,7 +6734,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 119.38 43.053 90)
+			(at 115.57 43.053 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6702,7 +6742,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 114.046 39.37 0)
+			(at 110.236 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6711,7 +6751,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 39.37 0)
+			(at 109.22 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6720,7 +6760,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 115.57 39.37 0)
+			(at 111.76 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6810,7 +6850,7 @@
 	)
 	(symbol
 		(lib_id "DX_Resistor:RC0402JR-0710KL")
-		(at 114.3 113.03 0)
+		(at 110.49 113.03 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6819,7 +6859,7 @@
 		(dnp no)
 		(uuid "3132ac0e-0158-472c-b026-ec5a17160045")
 		(property "Reference" "R45"
-			(at 113.284 112.395 0)
+			(at 109.474 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6828,7 +6868,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 113.284 114.046 0)
+			(at 109.474 114.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6837,7 +6877,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 114.3 107.696 0)
+			(at 110.49 107.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6846,7 +6886,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
-			(at 114.3 106.68 0)
+			(at 110.49 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6855,7 +6895,7 @@
 			)
 		)
 		(property "Description" "RES 10K OHM 5% 1/16W 0402"
-			(at 114.3 109.22 0)
+			(at 110.49 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6864,7 +6904,7 @@
 			)
 		)
 		(property "PartNumber" "0204-0000-00016"
-			(at 114.3 104.902 0)
+			(at 110.49 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6889,7 +6929,7 @@
 	)
 	(symbol
 		(lib_id "DX_Resistor_Precision:RT0402BRE071KL")
-		(at 254 107.95 90)
+		(at 260.35 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6897,7 +6937,7 @@
 		(dnp no)
 		(uuid "31a57a90-ed78-4d69-aa89-4e898d640ccb")
 		(property "Reference" "R53"
-			(at 254 104.394 90)
+			(at 260.35 104.394 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6905,7 +6945,7 @@
 			)
 		)
 		(property "Value" "1K 0.1%"
-			(at 254 105.918 90)
+			(at 260.35 105.918 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6913,7 +6953,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 247.142 107.95 0)
+			(at 253.492 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6922,7 +6962,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/RT-Series.pdf"
-			(at 244.348 107.95 0)
+			(at 250.698 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6931,7 +6971,7 @@
 			)
 		)
 		(property "Description" "1 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thin Film"
-			(at 248.92 107.95 0)
+			(at 255.27 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6940,7 +6980,7 @@
 			)
 		)
 		(property "PartNumber" "0204-0100-00012"
-			(at 245.618 107.95 0)
+			(at 251.968 107.95 0)
 			(effects
 				(font
 					(size 1 1)
@@ -7717,7 +7757,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 259.08 115.57 0)
+		(at 255.27 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7725,7 +7765,7 @@
 		(dnp no)
 		(uuid "3ab31b75-cbe9-4e42-be0e-4231da0d3479")
 		(property "Reference" "#PWR093"
-			(at 259.08 121.92 0)
+			(at 255.27 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7734,7 +7774,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 259.08 119.126 0)
+			(at 255.27 119.126 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7742,7 +7782,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 115.57 0)
+			(at 255.27 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7751,7 +7791,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 115.57 0)
+			(at 255.27 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7760,7 +7800,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 259.08 115.57 0)
+			(at 255.27 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8640,6 +8680,87 @@
 		)
 	)
 	(symbol
+		(lib_id "DX_Transistor_Darlington:MJD112T4")
+		(at 124.46 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4933915c-d074-4735-8a68-e5bf3f336619")
+		(property "Reference" "Q6"
+			(at 129.54 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MJD112T4"
+			(at 129.54 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Packages:TO-252-2"
+			(at 124.46 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/MJD112T4.pdf"
+			(at 124.46 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TRANS NPN DARL 100V 2A DPAK"
+			(at 124.46 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "1802-0000-00002"
+			(at 129.54 99.314 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "50c6dd95-07dc-4be2-a2c0-5d5aa8a6e50a")
+		)
+		(pin "2"
+			(uuid "f20f1adb-5df0-4584-b50d-0152fe35d5b6")
+		)
+		(pin "3"
+			(uuid "de2c44a5-fe4d-4ea8-bbc4-e4a0282fc060")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DX_Resistor_Precision:TNPW040210K0BEED")
 		(at 311.15 54.61 0)
 		(unit 1)
@@ -8719,7 +8840,7 @@
 	)
 	(symbol
 		(lib_id "DX_Resistor_Precision:RT0402BRE071KL")
-		(at 181.61 107.95 90)
+		(at 187.96 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8727,7 +8848,7 @@
 		(dnp no)
 		(uuid "498690c9-0c2a-494b-8d55-9f864db699d2")
 		(property "Reference" "R48"
-			(at 181.61 104.394 90)
+			(at 187.96 104.394 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8735,7 +8856,7 @@
 			)
 		)
 		(property "Value" "1K 0.1%"
-			(at 181.61 105.918 90)
+			(at 187.96 105.918 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8743,7 +8864,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 174.752 107.95 0)
+			(at 181.102 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8752,7 +8873,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/RT-Series.pdf"
-			(at 171.958 107.95 0)
+			(at 178.308 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8761,7 +8882,7 @@
 			)
 		)
 		(property "Description" "1 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thin Film"
-			(at 176.53 107.95 0)
+			(at 182.88 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8770,7 +8891,7 @@
 			)
 		)
 		(property "PartNumber" "0204-0100-00012"
-			(at 173.228 107.95 0)
+			(at 179.578 107.95 0)
 			(effects
 				(font
 					(size 1 1)
@@ -8915,7 +9036,7 @@
 			(uuid "7872ea71-e622-4039-95e2-9d197af483b1")
 		)
 		(instances
-			(project ""
+			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
 					(reference "#PWR031")
 					(unit 1)
@@ -9099,7 +9220,7 @@
 	)
 	(symbol
 		(lib_id "DX_Device:R")
-		(at 336.55 97.79 90)
+		(at 332.74 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9107,7 +9228,7 @@
 		(dnp no)
 		(uuid "544f2c29-838f-4dce-b202-faa2d701080b")
 		(property "Reference" "R57"
-			(at 336.55 99.822 90)
+			(at 332.74 99.822 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9115,7 +9236,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 336.55 101.473 90)
+			(at 332.74 101.473 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9123,7 +9244,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 331.216 97.79 0)
+			(at 327.406 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9132,7 +9253,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 330.2 97.79 0)
+			(at 326.39 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9141,7 +9262,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 332.74 97.79 0)
+			(at 328.93 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9159,6 +9280,87 @@
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
 					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Transistor_Darlington:MJD112T4")
+		(at 341.63 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54aae098-7665-4a02-b3bb-6a0c0edc6b12")
+		(property "Reference" "Q5"
+			(at 346.71 37.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MJD112T4"
+			(at 346.71 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Packages:TO-252-2"
+			(at 341.63 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/MJD112T4.pdf"
+			(at 341.63 27.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TRANS NPN DARL 100V 2A DPAK"
+			(at 341.63 26.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "1802-0000-00002"
+			(at 346.71 40.894 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "9fba1c74-7c76-4c1e-b128-2245951a2ae2")
+		)
+		(pin "2"
+			(uuid "b876636a-28a7-4b87-a00c-6df9cf5fdc18")
+		)
+		(pin "3"
+			(uuid "0a1fd66e-babf-42f0-9f5a-c86f9a0cf0ec")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -9224,87 +9426,6 @@
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Transistor_MOSFET:SIA440DJ-T1-GE3")
-		(at 127 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "566b2de7-a626-4d81-815f-c7d5ad092596")
-		(property "Reference" "Q6"
-			(at 128.778 96.266 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SIA440DJ-T1-GE3"
-			(at 128.778 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Packages:PowerPak_SC-70-6"
-			(at 127 90.932 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${DATASHEETS}/SIA440DJ.pdf"
-			(at 127 88.392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-Channel 40 V 12A (Tc) 3.5W (Ta), 19W (Tc) Surface Mount PowerPAK® SC-70-6"
-			(at 127 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" "1806-0000-00009"
-			(at 128.778 99.06 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(pin "3"
-			(uuid "523e14df-a9bb-4ace-916a-1792f9cacd49")
-		)
-		(pin "1"
-			(uuid "c2eb25d6-a318-42d0-9356-710461d02825")
-		)
-		(pin "2"
-			(uuid "6aa7dfa1-2707-46ce-b689-ef72f6458dfc")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
-					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -9583,7 +9704,7 @@
 	)
 	(symbol
 		(lib_id "DX_Device:R")
-		(at 264.16 39.37 90)
+		(at 260.35 39.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9591,7 +9712,7 @@
 		(dnp no)
 		(uuid "5b3f96ba-a4ca-4691-ab3e-1a63ec98f1f8")
 		(property "Reference" "R32"
-			(at 264.16 41.402 90)
+			(at 260.35 41.402 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9599,7 +9720,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 264.16 43.053 90)
+			(at 260.35 43.053 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9607,7 +9728,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 258.826 39.37 0)
+			(at 255.016 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9616,7 +9737,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 39.37 0)
+			(at 254 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9625,7 +9746,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 260.35 39.37 0)
+			(at 256.54 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9714,16 +9835,16 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Transistor_MOSFET:SIA440DJ-T1-GE3")
-		(at 127 39.37 0)
+		(lib_id "DX_Transistor_Darlington:MJD112T4")
+		(at 269.24 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "5df1ce0d-72ea-4b35-a85a-a104025ffd24")
-		(property "Reference" "Q2"
-			(at 128.778 37.846 0)
+		(uuid "5ea4c667-48df-4417-aa76-e29d71a9b021")
+		(property "Reference" "Q4"
+			(at 274.32 37.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9731,8 +9852,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SIA440DJ-T1-GE3"
-			(at 128.778 39.37 0)
+		(property "Value" "MJD112T4"
+			(at 274.32 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9740,8 +9861,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Packages:PowerPak_SC-70-6"
-			(at 127 32.512 0)
+		(property "Footprint" "Daxxn_Packages:TO-252-2"
+			(at 269.24 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9749,8 +9870,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${DATASHEETS}/SIA440DJ.pdf"
-			(at 127 29.972 0)
+		(property "Datasheet" "${DATASHEETS}/MJD112T4.pdf"
+			(at 269.24 27.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9758,8 +9879,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-Channel 40 V 12A (Tc) 3.5W (Ta), 19W (Tc) Surface Mount PowerPAK® SC-70-6"
-			(at 127 31.242 0)
+		(property "Description" "TRANS NPN DARL 100V 2A DPAK"
+			(at 269.24 26.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9767,8 +9888,8 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "1806-0000-00009"
-			(at 128.778 40.64 0)
+		(property "PartNumber" "1802-0000-00002"
+			(at 274.32 40.894 0)
 			(effects
 				(font
 					(size 1 1)
@@ -9776,19 +9897,19 @@
 				(justify left)
 			)
 		)
-		(pin "3"
-			(uuid "4e0097c5-98b0-4d5c-a347-553001b0fbd9")
-		)
 		(pin "1"
-			(uuid "b56cfbe6-5243-40e9-ad11-6080857d9807")
+			(uuid "d27ec3cf-53e2-474f-b541-c04ca10ebb21")
 		)
 		(pin "2"
-			(uuid "2434af85-c236-4ebf-8b72-a8d80bd32960")
+			(uuid "0de60da1-3613-400c-bb6a-08271083b757")
+		)
+		(pin "3"
+			(uuid "5156c3fa-cada-4364-83dc-e22d8a818a30")
 		)
 		(instances
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
-					(reference "Q2")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -10199,7 +10320,7 @@
 	)
 	(symbol
 		(lib_id "DX_Device:R")
-		(at 191.77 39.37 90)
+		(at 187.96 39.37 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10207,7 +10328,7 @@
 		(dnp no)
 		(uuid "69e47117-0cfa-4489-817b-f8039a6cde07")
 		(property "Reference" "R25"
-			(at 191.77 41.402 90)
+			(at 187.96 41.402 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10215,7 +10336,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 191.77 43.053 90)
+			(at 187.96 43.053 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10223,7 +10344,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 186.436 39.37 0)
+			(at 182.626 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10232,7 +10353,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 39.37 0)
+			(at 181.61 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10241,7 +10362,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 187.96 39.37 0)
+			(at 184.15 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10396,7 +10517,7 @@
 	)
 	(symbol
 		(lib_id "DX_Resistor_Precision:RT0402BRE071KL")
-		(at 326.39 107.95 90)
+		(at 332.74 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10404,7 +10525,7 @@
 		(dnp no)
 		(uuid "71046fa2-2736-445a-97f6-dae0ed25a95e")
 		(property "Reference" "R58"
-			(at 326.39 104.394 90)
+			(at 332.74 104.394 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10412,7 +10533,7 @@
 			)
 		)
 		(property "Value" "1K 0.1%"
-			(at 326.39 105.918 90)
+			(at 332.74 105.918 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10420,7 +10541,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 319.532 107.95 0)
+			(at 325.882 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10429,7 +10550,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/RT-Series.pdf"
-			(at 316.738 107.95 0)
+			(at 323.088 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10438,7 +10559,7 @@
 			)
 		)
 		(property "Description" "1 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thin Film"
-			(at 321.31 107.95 0)
+			(at 327.66 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10447,7 +10568,7 @@
 			)
 		)
 		(property "PartNumber" "0204-0100-00012"
-			(at 318.008 107.95 0)
+			(at 324.358 107.95 0)
 			(effects
 				(font
 					(size 1 1)
@@ -10536,16 +10657,16 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Transistor_MOSFET:SIA440DJ-T1-GE3")
-		(at 271.78 97.79 0)
+		(lib_id "DX_Transistor_Darlington:MJD112T4")
+		(at 341.63 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "74335683-2ca3-45e2-a452-5b609dfa827f")
-		(property "Reference" "Q8"
-			(at 273.558 96.266 0)
+		(uuid "73ec73a8-abdc-4123-9441-3190fbdadd50")
+		(property "Reference" "Q9"
+			(at 346.71 96.012 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10553,8 +10674,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SIA440DJ-T1-GE3"
-			(at 273.558 97.79 0)
+		(property "Value" "MJD112T4"
+			(at 346.71 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10562,8 +10683,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Daxxn_Packages:PowerPak_SC-70-6"
-			(at 271.78 90.932 0)
+		(property "Footprint" "Daxxn_Packages:TO-252-2"
+			(at 341.63 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10571,8 +10692,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "${DATASHEETS}/SIA440DJ.pdf"
-			(at 271.78 88.392 0)
+		(property "Datasheet" "${DATASHEETS}/MJD112T4.pdf"
+			(at 341.63 86.106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10580,8 +10701,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-Channel 40 V 12A (Tc) 3.5W (Ta), 19W (Tc) Surface Mount PowerPAK® SC-70-6"
-			(at 271.78 89.662 0)
+		(property "Description" "TRANS NPN DARL 100V 2A DPAK"
+			(at 341.63 84.582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10589,8 +10710,8 @@
 				(hide yes)
 			)
 		)
-		(property "PartNumber" "1806-0000-00009"
-			(at 273.558 99.06 0)
+		(property "PartNumber" "1802-0000-00002"
+			(at 346.71 99.314 0)
 			(effects
 				(font
 					(size 1 1)
@@ -10598,19 +10719,19 @@
 				(justify left)
 			)
 		)
-		(pin "3"
-			(uuid "2c50c095-53c7-4fb5-8909-2cf52bae4020")
-		)
 		(pin "1"
-			(uuid "392de6cb-73cc-4ac2-a652-b872b643ca10")
+			(uuid "d8966caf-675e-463d-83ad-3bc27f258a15")
 		)
 		(pin "2"
-			(uuid "daf81d62-cd08-4837-9874-2920914f7724")
+			(uuid "1f78ac50-afa4-4cf4-a548-d475676db103")
+		)
+		(pin "3"
+			(uuid "074e7425-4d40-4aae-b9a4-965c9f61d907")
 		)
 		(instances
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
-					(reference "Q8")
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -10827,7 +10948,7 @@
 			(uuid "82838f65-4eaf-4449-a6e5-657598e3ff66")
 		)
 		(instances
-			(project ""
+			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
 					(reference "R62")
 					(unit 1)
@@ -10837,7 +10958,7 @@
 	)
 	(symbol
 		(lib_id "DX_Resistor:RC0402JR-0710KL")
-		(at 259.08 54.61 0)
+		(at 255.27 54.61 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10846,7 +10967,7 @@
 		(dnp no)
 		(uuid "7d348b2a-ef0b-48d2-b9f2-b631e2d3bc6c")
 		(property "Reference" "R35"
-			(at 258.064 53.975 0)
+			(at 254.254 53.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10855,7 +10976,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 258.064 55.626 0)
+			(at 254.254 55.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10864,7 +10985,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 259.08 49.276 0)
+			(at 255.27 49.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10873,7 +10994,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
-			(at 259.08 48.26 0)
+			(at 255.27 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10882,7 +11003,7 @@
 			)
 		)
 		(property "Description" "RES 10K OHM 5% 1/16W 0402"
-			(at 259.08 50.8 0)
+			(at 255.27 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10891,7 +11012,7 @@
 			)
 		)
 		(property "PartNumber" "0204-0000-00016"
-			(at 259.08 46.482 0)
+			(at 255.27 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11200,7 +11321,7 @@
 	)
 	(symbol
 		(lib_id "DX_Resistor:RC0402JR-0710KL")
-		(at 114.3 54.61 0)
+		(at 110.49 54.61 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11209,7 +11330,7 @@
 		(dnp no)
 		(uuid "87f5d466-1903-49a3-ba8b-6b12efc03bd6")
 		(property "Reference" "R23"
-			(at 113.284 53.975 0)
+			(at 109.474 53.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11218,7 +11339,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 113.284 55.626 0)
+			(at 109.474 55.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11227,7 +11348,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 114.3 49.276 0)
+			(at 110.49 49.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11236,7 +11357,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
-			(at 114.3 48.26 0)
+			(at 110.49 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11245,7 +11366,7 @@
 			)
 		)
 		(property "Description" "RES 10K OHM 5% 1/16W 0402"
-			(at 114.3 50.8 0)
+			(at 110.49 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11254,7 +11375,7 @@
 			)
 		)
 		(property "PartNumber" "0204-0000-00016"
-			(at 114.3 46.482 0)
+			(at 110.49 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11355,7 +11476,7 @@
 	)
 	(symbol
 		(lib_id "DX_Resistor:RC0402JR-0710KL")
-		(at 331.47 113.03 0)
+		(at 327.66 113.03 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11364,7 +11485,7 @@
 		(dnp no)
 		(uuid "89921ca0-4746-49b0-9da1-ea2e6ca66e8b")
 		(property "Reference" "R60"
-			(at 330.454 112.395 0)
+			(at 326.644 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11373,7 +11494,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 330.454 114.046 0)
+			(at 326.644 114.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11382,7 +11503,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 331.47 107.696 0)
+			(at 327.66 107.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11391,7 +11512,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
-			(at 331.47 106.68 0)
+			(at 327.66 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11400,7 +11521,7 @@
 			)
 		)
 		(property "Description" "RES 10K OHM 5% 1/16W 0402"
-			(at 331.47 109.22 0)
+			(at 327.66 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11409,7 +11530,7 @@
 			)
 		)
 		(property "PartNumber" "0204-0000-00016"
-			(at 331.47 104.902 0)
+			(at 327.66 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11499,7 +11620,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 259.08 57.15 0)
+		(at 255.27 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11507,7 +11628,7 @@
 		(dnp no)
 		(uuid "89f0f434-6f87-4a1b-80f9-2e275d45f7a2")
 		(property "Reference" "#PWR069"
-			(at 259.08 63.5 0)
+			(at 255.27 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11516,7 +11637,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 259.08 60.706 0)
+			(at 255.27 60.706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11524,7 +11645,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 57.15 0)
+			(at 255.27 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11533,7 +11654,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 57.15 0)
+			(at 255.27 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11542,7 +11663,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 259.08 57.15 0)
+			(at 255.27 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11796,87 +11917,6 @@
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
 					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DX_Transistor_MOSFET:SIA440DJ-T1-GE3")
-		(at 344.17 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8ff4a8ea-f688-43c0-82d4-dd1676fdc1e8")
-		(property "Reference" "Q9"
-			(at 345.948 96.266 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SIA440DJ-T1-GE3"
-			(at 345.948 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Packages:PowerPak_SC-70-6"
-			(at 344.17 90.932 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${DATASHEETS}/SIA440DJ.pdf"
-			(at 344.17 88.392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-Channel 40 V 12A (Tc) 3.5W (Ta), 19W (Tc) Surface Mount PowerPAK® SC-70-6"
-			(at 344.17 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" "1806-0000-00009"
-			(at 345.948 99.06 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(pin "3"
-			(uuid "ae391873-9b25-4e4e-8f55-09c4280c223d")
-		)
-		(pin "1"
-			(uuid "d6f1197e-e653-45c1-8f5a-d8caa3d2696a")
-		)
-		(pin "2"
-			(uuid "4f38ff55-4102-4e4f-b271-6b3e47b19483")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
-					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -12537,7 +12577,7 @@
 	)
 	(symbol
 		(lib_id "DX_Device:R")
-		(at 119.38 97.79 90)
+		(at 115.57 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12545,7 +12585,7 @@
 		(dnp no)
 		(uuid "9df434a8-814c-4c09-bb8e-f987ac350f4a")
 		(property "Reference" "R42"
-			(at 119.38 99.822 90)
+			(at 115.57 99.822 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12553,7 +12593,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 119.38 101.473 90)
+			(at 115.57 101.473 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12561,7 +12601,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 114.046 97.79 0)
+			(at 110.236 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12570,7 +12610,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 97.79 0)
+			(at 109.22 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12579,7 +12619,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 115.57 97.79 0)
+			(at 111.76 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12824,7 +12864,7 @@
 			(uuid "e0941806-b89a-4382-a59b-3c58cb399c2c")
 		)
 		(instances
-			(project ""
+			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
 					(reference "R24")
 					(unit 1)
@@ -12834,7 +12874,7 @@
 	)
 	(symbol
 		(lib_id "DX_Resistor:RC0402JR-0710KL")
-		(at 186.69 54.61 0)
+		(at 182.88 54.61 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12843,7 +12883,7 @@
 		(dnp no)
 		(uuid "a447a7c9-945b-4d77-b2b1-1889ac3542dd")
 		(property "Reference" "R30"
-			(at 185.674 53.975 0)
+			(at 181.864 53.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12852,7 +12892,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 185.674 55.626 0)
+			(at 181.864 55.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12861,7 +12901,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 186.69 49.276 0)
+			(at 182.88 49.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12870,7 +12910,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
-			(at 186.69 48.26 0)
+			(at 182.88 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12879,7 +12919,7 @@
 			)
 		)
 		(property "Description" "RES 10K OHM 5% 1/16W 0402"
-			(at 186.69 50.8 0)
+			(at 182.88 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12888,7 +12928,7 @@
 			)
 		)
 		(property "PartNumber" "0204-0000-00016"
-			(at 186.69 46.482 0)
+			(at 182.88 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13135,7 +13175,7 @@
 			(uuid "2ffbfd48-a7fa-4357-8a6d-63d43ef76641")
 		)
 		(instances
-			(project ""
+			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
 					(reference "C54")
 					(unit 1)
@@ -13210,7 +13250,7 @@
 	)
 	(symbol
 		(lib_id "DX_Resistor:RC0402JR-0710KL")
-		(at 259.08 113.03 0)
+		(at 255.27 113.03 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13219,7 +13259,7 @@
 		(dnp no)
 		(uuid "a909095f-4bf1-4c51-a9eb-b966d1d792a9")
 		(property "Reference" "R55"
-			(at 258.064 112.395 0)
+			(at 254.254 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13228,7 +13268,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 258.064 114.046 0)
+			(at 254.254 114.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13237,7 +13277,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 259.08 107.696 0)
+			(at 255.27 107.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13246,7 +13286,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
-			(at 259.08 106.68 0)
+			(at 255.27 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13255,7 +13295,7 @@
 			)
 		)
 		(property "Description" "RES 10K OHM 5% 1/16W 0402"
-			(at 259.08 109.22 0)
+			(at 255.27 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13264,7 +13304,7 @@
 			)
 		)
 		(property "PartNumber" "0204-0000-00016"
-			(at 259.08 104.902 0)
+			(at 255.27 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13367,7 +13407,7 @@
 	)
 	(symbol
 		(lib_id "DX_Resistor_Precision:RT0402BRE071KL")
-		(at 109.22 107.95 90)
+		(at 115.57 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13375,7 +13415,7 @@
 		(dnp no)
 		(uuid "a97a8cbf-af30-4204-8df3-6212a055a96d")
 		(property "Reference" "R43"
-			(at 109.22 104.394 90)
+			(at 115.57 104.394 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13383,7 +13423,7 @@
 			)
 		)
 		(property "Value" "1K 0.1%"
-			(at 109.22 105.918 90)
+			(at 115.57 105.918 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13391,7 +13431,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 102.362 107.95 0)
+			(at 108.712 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13400,7 +13440,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/RT-Series.pdf"
-			(at 99.568 107.95 0)
+			(at 105.918 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13409,7 +13449,7 @@
 			)
 		)
 		(property "Description" "1 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thin Film"
-			(at 104.14 107.95 0)
+			(at 110.49 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13418,7 +13458,7 @@
 			)
 		)
 		(property "PartNumber" "0204-0100-00012"
-			(at 100.838 107.95 0)
+			(at 107.188 107.95 0)
 			(effects
 				(font
 					(size 1 1)
@@ -13746,87 +13786,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Transistor_MOSFET:SIA440DJ-T1-GE3")
-		(at 199.39 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b558b087-bfe2-4daa-a033-99b58a6b13a7")
-		(property "Reference" "Q7"
-			(at 201.168 96.266 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SIA440DJ-T1-GE3"
-			(at 201.168 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Packages:PowerPak_SC-70-6"
-			(at 199.39 90.932 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${DATASHEETS}/SIA440DJ.pdf"
-			(at 199.39 88.392 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-Channel 40 V 12A (Tc) 3.5W (Ta), 19W (Tc) Surface Mount PowerPAK® SC-70-6"
-			(at 199.39 89.662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" "1806-0000-00009"
-			(at 201.168 99.06 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(pin "3"
-			(uuid "6c52a25f-3c71-414c-a78e-166692da4276")
-		)
-		(pin "1"
-			(uuid "fc4f4f3e-1e01-4c89-89ee-06062ca403c6")
-		)
-		(pin "2"
-			(uuid "88f2ac61-6bdf-44db-a1ba-7ccad3d41ee7")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 247.65 102.87 0)
 		(unit 1)
@@ -14120,87 +14079,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Transistor_MOSFET:SIA440DJ-T1-GE3")
-		(at 199.39 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b9bfaf38-37ba-4676-a3bb-93bc198e7646")
-		(property "Reference" "Q3"
-			(at 201.168 37.846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SIA440DJ-T1-GE3"
-			(at 201.168 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Packages:PowerPak_SC-70-6"
-			(at 199.39 32.512 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${DATASHEETS}/SIA440DJ.pdf"
-			(at 199.39 29.972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-Channel 40 V 12A (Tc) 3.5W (Ta), 19W (Tc) Surface Mount PowerPAK® SC-70-6"
-			(at 199.39 31.242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" "1806-0000-00009"
-			(at 201.168 40.64 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(pin "3"
-			(uuid "cb0e5319-09bb-4669-abaa-72a5cce94318")
-		)
-		(pin "1"
-			(uuid "b6201d2b-b9db-4cc5-9dd9-28a4acd6b268")
-		)
-		(pin "2"
-			(uuid "42021eac-1126-44f1-be89-717cc042bfc0")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DX_Device_Power:VCC-USB")
 		(at 271.78 76.2 0)
 		(unit 1)
@@ -14418,7 +14296,7 @@
 			(uuid "ffb5d18b-1d68-4732-a722-f3113b66f038")
 		)
 		(instances
-			(project ""
+			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
 					(reference "U15")
 					(unit 1)
@@ -14579,89 +14457,8 @@
 		)
 	)
 	(symbol
-		(lib_id "DX_Transistor_MOSFET:SIA440DJ-T1-GE3")
-		(at 271.78 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c26a4bfe-cbf7-4c6b-bb52-7cf6fb147eb2")
-		(property "Reference" "Q4"
-			(at 273.558 37.846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SIA440DJ-T1-GE3"
-			(at 273.558 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Daxxn_Packages:PowerPak_SC-70-6"
-			(at 271.78 32.512 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "${DATASHEETS}/SIA440DJ.pdf"
-			(at 271.78 29.972 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-Channel 40 V 12A (Tc) 3.5W (Ta), 19W (Tc) Surface Mount PowerPAK® SC-70-6"
-			(at 271.78 31.242 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PartNumber" "1806-0000-00009"
-			(at 273.558 40.64 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(pin "3"
-			(uuid "bf8f99c3-3c64-4604-b17d-dfef217c32cf")
-		)
-		(pin "1"
-			(uuid "4d33d8d3-9df6-4a6e-896b-91231ac37894")
-		)
-		(pin "2"
-			(uuid "143df5c2-4918-4934-b248-5ead8c7289a7")
-		)
-		(instances
-			(project "MicLightV2"
-				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DX_Resistor_Precision:RT0402BRE071KL")
-		(at 109.22 49.53 90)
+		(at 115.57 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14669,7 +14466,7 @@
 		(dnp no)
 		(uuid "c54370dd-8289-4878-a206-c52b85e23df5")
 		(property "Reference" "R21"
-			(at 109.22 45.974 90)
+			(at 115.57 45.974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14677,7 +14474,7 @@
 			)
 		)
 		(property "Value" "1K 0.1%"
-			(at 109.22 47.498 90)
+			(at 115.57 47.498 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14685,7 +14482,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 102.362 49.53 0)
+			(at 108.712 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14694,7 +14491,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/RT-Series.pdf"
-			(at 99.568 49.53 0)
+			(at 105.918 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14703,7 +14500,7 @@
 			)
 		)
 		(property "Description" "1 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thin Film"
-			(at 104.14 49.53 0)
+			(at 110.49 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14712,7 +14509,7 @@
 			)
 		)
 		(property "PartNumber" "0204-0100-00012"
-			(at 100.838 49.53 0)
+			(at 107.188 49.53 0)
 			(effects
 				(font
 					(size 1 1)
@@ -14815,7 +14612,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 186.69 115.57 0)
+		(at 182.88 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14823,7 +14620,7 @@
 		(dnp no)
 		(uuid "c712e8d7-42e8-4a2b-8d1f-20bf0f5b3ca4")
 		(property "Reference" "#PWR087"
-			(at 186.69 121.92 0)
+			(at 182.88 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14832,7 +14629,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.69 119.126 0)
+			(at 182.88 119.126 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14840,7 +14637,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 115.57 0)
+			(at 182.88 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14849,7 +14646,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 115.57 0)
+			(at 182.88 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14858,7 +14655,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 115.57 0)
+			(at 182.88 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15109,7 +14906,7 @@
 			(uuid "c28c46cb-60a2-48c0-a167-df97a80265a4")
 		)
 		(instances
-			(project ""
+			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
 					(reference "D6")
 					(unit 1)
@@ -15882,6 +15679,87 @@
 		)
 	)
 	(symbol
+		(lib_id "DX_Transistor_Darlington:MJD112T4")
+		(at 196.85 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc0a2b15-9acd-4c04-b070-4e29355bf40b")
+		(property "Reference" "Q3"
+			(at 201.93 37.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MJD112T4"
+			(at 201.93 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Packages:TO-252-2"
+			(at 196.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/MJD112T4.pdf"
+			(at 196.85 27.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TRANS NPN DARL 100V 2A DPAK"
+			(at 196.85 26.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "1802-0000-00002"
+			(at 201.93 40.894 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "5c896e14-c8b8-4b8f-9f15-430088779128")
+		)
+		(pin "2"
+			(uuid "079d06f3-cd2d-4b26-9921-06b36b5dc847")
+		)
+		(pin "3"
+			(uuid "abfd6d2c-2c6a-4f0e-9507-37747ea37070")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DX_IC_Amplifier_OPAMP:APX321WG-7")
 		(at 99.06 39.37 0)
 		(unit 1)
@@ -16405,8 +16283,89 @@
 		)
 	)
 	(symbol
+		(lib_id "DX_Transistor_Darlington:MJD112T4")
+		(at 196.85 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5b1e006-af6f-4d25-a841-0215e2a89b70")
+		(property "Reference" "Q7"
+			(at 201.93 96.012 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MJD112T4"
+			(at 201.93 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Packages:TO-252-2"
+			(at 196.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/MJD112T4.pdf"
+			(at 196.85 86.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TRANS NPN DARL 100V 2A DPAK"
+			(at 196.85 84.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "1802-0000-00002"
+			(at 201.93 99.314 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "875c4dc7-7586-439b-94b6-1b115fe22d1f")
+		)
+		(pin "2"
+			(uuid "4e351f77-fad9-474b-b6e9-e9bebd8f65e0")
+		)
+		(pin "3"
+			(uuid "fd07707a-ed23-493e-b4fb-f6aa0352343e")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 331.47 115.57 0)
+		(at 327.66 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16414,7 +16373,7 @@
 		(dnp no)
 		(uuid "e6a36818-2c4b-4a94-a3d9-e30c386187b8")
 		(property "Reference" "#PWR099"
-			(at 331.47 121.92 0)
+			(at 327.66 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16423,7 +16382,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 331.47 119.126 0)
+			(at 327.66 119.126 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16431,7 +16390,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 331.47 115.57 0)
+			(at 327.66 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16440,7 +16399,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 331.47 115.57 0)
+			(at 327.66 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16449,7 +16408,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 331.47 115.57 0)
+			(at 327.66 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16888,7 +16847,7 @@
 	)
 	(symbol
 		(lib_id "DX_Resistor:RC0402JR-0710KL")
-		(at 331.47 54.61 0)
+		(at 327.66 54.61 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16897,7 +16856,7 @@
 		(dnp no)
 		(uuid "eddeba5f-2f0b-42b7-844f-69f64edc7c73")
 		(property "Reference" "R40"
-			(at 330.454 53.975 0)
+			(at 326.644 53.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16906,7 +16865,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 330.454 55.626 0)
+			(at 326.644 55.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16915,7 +16874,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 331.47 49.276 0)
+			(at 327.66 49.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16924,7 +16883,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
-			(at 331.47 48.26 0)
+			(at 327.66 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16933,7 +16892,7 @@
 			)
 		)
 		(property "Description" "RES 10K OHM 5% 1/16W 0402"
-			(at 331.47 50.8 0)
+			(at 327.66 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16942,7 +16901,7 @@
 			)
 		)
 		(property "PartNumber" "0204-0000-00016"
-			(at 331.47 46.482 0)
+			(at 327.66 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16967,7 +16926,7 @@
 	)
 	(symbol
 		(lib_id "DX_Resistor_Precision:RT0402BRE071KL")
-		(at 181.61 49.53 90)
+		(at 187.96 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16975,7 +16934,7 @@
 		(dnp no)
 		(uuid "f23e31d2-2a56-4d69-bf70-e3612427303c")
 		(property "Reference" "R26"
-			(at 181.61 45.974 90)
+			(at 187.96 45.974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16983,7 +16942,7 @@
 			)
 		)
 		(property "Value" "1K 0.1%"
-			(at 181.61 47.498 90)
+			(at 187.96 47.498 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16991,7 +16950,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 174.752 49.53 0)
+			(at 181.102 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17000,7 +16959,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/RT-Series.pdf"
-			(at 171.958 49.53 0)
+			(at 178.308 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17009,7 +16968,7 @@
 			)
 		)
 		(property "Description" "1 kOhms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thin Film"
-			(at 176.53 49.53 0)
+			(at 182.88 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17018,7 +16977,7 @@
 			)
 		)
 		(property "PartNumber" "0204-0100-00012"
-			(at 173.228 49.53 0)
+			(at 179.578 49.53 0)
 			(effects
 				(font
 					(size 1 1)
@@ -17043,7 +17002,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 186.69 57.15 0)
+		(at 182.88 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17051,7 +17010,7 @@
 		(dnp no)
 		(uuid "f2bb9fad-88f3-4eab-8e3d-29d30b3cb5d6")
 		(property "Reference" "#PWR062"
-			(at 186.69 63.5 0)
+			(at 182.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17060,7 +17019,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 186.69 60.706 0)
+			(at 182.88 60.706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17068,7 +17027,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 57.15 0)
+			(at 182.88 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17077,7 +17036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 57.15 0)
+			(at 182.88 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17086,7 +17045,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 57.15 0)
+			(at 182.88 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17108,7 +17067,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 115.57 0)
+		(at 110.49 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17116,7 +17075,7 @@
 		(dnp no)
 		(uuid "f475fe91-53fc-4e87-8914-2deae82178ac")
 		(property "Reference" "#PWR081"
-			(at 114.3 121.92 0)
+			(at 110.49 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17125,7 +17084,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 119.126 0)
+			(at 110.49 119.126 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17133,7 +17092,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 115.57 0)
+			(at 110.49 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17142,7 +17101,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 115.57 0)
+			(at 110.49 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17151,7 +17110,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 115.57 0)
+			(at 110.49 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17173,7 +17132,7 @@
 	)
 	(symbol
 		(lib_id "DX_Resistor:RC0402JR-0710KL")
-		(at 186.69 113.03 0)
+		(at 182.88 113.03 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17182,7 +17141,7 @@
 		(dnp no)
 		(uuid "f5570dd5-b8f7-4251-810f-e5f259999312")
 		(property "Reference" "R50"
-			(at 185.674 112.395 0)
+			(at 181.864 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17191,7 +17150,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 185.674 114.046 0)
+			(at 181.864 114.046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17200,7 +17159,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 186.69 107.696 0)
+			(at 182.88 107.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17209,7 +17168,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
-			(at 186.69 106.68 0)
+			(at 182.88 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17218,7 +17177,7 @@
 			)
 		)
 		(property "Description" "RES 10K OHM 5% 1/16W 0402"
-			(at 186.69 109.22 0)
+			(at 182.88 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17227,7 +17186,7 @@
 			)
 		)
 		(property "PartNumber" "0204-0000-00016"
-			(at 186.69 104.902 0)
+			(at 182.88 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17320,7 +17279,7 @@
 			(uuid "8a504c5b-e253-406f-a424-301282d362c9")
 		)
 		(instances
-			(project ""
+			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
 					(reference "R22")
 					(unit 1)
@@ -17395,7 +17354,7 @@
 	)
 	(symbol
 		(lib_id "DX_Device:R")
-		(at 191.77 97.79 90)
+		(at 187.96 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17403,7 +17362,7 @@
 		(dnp no)
 		(uuid "f8aeb154-0257-4b6d-9cb1-c3bd7623a2fb")
 		(property "Reference" "R47"
-			(at 191.77 99.822 90)
+			(at 187.96 99.822 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17411,7 +17370,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 191.77 101.473 90)
+			(at 187.96 101.473 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17419,7 +17378,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 186.436 97.79 0)
+			(at 182.626 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17428,7 +17387,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 185.42 97.79 0)
+			(at 181.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17437,7 +17396,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 187.96 97.79 0)
+			(at 184.15 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17462,7 +17421,7 @@
 	)
 	(symbol
 		(lib_id "DX_Device:R")
-		(at 264.16 97.79 90)
+		(at 260.35 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17470,7 +17429,7 @@
 		(dnp no)
 		(uuid "fa7224f0-0e69-4a7a-a4d9-58d0ceaa1f49")
 		(property "Reference" "R52"
-			(at 264.16 99.822 90)
+			(at 260.35 99.822 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17478,7 +17437,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 264.16 101.473 90)
+			(at 260.35 101.473 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17486,7 +17445,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 258.826 97.79 0)
+			(at 255.016 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17495,7 +17454,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 257.81 97.79 0)
+			(at 254 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17504,7 +17463,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 260.35 97.79 0)
+			(at 256.54 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)

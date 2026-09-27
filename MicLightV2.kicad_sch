@@ -5834,6 +5834,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 162.56) (xy 48.26 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b99b32b3-e467-42c1-9cf6-7f91bdfd66f3")
+	)
+	(wire
+		(pts
 			(xy 25.4 157.48) (xy 48.26 157.48)
 		)
 		(stroke
@@ -6224,6 +6234,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 49.53) (xy 67.31 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9ffca37-e2e7-4e19-9bf3-6e67e7e9126b")
+	)
+	(wire
+		(pts
 			(xy 187.96 109.22) (xy 172.72 109.22)
 		)
 		(stroke
@@ -6312,6 +6332,16 @@
 		)
 		(uuid "1facd941-9ff1-4f1c-9a5e-a14baedfd331")
 	)
+	(label "VBUS-EN"
+		(at 67.31 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "22e1636b-a45c-454e-8d62-88ffec50bdf9")
+	)
 	(label "STATUS-IND"
 		(at 50.8 210.82 0)
 		(effects
@@ -6341,6 +6371,16 @@
 			(justify right bottom)
 		)
 		(uuid "375ae375-d63c-42f5-8cf9-db57db4d62db")
+	)
+	(label "VBUS-EN"
+		(at 25.4 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "392b2602-40a4-4808-a1cd-091d4fca647b")
 	)
 	(label "DAC-LO-SYNC"
 		(at 231.14 74.93 0)
@@ -11610,7 +11650,7 @@
 	)
 	(sheet
 		(at 25.4 25.4)
-		(size 25.4 25.4)
+		(size 25.4 26.67)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -11634,7 +11674,7 @@
 			)
 		)
 		(property "Sheetfile" "MicLightV2_Power.kicad_sch"
-			(at 25.4 51.3846 0)
+			(at 25.4 52.6546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11706,6 +11746,16 @@
 		(pin "USB-D-" bidirectional
 			(at 50.8 30.48 0)
 			(uuid "67ba8c06-982e-4027-a839-180da435f4db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB-VCC" input
+			(at 50.8 49.53 0)
+			(uuid "17da9f21-3133-40ec-8961-31ceba687b74")
 			(effects
 				(font
 					(size 1.27 1.27)

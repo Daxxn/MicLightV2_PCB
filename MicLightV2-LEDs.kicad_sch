@@ -2623,6 +2623,12 @@
 		(uuid "d2895c04-76f9-4cac-b3e1-51b39aaa1b0e")
 	)
 	(junction
+		(at 87.63 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d53d9850-0a19-42e0-842c-187609451a52")
+	)
+	(junction
 		(at 247.65 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4152,7 +4158,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 36.83) (xy 90.17 36.83)
+			(xy 77.47 36.83) (xy 87.63 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4259,6 +4265,16 @@
 			(type default)
 		)
 		(uuid "a3e918a2-6aa6-4f75-a8ec-64b5087723af")
+	)
+	(wire
+		(pts
+			(xy 87.63 36.83) (xy 87.63 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5128e39-c0f4-44c0-b0f5-59fc5201b1b8")
 	)
 	(wire
 		(pts
@@ -4789,6 +4805,16 @@
 			(type default)
 		)
 		(uuid "f1ba423a-6143-461d-8f9d-fb9863d935ec")
+	)
+	(wire
+		(pts
+			(xy 87.63 36.83) (xy 90.17 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1bc3dab-9044-4512-800b-1d0330a9b577")
 	)
 	(polyline
 		(pts
@@ -5592,6 +5618,71 @@
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
 					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 67.31 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11da6e86-27c9-48c3-ba49-2838516e6a39")
+		(property "Reference" "#PWR0109"
+			(at 67.31 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 102.616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dedf852c-084a-4ad2-87c9-6e49d4b3c050")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -11036,6 +11127,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 67.31 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7daf487f-34eb-4241-a759-f56c0df16c59")
+		(property "Reference" "#PWR019"
+			(at 67.31 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c07b7777-0428-42fd-9b42-0c2c4a3a6d5e")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DX_Capacitor_Ceramic:GRM155R71H104KE14J")
 		(at 170.18 90.17 90)
 		(unit 1)
@@ -15847,6 +16003,85 @@
 		)
 	)
 	(symbol
+		(lib_id "DX_Resistor:RC0402JR-0710KL")
+		(at 67.31 45.72 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e00237c9-9fff-4e3b-8c71-a71f0e87eb7e")
+		(property "Reference" "R12"
+			(at 66.294 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 66.294 46.736 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+			(at 67.31 40.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
+			(at 67.31 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 10K OHM 5% 1/16W 0402"
+			(at 67.31 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0204-0000-00016"
+			(at 67.31 37.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e373ff61-b670-45da-ac11-6d784459e84f")
+		)
+		(pin "1"
+			(uuid "0d8a4360-ce0a-4f44-8d46-fc217910dfbb")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DX_Capacitor_Ceramic:CL10A105KA8NNNC")
 		(at 133.35 77.47 90)
 		(unit 1)
@@ -16358,6 +16593,85 @@
 			(project "MicLightV2"
 				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
 					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DX_Resistor:RC0402JR-0710KL")
+		(at 67.31 96.52 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5db6018-6dd1-44a1-ac7f-683770f650a5")
+		(property "Reference" "R14"
+			(at 66.294 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 66.294 97.536 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+			(at 67.31 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 10K OHM 5% 1/16W 0402"
+			(at 67.31 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0204-0000-00016"
+			(at 67.31 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2cb6b814-7aca-4258-b872-dce6d0fa7d4b")
+		)
+		(pin "1"
+			(uuid "4d3db452-0c1f-4e13-8bcf-a1a15568703e")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/26672389-a749-4bba-a676-6e144768f8b4"
+					(reference "R14")
 					(unit 1)
 				)
 			)

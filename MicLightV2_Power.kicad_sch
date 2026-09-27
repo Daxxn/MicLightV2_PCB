@@ -4697,7 +4697,7 @@
 		(uuid "026ecb2f-a9d2-4fe1-ac8b-3ca71589ae78")
 	)
 	(junction
-		(at 172.72 52.07)
+		(at 172.72 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "067a34b7-2c25-4235-bbfa-d5b24e98d461")
@@ -4781,12 +4781,6 @@
 		(uuid "434030f3-ec04-43a4-9c30-74bb4c4291a3")
 	)
 	(junction
-		(at 160.02 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "46131aac-c2b9-446a-b708-7c28a7b05f33")
-	)
-	(junction
 		(at 243.84 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4803,6 +4797,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "615d5dc0-ab9f-42a8-a565-568d401112b1")
+	)
+	(junction
+		(at 181.61 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6235cd74-1a97-4a08-a05c-6cccd9ee72ac")
 	)
 	(junction
 		(at 224.79 45.72)
@@ -4955,6 +4955,12 @@
 		(uuid "cd334d09-e108-4f35-be81-a09e578313b5")
 	)
 	(junction
+		(at 187.96 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d23d198a-1fe7-4722-aa10-cb7b93aec996")
+	)
+	(junction
 		(at 165.1 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4991,7 +4997,7 @@
 		(uuid "e4e1808e-73cd-4ebe-a6e4-b02208691322")
 	)
 	(junction
-		(at 165.1 52.07)
+		(at 165.1 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e537b5a1-346c-44aa-8c52-a22eae746261")
@@ -5136,7 +5142,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 52.07) (xy 165.1 54.61)
+			(xy 165.1 49.53) (xy 165.1 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5176,7 +5182,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 67.31) (xy 186.69 67.31)
+			(xy 181.61 67.31) (xy 194.31 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5256,7 +5262,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 52.07) (xy 172.72 57.15)
+			(xy 172.72 49.53) (xy 172.72 54.61)
 		)
 		(stroke
 			(width 0)
@@ -5276,7 +5282,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 52.07) (xy 165.1 52.07)
+			(xy 172.72 49.53) (xy 165.1 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5406,7 +5412,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 64.77) (xy 160.02 64.77)
+			(xy 154.94 64.77) (xy 187.96 64.77)
 		)
 		(stroke
 			(width 0)
@@ -5446,7 +5452,17 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 49.53) (xy 172.72 52.07)
+			(xy 187.96 64.77) (xy 194.31 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42d8c94e-c469-4a30-975d-40aa9334d7ca")
+	)
+	(wire
+		(pts
+			(xy 172.72 46.99) (xy 172.72 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5513,16 +5529,6 @@
 			(type default)
 		)
 		(uuid "46f08b11-8053-4538-85c6-a5d58351c8a6")
-	)
-	(wire
-		(pts
-			(xy 160.02 64.77) (xy 160.02 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48712101-2f81-4ba9-80b2-7bf0bea708ff")
 	)
 	(wire
 		(pts
@@ -5616,7 +5622,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 52.07) (xy 165.1 52.07)
+			(xy 160.02 49.53) (xy 165.1 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5696,6 +5702,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 83.82) (xy 187.96 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66598909-6c9e-4c06-ba19-90bd715f8b35")
+	)
+	(wire
+		(pts
 			(xy 74.93 33.02) (xy 74.93 35.56)
 		)
 		(stroke
@@ -5766,6 +5782,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 64.77) (xy 187.96 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7210b76b-93d1-4017-a676-3a4c3852806f")
+	)
+	(wire
+		(pts
 			(xy 254 139.7) (xy 264.16 139.7)
 		)
 		(stroke
@@ -5776,7 +5802,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 62.23) (xy 172.72 72.39)
+			(xy 172.72 59.69) (xy 172.72 72.39)
 		)
 		(stroke
 			(width 0)
@@ -5806,7 +5832,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 72.39) (xy 186.69 72.39)
+			(xy 172.72 72.39) (xy 194.31 72.39)
 		)
 		(stroke
 			(width 0)
@@ -6086,7 +6112,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 64.77) (xy 165.1 72.39)
+			(xy 165.1 62.23) (xy 165.1 72.39)
 		)
 		(stroke
 			(width 0)
@@ -6306,6 +6332,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 90.17) (xy 181.61 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c987eef1-83d5-474a-b49c-aa268fa2c13c")
+	)
+	(wire
+		(pts
 			(xy 41.91 30.48) (xy 41.91 33.02)
 		)
 		(stroke
@@ -6396,7 +6432,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 69.85) (xy 186.69 69.85)
+			(xy 175.26 69.85) (xy 194.31 69.85)
 		)
 		(stroke
 			(width 0)
@@ -6413,16 +6449,6 @@
 			(type default)
 		)
 		(uuid "dac8f842-e245-47ec-927a-fa8cb1ddbebf")
-	)
-	(wire
-		(pts
-			(xy 160.02 74.93) (xy 160.02 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db443b5f-ebe7-42da-a007-277fbf7c5b4e")
 	)
 	(wire
 		(pts
@@ -6606,6 +6632,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 49.53) (xy 160.02 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9e92d50-e851-45d2-8a9b-abdf7b2ad341")
+	)
+	(wire
+		(pts
 			(xy 175.26 78.74) (xy 175.26 69.85)
 		)
 		(stroke
@@ -6696,6 +6732,17 @@
 		)
 		(uuid "3530ef47-a563-4d82-b5ef-40e33e774e80")
 	)
+	(hierarchical_label "USB-VCC"
+		(shape input)
+		(at 194.31 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b13d758-c4e7-4da1-92ec-6336036393b6")
+	)
 	(hierarchical_label "VBUS-VSENSE"
 		(shape output)
 		(at 223.52 76.2 0)
@@ -6720,7 +6767,7 @@
 	)
 	(hierarchical_label "USB-CC1"
 		(shape bidirectional)
-		(at 186.69 67.31 0)
+		(at 194.31 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6731,7 +6778,7 @@
 	)
 	(hierarchical_label "USB-CC2"
 		(shape bidirectional)
-		(at 186.69 69.85 0)
+		(at 194.31 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6742,7 +6789,7 @@
 	)
 	(hierarchical_label "USB-FAULT-INT"
 		(shape output)
-		(at 186.69 72.39 0)
+		(at 194.31 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6831,7 +6878,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 172.72 49.53 0)
+		(at 172.72 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6839,7 +6886,7 @@
 		(dnp no)
 		(uuid "0a8bde58-9d4c-4a41-a55f-8645a49bdbe3")
 		(property "Reference" "#PWR0106"
-			(at 172.72 53.34 0)
+			(at 172.72 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6848,7 +6895,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 172.72 45.974 0)
+			(at 172.72 43.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6856,7 +6903,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 49.53 0)
+			(at 172.72 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6865,7 +6912,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 49.53 0)
+			(at 172.72 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6874,7 +6921,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 172.72 49.53 0)
+			(at 172.72 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7257,7 +7304,7 @@
 	)
 	(symbol
 		(lib_id "DX_Resistor:RC0402JR-0710KL")
-		(at 165.1 57.15 0)
+		(at 165.1 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7265,7 +7312,7 @@
 		(dnp no)
 		(uuid "210479be-37e3-4285-a85d-f0563005f504")
 		(property "Reference" "R9"
-			(at 166.37 56.515 0)
+			(at 166.37 53.975 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7274,7 +7321,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 166.37 58.166 0)
+			(at 166.37 55.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7283,7 +7330,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 165.1 51.816 0)
+			(at 165.1 49.276 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7292,7 +7339,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
-			(at 165.1 50.8 0)
+			(at 165.1 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7301,7 +7348,7 @@
 			)
 		)
 		(property "Description" "RES 10K OHM 5% 1/16W 0402"
-			(at 165.1 53.34 0)
+			(at 165.1 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7310,7 +7357,7 @@
 			)
 		)
 		(property "PartNumber" "0204-0000-00016"
-			(at 165.1 49.022 0)
+			(at 165.1 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8006,13 +8053,91 @@
 		)
 	)
 	(symbol
+		(lib_id "DX_Resistor:RC0402JR-0710KL")
+		(at 187.96 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3db9e159-873c-42a1-85ed-d59689cf0e19")
+		(property "Reference" "R15"
+			(at 188.976 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 188.976 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
+			(at 187.96 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
+			(at 187.96 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RES 10K OHM 5% 1/16W 0402"
+			(at 187.96 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "0204-0000-00016"
+			(at 187.96 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ee073b0-3071-4be9-8dfe-9b0243c52181")
+		)
+		(pin "1"
+			(uuid "5ec7dfad-541d-413e-a7cd-404354cee9d8")
+		)
+		(instances
+			(project "MicLightV2"
+				(path "/528a920b-dd40-4828-87b9-18775790300b/fbca9475-57c8-4b5d-9ec2-bd59ffbf0813"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "DX_Resistor:RC0402FR-135K1L")
 		(at 175.26 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "411f8ee5-3f2a-4a03-8e37-e9f6bf37199e")
 		(property "Reference" "R7"
 			(at 176.276 80.645 0)
@@ -9929,7 +10054,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b3741a84-2835-4429-8a81-3b1d0a8365cf")
 		(property "Reference" "R6"
 			(at 182.626 80.645 0)
@@ -10314,7 +10439,7 @@
 	)
 	(symbol
 		(lib_id "DX_LED_Side:SM1204UAC")
-		(at 165.1 62.23 90)
+		(at 165.1 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10322,7 +10447,7 @@
 		(dnp no)
 		(uuid "d095dbb2-b1d0-408c-bb37-1c94cc65a9ae")
 		(property "Reference" "D1"
-			(at 166.878 61.468 90)
+			(at 166.878 58.928 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10331,7 +10456,7 @@
 			)
 		)
 		(property "Value" "IN-S63AS5UW"
-			(at 150.368 62.23 0)
+			(at 150.368 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10340,7 +10465,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_LEDs:LTST-S321TBKT"
-			(at 154.94 62.23 0)
+			(at 154.94 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10349,7 +10474,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/SM1204UAC.pdf"
-			(at 153.416 62.23 0)
+			(at 153.416 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10358,7 +10483,7 @@
 			)
 		)
 		(property "Description" "Amber 605nm LED Indication - Discrete 2.1V 1204 (3210 Metric)"
-			(at 151.892 62.23 0)
+			(at 151.892 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10367,7 +10492,7 @@
 			)
 		)
 		(property "Color" "AMBER"
-			(at 166.878 62.992 90)
+			(at 166.878 60.452 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10376,7 +10501,7 @@
 			)
 		)
 		(property "PartNumber" "0902-0000-00002"
-			(at 149.098 62.23 0)
+			(at 149.098 59.69 0)
 			(effects
 				(font
 					(size 1 1)
@@ -10544,7 +10669,7 @@
 	)
 	(symbol
 		(lib_id "DX_Resistor:RC0402JR-0710KL")
-		(at 172.72 59.69 0)
+		(at 172.72 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10552,7 +10677,7 @@
 		(dnp no)
 		(uuid "ea57b7bd-f2a3-4869-b30a-d1b401f9ed8b")
 		(property "Reference" "R70"
-			(at 173.736 59.055 0)
+			(at 173.736 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10561,7 +10686,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 173.736 60.706 0)
+			(at 173.736 58.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10570,7 +10695,7 @@
 			)
 		)
 		(property "Footprint" "Daxxn_Standard_Resistors:RES_0402"
-			(at 172.72 54.356 0)
+			(at 172.72 51.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10579,7 +10704,7 @@
 			)
 		)
 		(property "Datasheet" "${DATASHEETS}/RC-Series.pdf"
-			(at 172.72 53.34 0)
+			(at 172.72 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10588,7 +10713,7 @@
 			)
 		)
 		(property "Description" "RES 10K OHM 5% 1/16W 0402"
-			(at 172.72 55.88 0)
+			(at 172.72 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10597,7 +10722,7 @@
 			)
 		)
 		(property "PartNumber" "0204-0000-00016"
-			(at 172.72 51.562 0)
+			(at 172.72 49.022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
